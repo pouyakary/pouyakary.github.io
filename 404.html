@@ -1,0 +1,95 @@
+---
+layout: page
+title: "404: Page not found"
+permalink: 404.html
+hidemargin: false
+headermini: true
+---
+
+<style>
+    .back {
+        background-image: url('/media/404-back2.png');
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-color: #0A0A0A;
+        height: 100vh;
+        width: 100vw;
+    }
+    .dynamic-back {
+        width: 100vw;
+        height: 100vh;
+    }
+
+    #error-text {
+        color: white;
+        height: 150px;
+        width: calc( 100vw - 100px );
+        position: absolute;
+        top: calc( 50vh - 120px );
+        background-image: url('/media/404-repeat.png');
+        background-size: contain;
+        padding: 50px;
+    }
+
+    .error-text-box {
+        max-width: 550px;
+        padding: 0 20px 0 20px;
+        margin: auto;
+        font-size: 1.1rem;
+        display: flex;
+    }
+
+    .error-text-box > h1 {
+        border-bottom: rgba(255, 255, 255, 0.7) 2px solid;
+        padding-bottom: 5px;
+        margin-bottom: 10px;
+    }
+
+    #error-icon {
+        margin-top: 10px;
+        max-width: 90px;
+        min-width: 90px;
+        height: 90px;
+        width: 90px;
+        flex: auto;
+        background-image: url('/media/404-icon.svg');
+        background-size: contain;
+    }
+
+    #error-body {
+        flex: auto;
+        padding-left: 20px;
+    }
+</style>
+
+<script>
+    function repeatDangerSignMove ( ) {
+        var location = 0;
+        var element = document.getElementById('error-text');
+        var height =  element.offsetHeight;
+        setInterval( function ( ) {
+            window.requestAnimationFrame( function ( timestamp ) {
+                element.style.backgroundPositionX = ( location ).toString( ) + 'px';
+            })
+            location = location + 3 % height;
+        }, 40 );
+    }
+
+    window.onload = function ( ) {
+        repeatDangerSignMove( );
+    }
+</script>
+
+<div class="back">
+    <div class="dynamic-back" id="color-back"></div>
+</div>
+<div id="error-text">
+    <div class="error-text-box">
+        <div id="error-icon"></div>
+        <div id="error-body">
+            <h1>404: Page not found</h1>
+            <p>The page you're looking for literally does not exists. Maybe you entered the URL wrong or maybe we have deleted the page (woops...). For now focus on finding where you were headed.</p>
+        </div>
+    </div>
+</div>

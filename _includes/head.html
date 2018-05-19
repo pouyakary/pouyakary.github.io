@@ -1,0 +1,40 @@
+<head>
+    <meta charset="UTF-8">
+
+    <!-- Enable responsiveness on mobile devices-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+    <!-- Title -->
+    <title>
+        {% if page.title == "Home" %}
+            {{ site.title }}
+        {% else %}
+            {{ page.title }} &middot; {{ site.title }}
+        {% endif %}
+    </title>
+
+    <!-- Meta -->
+    <meta name    = "keywords"
+          content = "Kary, {{ site.title }}, Arendelle, Arendelle Language, Juliette Program,
+                     Pouya Kary, Micha Hanselmann, JArendelle, Swifty, Arcade IDE, 2XII,
+                     Gothi, Bulda, Pabbie, Cliff, Marker.js, NERD Language, Kary Frameworkd
+                     Intactus, Calculat"
+    />
+    <meta name="description" content="Research Labs and Educational Facilities for Open Development" />
+    <meta http-equiv="content-language" content="en" />
+
+    <!-- Icon -->
+    <link rel="apple-touch-icon-precomposed" href="./media/general/apple-touch-icon-precomposed.png">
+
+    <!-- Specific Page Sheet -->
+    {% if page.css %}
+        <link rel="stylesheet" href="/styles/{{ page.css }}">
+    {% endif %}
+
+    <!-- Fonts -->
+    <link rel="stylesheet" href="/styles/vegur.css">
+    <link rel="stylesheet" href="/styles/hasklig.css">
+
+    <!-- General Sheets -->
+    <link rel="stylesheet" href="/styles/base.css">
+</head>

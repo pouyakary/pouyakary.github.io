@@ -1,0 +1,35 @@
+---
+layout: page
+headermini: true
+hidemargin: false
+---
+
+<link rel="stylesheet" href="/styles/topicpage.css">
+<link rel="stylesheet" href="/styles/cormorant.css">
+
+
+<div class="kf-topic-page-header"
+	 style="background-image: url('/media/{{ page.back }}');">
+</div>
+
+<div id="kf-topic-page-header-title"
+	 class="kf-topic-page-header-title-hidden">{{ page.title }}</div>
+
+<div class="kf-topic-page-main-container">
+	<div class="kf-topic-page-main">
+		<div class="kf-topic-page-tabs" style="background-image: url('/media/{{ page.tab }}')"></div>
+
+		<div id="kf-topic-page-sidebar" class="toc-on-top">
+			<div class="kf-topic-page-sidebar-box">
+				<div id="kf-sidebar-title">Paper Map</div>
+				<div id="kf-topic-toc"></div>
+			</div>
+		</div>
+
+		<div class="kf-topic-page-content" id="kf-topic-article-container">
+			{{ content }}
+		</div>
+	</div>
+</div>
+
+<script src="/scripts/topic-toc.js"></script>

@@ -1,0 +1,68 @@
+
+{% if page.footermini %}
+	<link rel="stylesheet" href="/styles/footer-mini.css">
+{% else %}
+	<link rel="stylesheet" href="/styles/footer.css">
+{% endif %}
+
+<div class="unselectable kf-footer" id="footer">
+	<!-- Footer links -->
+	<div id="kf-footer-wrap">
+
+		{% if page.footermini != true %}
+			<div class="kf-footer-col-logo"></div>
+
+			<!-- Research -->
+			<div class="kf-footer-col-links" id="kf-footer-box-1">
+				<h2 style="border-bottom-color: #5B67A5;">Research & Projects</h2>
+
+				<div class="kf-footer-spacer">latest experiments</div>
+				<a href="">DesignTalk</a>
+				<a href="">KaryScript</a>
+				<a href="">Righteous CSS</a>
+
+				<div class="kf-footer-spacer">Popular Projects</div>
+				<a href="">Orchestra</a>
+				<a href="">Kary Pro Colors</a>
+				<a href="">Comment IV</a>
+			</div>
+
+
+			<!-- Developer -->
+			<div class="kf-footer-col-links" id="kf-footer-box-2">
+				<h2 style="border-bottom-color: #745CA5;">Documentations</h2>
+
+				<div class="kf-footer-spacer">Specifications</div>
+				<a href="">Kary Coding Style</a>
+				<a href="">Orchestra Reference</a>
+			</div>
+
+			<!-- Foundation -->
+			<div class="kf-footer-col-links" id="kf-footer-box-3">
+				<h2 style="border-bottom-color: #5BA55C;">Contact & Info</h2>
+
+				<div class="kf-footer-spacer">Across the Net</div>
+				<a href="http://github.com/pmkary">GitHub</a>
+				<a href="https://www.linkedin.com/in/pmkary/">Linkedin</a>
+				<a href="https://soundcloud.com/pouyakary">SoundCloud</a>
+				<a href="https://www.instagram.com/pmkary/">Instagram</a>
+
+				<div class="kf-footer-spacer">Personal Info</div>
+				<a href="">Resume</a>
+				<a href="">Archives</a>
+			</div>
+		</div>
+	{% endif %}
+
+	<!-- Footer Copyright -->
+	<div id="kf-footer-copy">
+		<div id="kf-footer-copy-left">
+			<span id="kf-footer-copy-small">&copy</span><span id="kf-footer-copy-big">Copyright</span> 2012 &ndash; present, Pouya Kary. All rights reserved.
+		</div>
+		<div id="kf-footer-copy-right">
+			<a href="">Email</a> &nbsp;&middot;&nbsp;
+			<a href="">Telegram</a>
+		</div>
+		<div style="clear: both;"></div>
+	</div>
+</div>

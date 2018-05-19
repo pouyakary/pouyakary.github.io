@@ -1,0 +1,25 @@
+
+{% if page.headermini == true %}
+	<link rel="stylesheet" href="/styles/header-mini.css">
+{% else %}
+	<link rel="stylesheet" href="/styles/header.css">
+{% endif %}
+
+<div id="kf-header" class="unselectable">
+	<div id="kf-nav-logo">
+		<a href="/">
+			<img src="/media/general/kary-horse-icon.png" id="kf-header-logo" draggable="false">
+		</a>
+	</div>
+	<div id="kf-nav-links">
+		<a href="" id="kf-nav-link-3">Blog</a>
+		&nbsp; &middot; &nbsp;
+		<a href="" id="kf-nav-link-1">Research & Projects</a>
+		&nbsp; &middot; &nbsp;
+		<a href="" id="kf-nav-link-2">Documentations</a>
+	</div>
+</div>
+
+{% if page.hidemargin != false %}
+	<div id="kf-header-margin"></div>
+{% endif %}

@@ -1,0 +1,189 @@
+
+.topic-page-background {
+    background-position:    center bottom;
+    background-repeat:      no-repeat;
+    background-size:        cover;
+    height:                 25rem;
+    width:                  100vw;
+}
+
+.topic-page-content {
+    height:     100pt;
+}
+
+.main-title {
+    background-color:       black;
+    font-size:              3.8rem;
+    font-weight:            700;
+    letter-spacing:         -0.13rem;
+    min-width:              100vw;
+    padding:                5rem 5rem 4.5rem 5rem;
+}
+
+.homepage {
+    margin:         auto;
+    max-width:      820pt;
+    padding:        2rem 4rem 5rem 4rem !important;
+}
+
+.projects-file-tab-title {
+    background-image:       url("/homepage/tab-project.png");
+    background-position:    bottom center;
+    background-repeat:      no-repeat;
+    background-size:        contain;
+    height:                 3rem;
+    margin-left:            1rem;
+    width:                  11.58rem;
+}
+
+.projects-file-tab {
+    background-color:       #f4f4f4;
+    padding:                2rem;
+    padding-top:            0;
+}
+
+row > * {
+    float:          left;
+    max-width:      fit-content;
+}
+
+#kf-header {
+    background:     black !important;
+}
+
+row:after {
+    clear:      both;
+}
+
+flex {
+    align-content:      flex-start;
+    display:            flex;
+}
+
+flex > * {
+    flex:       auto;
+}
+
+.noboxing {
+    margin:     0;
+    padding:    0;
+}
+
+p {
+    font-size:      1rem;
+    line-height:    1.5;
+    margin:         0.5em 0 0 0;
+}
+
+p {
+    font-weight:    400;
+}
+
+.boxing {
+    margin:     2rem 0 1rem 0;
+}
+
+.proj-box {
+    border-radius:      5pt !important;
+    height:             calc( ( 1000px / 30vw ) * 23vw );
+    max-height:         28rem;
+    overflow:           hidden;
+}
+
+.pic {
+    background-position:    top left;
+    background-repeat:      no-repeat;
+    background-size:        cover;
+    height:                 33vw;
+    width:                  100%;
+}
+
+.orchestra-back {
+    background-color:       #4B4B4B;
+    color:                  #eee;
+    margin:                 0;
+    padding:                0;
+}
+
+desk {
+    display:        flex;
+    margin:         0 2rem 0 2rem;
+    padding-top:    2rem;
+}
+
+desktitle {
+    align-self:         stretch;
+    color:              white;
+    flex:               auto;
+    font-size:          1.5rem;
+    font-weight:        400;
+    max-width:          min-content;
+    vertical-align:     middle;
+}
+
+deskdesk {
+    align-self:         flex-start;
+    border-left:        #348ACB 2pt solid;
+    color:              white;
+    flex:               auto;
+    font-size:          1rem;
+    line-height:        1.5;
+    margin-left:        0.5rem;
+    padding-left:       0.5rem;
+}
+
+@media ( max-width: 800pt ) {
+    desk {
+        display:    block;
+    }
+
+    deskdesk {
+        border:         none;
+        border-top:     white 2pt solid;
+        display:        block;
+        flex:           unset;
+        margin:         0.5em 0 0 0;
+        padding:        0.5em 0 0 0;
+    }
+}
+
+deskdesk:after {
+    clear:      both;
+}
+
+.proj-orchestra {
+    background-color:       #4B4B4B;
+    color:                  #eee;
+}
+
+.proj-orchestra > desk > deskdesk {
+    border-color:       #7DA76F;
+}
+
+.proj-graph {
+    background-color:       #8C0000;
+}
+
+.proj-graph > desk > deskdesk {
+    border-color:       #C18000;
+}
+
+.proj-framework {
+    background-color:       black;
+}
+
+.proj-heatstudio {
+    background-color:       #73C7F9;
+}
+
+.proj-heatstudio > desk > deskdesk {
+    border-color:       #A9DDFD;
+}
+
+.proj-comment {
+    background-color:       #5A5B5B;
+}
+
+.proj-comment > desk > deskdesk {
+    border-color:       #5EAA44;
+}

@@ -1,0 +1,63 @@
+---
+layout: topicpage
+title: Developer
+back: developer/back.jpg
+tab: developer/tab.png
+headermini: true
+---
+
+//
+// ─── STARTING POINT ─────────────────────────────────────────────────────────────
+//
+
+<div class="kf-topic-page-article kf-text-link">
+
+--- markdown
+# Kary for Developers
+As developers we believe in developers. Most of the tooling we use to power our own projects comes from open source communities, organizations and mostly individuals. Following their good heart we also love to release and contribute our tools to the great open source community. This page is a catalog of our years of investment in developer tools.
+
+<br />
+
+//
+// ─── LANGUAGES ──────────────────────────────────────────────────────────────────
+//
+
+# Languages and Preprocessors
+
+## Quartet
+
+
+## Pageman
+
+## Arendelle
+
+//
+// ─── ENVIRONMENTS ───────────────────────────────────────────────────────────────
+//
+
+# Environments
+## Orchestra
+## Graph
+## Arendelle Mobile IDEs
+
+//
+// ─── EDITOR TOOLING ─────────────────────────────────────────────────────────────
+//
+
+# Visual Studio Code Extensions
+## Comment for Code
+## Pageman for Code
+## Kary Foundation Themes
+## Righteous for Code
+## Arendelle for Code
+## Orchestra Connector
+
+//
+// ─── FRAMEWORKS ─────────────────────────────────────────────────────────────────
+//
+
+# Frameworks
+
+## Kary Base & Kary Text
+## Kary Intactus
+## Kary Calculat

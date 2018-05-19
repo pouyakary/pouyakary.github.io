@@ -1,0 +1,130 @@
+---
+layout: topicpage
+title: Research
+back: research/back.jpg
+tab: research/tab.png
+headermini: true
+---
+
+//
+// ─── CONTENT ────────────────────────────────────────────────────────────────────
+//
+
+<div class="kf-topic-page-article kf-text-link">
+
+--- legend
+# Research at Kary
+We are a research organization focused on development of professional interfaces for thinking. Our sole goal is to develop a new paper for the mind^We use paper and pen to connect language, diagrams and math to think. We want the same thing with computation power.^. We experiment with computer languages, programming environments and tools, computational and interface infrastructures and meanwhile we develop technologies for other firms and laboratories.
+--- end
+
+//
+// ─── PROJECTS ───────────────────────────────────────────────────────────────────
+//
+
+<div class="kf-topic-page-spacer"></div>
+
+--- legend
+# Projects
+
+//
+// ─── KARYSCRIPT ─────────────────────────────────────────────────────────────────
+//
+
+## KaryScript
+KaryScript is a programming language that compiles to JavaScript. Our sole goal with the project was to figure out the most readable syntax for a [third generation programming language](https://en.wikipedia.org/wiki/Third-generation_programming_language) with almost all the common features. KaryScript's syntax is designed to be as much as possible "linear", "easy to write" and "easy to read". Some examples of this can be said as:
+
+- **Pipes**: Pipes are designed to convert an expressing like `(x (y (z)))` into `(z) -> (y) -> (x)`. That is far more readable and linear.
+- **Markdown Tables**: KaryScript takes the table notation introduced within Markdown language and brings that into programming. So 2D objects and arrays are now possible within KaryScript.
+
+![](/research/media/karyscript.png)
+
+<div class="kf-topic-page-spacer"></div>
+
+
+//
+// ─── ORCHESTRA ──────────────────────────────────────────────────────────────────
+//
+
+## Orchestra
+In development of software with massive string processing^Computer Languages, Text Editors, Data Scanners, Data Mining Tools...^ Regular Expressions become very limiting and there isn't any room for improvement. Wildcard (The syntax of RegExp^The naming is due to the use of single characters as operators^) is a very limiting one that very soon riches a development-hell. As we had huge business with the language we found that we can no longer use it. What we did was to start a research to find a substitution for the syntax to address the following issues:
+
+- There is no whitespace in wildcard. That makes managing the code very hard.
+- Because you have no whitespace in wildcard you can't have comments either and there are also no support for comments in the language. Without comments any codes gets bad over time.
+- Using single characters as commands are very band and confusing so you can't really read the code when it gets huge
+<br><br>
+
+In the other hand wildcard is very fast because the tying takes so much tiny fragment of the time. We tried many experiments and the result was the Orchestra Language. Orchestra is a visual language which makes the development really simple, super fast^This one is a bit interesting, Visual programming languages turned out to be really bad because with many features the languages ends uy with many blocks and for finding these blocks you have to search them which is equal to the work you do in the programming, however there comes configuring each block. RegExes are very simple so the language is really fast if it be in a visual environment^ and very much readable.<br><br>Orchestra compiles to wildcard so you can use the result everywhere the RegEx is available without sacrificing any of your fast RegExp engines. We also have equipped Orchestra's IDE with a second reverse-compiler that compiles RegExp into Orchestra. This way you can load any of the existing RegExes you have and edit them as if they were Orchestra code. More than Orchestra optimizes and adds safety to your code. It safely compiles Unicode and non-basic English characters and takes care of special chars, match groups and grammars to ensure your code always works the same on every machine.
+
+![](/research/media/orchestra.png)
+
+<div class="kf-topic-page-spacer"></div>
+
+//
+// ─── HEATSTUDIO ─────────────────────────────────────────────────────────────────
+//
+
+## HeatStudio
+It was spring of 2015 that we had a talk with Energy Lab's team at BHRC^Iran's National Road, Building and Urban Development Research Center^. One thing we understood was Code19^Iranian standard for building energy efficiency^ has no computation support. The standard is based on static building envelope evaluation which is not used in many of the countries these days.
+
+We started by creating a _building heat transfer coefficient (H) computation algorithm_. We designed it to be modular and programmable in some certain levels. This way we could compute H in the normal manner but also with the specific formulas and data provided by Code19 (and any other standard based on same system). In order to make our algorithm comfortable we developed an SketchUp plugin that was integrated to OpenStudio's^OpenStudio is an open source interface developed by U.S. National Renewable Energy Laboratory for EnergyPlus (main building energy simulation software used by possibly the whole industry)^ plugin for SketchUp^A very interesting implementation in which HeatStudio takes advantage of the shared namespace between SketchUp extensions. This way HeatStudio gets plugin of SketchUp and OpenStudio, both at a same time.^. So that modelers could open their existing OpenStudio models and then add the attributes^Building type, Thermal bridges^ not supported by OpenStudio. <br/><br/>
+![](/research/media/heat.png)
+
+<div class="kf-topic-page-spacer"></div>
+
+//
+// ─── KARY FRAMEWORK ─────────────────────────────────────────────────────────────
+//
+
+## Kary Framework
+At the start we had a _library of foundation's shared .NET code base_, Trough the time it changed to be a string formatting library and se we developed Kary Framework. It brings four library four our interests:
+//
+- **Kary.Base** &mdash; The base for Kary Framework. It implements a rich string manipulation system for shaping textual user interfaces.
+//
+- **Kary.Intactus** &mdash; A mathematical notation engine that renders formulas via plain text to bring notations to textual UI.
+//
+- **Kary.Numerica** &mdash; An arbitrary precision numerical type for .NET that supports up to 56 billion digit.
+//
+- **Kary.Calculat** &mdash; Fork of NCalc math evaluator engine for .NET with an improved grammar and type casting switcher that also has support for Kary.Numerica.
+
+
+![](/research/media/int.png)
+
+<div class="kf-topic-page-spacer"></div>
+
+//
+// ─── KARY GRAPH ─────────────────────────────────────────────────────────────────
+//
+
+## Kary Graph
+In order to practice large scale UI software design^Particularly in order to develop our visual language^ we started some UI experiments, one code named [Hedron Experiment 4](http://www.karyfoundation.org/research/playgrounds/hedron/04/) started to interest us in creating a visual graph theory studio.
+
+Graph brings a _rich graph_ editor in company with an _interactive mathematica notebook-like environment_ to work on graphs. Our intention was to build a tool for data analysis but soon it became so easy to use that we now believe it's the most potential software for educational and scientifically use too.
+
+![](/research/media/graph.png)
+
+<div class="kf-topic-page-spacer"></div>
+
+//
+// ─── ARENDELLE ──────────────────────────────────────────────────────────────────
+//
+
+## Arendelle
+Arendelle is our very minimal and stylish sketching programming language for kids. It was a very massive project of us (containing 30+ sub-projects^5 compilers and interpreters, 3 IDEs, 5 code highlighting servers, 2 console REPLs, A language/context aware IDE autocomplete server, 3 Editor Language Supports, A code formatter, 3D print model generator, So many sample projects, Documentation tool, A book, etc…^.) that was a very good road for us as we had the chance to study a variety of language implementation designs and theories and also studied the design of the most language tooling software around.
+
+Arendelle has many innovative ideas that makes it potentially the best textual language for the sake of education. These key features includes:
+
+- **Intelligent Grammars** &mdash; Arendelle grammars are smart so they bring another level of high-level thinking to programming. For example, for all kinds of repeating structures^For loop, while loop…^, Arendelle introduces only one grammar^You can use `[ 10 , pr ]` or `[ #x < 10 , pr ]`, It's Arendelle's jobs to understand what kind of loop you mean.^ And it's Arendelle's job to understand if the grammar is a conditional or  a range based loop.
+//
+- **Higher order file system abstractions** &mdash; We designed an abstraction layer for namespaces and classes to map them into file system by making [storage]((https://karyfoundation.gitbooks.io/arendelle/content/stored_spaces/index.html) and [procedures](https://karyfoundation.gitbooks.io/arendelle/content/functions/index.html) act in harmony as files. This way we could easily educated children about the concepts of scopes via modules and namespaces.
+//
+- **Redefined Procedure Return System** &mdash; We shaped Arendelle's function return system based on a new idea. Arendelle loads a space called `@return` for each function. User gets to fill the space with what ever that is going to be returned and then at the function's ending that value will be returned as the result of the calling.
+
+//
+// ─── ENDING PROJECTS ────────────────────────────────────────────────────────────
+//
+
+--- end
+</div>
+<div class="kf-topic-page-spacer"></div>
+
+// ────────────────────────────────────────────────────────────────────────────────

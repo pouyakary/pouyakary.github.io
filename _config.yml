@@ -1,0 +1,9 @@
+
+# Permalinks
+permalink:        pretty
+
+# Setup
+title:            Kary Foundation
+url:              http://www.karyfoundation.org
+paginate:         1
+baseurl:          /

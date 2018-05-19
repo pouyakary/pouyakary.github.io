@@ -1,0 +1,84 @@
+html {
+	font-size: 13pt !important;
+	overflow-x: hidden;
+	width: 100vw;
+}
+
+@media ( max-width: 860px ) {
+	html {
+		font-size: 10pt !important;
+	}
+}
+
+body {
+	color: white;
+	margin: 0;
+	line-height: 1.2;
+	overflow-x: hidden;
+	font-family: 'Vegur-Light';
+	text-rendering: optimizeLegibility;
+	font-feature-settings: 'kern' 1, 'liga' 1;
+	line-height: 1.3;
+}
+
+a {
+	text-decoration: none;
+}
+
+p {
+	margin: 0;
+	margin-bottom: 0.3em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	padding: 0;
+	font-weight: normal;
+	margin-bottom: 0.1em;
+}
+
+.unselectable {
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.kf-container {
+	max-width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+@media ( max-width: 800px ) {
+	.kf-container {
+		padding-right: 5vw;
+		padding-left: 5vw;
+	}
+}
+
+.kf-fill {
+	text-align: justify;
+}
+
+.kf-text-link a,
+.kf-text-link a:visited {
+	background-image: url('/media/general/a.png');
+	background-size: contain;
+	transition-duration: 0.5s;
+	color: black;
+}
+
+.kf-text-link a:hover {
+	transition-duration: 1s;
+	background-image: url('/media/general/a-hovered.png');
+}
+
+@font-face {
+    font-family: "Vegur-Regular";
+    src: url("Vegur-R_0_600.eot?") format("eot"), url("Vegur-R_0_600.woff") format("woff"), url("Vegur-R_0_600.ttf") format("truetype"), url("Vegur-R_0_600.svg#Vegur-Regular") format("svg");
+    font-weight:normal;
+    font-style:normal;
+}
