@@ -9,7 +9,7 @@
 
 .research-project-box {
     display:            flex;
-    margin-bottom:      2rem;
+    margin-bottom:      3rem;
 }
 
 .research-project-box + h2 {

@@ -1,14 +1,30 @@
 
-- topic: Regular Languages
+- topic: humane computation
+  projects:
+    - name: DesignTalk
+      description: DesignTalk is a playground for implementing ideas of an illustration software. The idea is to play with possibilities of interface design and track how much it can improve the state of software's comfort. DesignTalk implements a a new approach of interface design where only the common tools are visual and they are all visible in the side of a selected object to minimize the interface and then every other task is given using an english like language by speaking it.
+      website: https://designtalk.kary.us
+      image: https://user-images.githubusercontent.com/2157285/40284791-5b79d89e-5ca9-11e8-9374-6d29857acb06.png
+
+
+- topic: code readability
   projects:
     - name: Orchestra
       description: Orchestra is a visual language that compiles to regular expression. Thanks to the advancements in computing power, one usally writes longer and more powerful regular expressions these days. While the usage has grown, our tools are still the same as they were in 1950s. Orchestra brings a new language that is safe and highly scalable for writing very complex regular expressions.
       website: https://github.com/pmkary/orchestra
       image: https://user-images.githubusercontent.com/2157285/40280841-3ac8e7b0-5c6e-11e8-821b-fd4ad150ce69.png
 
-- topic: code readability
-  projects:
     - name: Kary Coding Standard
-      description: Kary Coding Standard is a coding style designed for readablity. It
+      description: Kary Coding Standard is a coding style designed for readablity and beauty. It has a set of rules that eliminates many of the common readability problems and also incoporates the use of Kary Comments to visually orgnize the structure of the code.
       website: http://kary.us/u/docs/style
       image: https://static.notion-static.com/5f2608d2-36f6-450a-b8d6-36abc6335b58/Screen_Shot_1396-12-11_at_2.21.50_AM.png
+
+    - name: KaryScript
+      description: KaryScript is a programming language that compiles to JavaScript and tries to be a much more readable version of JavaScript. By bringing some of the grammars and ideas from different languages like pipes, ruby like structures, less punctuations, tables from markdown and etc. it makes the whole experience of programming much more readable.
+      website: https://github.com/pmkary/karyscript
+      image: https://user-images.githubusercontent.com/2157285/34886804-85f5d0a8-f7d9-11e7-932b-7253407e3522.png
+
+    - name: Righteous
+      description: Righteous is a code formatter based on Kary Coding Standard that targets the web and currently is developed for CSS, JavaScript and TypeScript. It also comes with an extension for Visual Studio Code
+      website: https://github.com/pmkary/righteous
+      image: https://camo.githubusercontent.com/4a6b2656205614eefc47d90b6b41eff08eeebaae/687474703a2f2f6b6172792e75732f47726170686963732f426c6f672f373933362e32312e382e32362f6373732d332e706e67
