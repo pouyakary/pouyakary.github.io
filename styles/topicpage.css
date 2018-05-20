@@ -111,13 +111,34 @@ h1 {
 }
 
 .kf-topic-page-tabs {
-    background-position:    left bottom;
+    display:        flex;
+    height:         2rem;
+    position:       relative;
+    top:            -2rem;
+    width:          fit-content;
+}
+
+.kf-topic-tab-middle {
+    background-color:       white;
+    font-weight:            700;
+    min-height:             2rem;
+    padding:                0.5em 0.2em 0 0.2em;
+}
+
+.kf-topic-tab-side {
+    background-position:    center;
     background-repeat:      no-repeat;
-    background-size:        contain;
-    height:                 2.70rem;
-    position:               relative;
-    top:                    -2.70rem;
-    width:                  10rem;
+    background-size:        cover;
+    height:                 2rem;
+    width:                  2rem;
+}
+
+.kf-topic-tab-side.left {
+    background-image:       url('/media/topicpage/tab-left.svg');
+}
+
+.kf-topic-tab-side.right {
+    background-image:       url('/media/topicpage/tab-right.svg');
 }
 
 .kf-topic-page-main-container {
@@ -366,12 +387,12 @@ h1 {
 }
 
 #kf-topic-page-header-title {
+    padding-left:           0.9rem;
     border-left:            2px solid #5D5D5D;
-    padding-bottom:         0.2rem;
     color:                  white;
     font-size:              1.2rem;
     left:                   12rem;
-    padding-left:           0.9rem;
+    padding-bottom:         0.2rem;
     padding-top:            0.2rem;
     position:               fixed;
     top:                    0.6rem;
