@@ -1,0 +1,15 @@
+
+- topic: Regular Languages
+  projects:
+    - name: Orchestra
+      description: Orchestra is a visual language that compiles to regular expression. The basic motivation behind this project was the fact that; thanks to the advancements in computing power, one can write much more comlpex regular expressions
+      website: https://github.com/pmkary/orchestra
+      image: https://user-images.githubusercontent.com/2157285/40280841-3ac8e7b0-5c6e-11e8-821b-fd4ad150ce69.png
+
+- topic: readability
+  description: This portion of my research focuses
+  projects:
+    - name: Kary Coding Standard
+      description: Orchestra is a visual language that compiles to regular expression. The basic motivation behind this project was the fact that; thanks to the advancements in computing power, one can write much more comlpex regular expressions
+      website: http://kary.us/u/docs/style
+      image: https://static.notion-static.com/5f2608d2-36f6-450a-b8d6-36abc6335b58/Screen_Shot_1396-12-11_at_2.21.50_AM.png

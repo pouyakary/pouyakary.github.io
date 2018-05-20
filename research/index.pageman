@@ -1,18 +1,47 @@
 ---
 layout: article
-title: Research & Development
+title: Research
 headermini: true
 back: research/back.jpg
 ---
 
-//
-// ─── RESEARCH ───────────────────────────────────────────────────────────────────
-//
+<link rel="stylesheet" href="./research.css">
+
+// ───────────────────────────────────────────────
 
 --- legend
-# A Personal Laboratory
-I do a low
+# Research & Development
+The majority of my research^My research is not fully academical, they are also not backed up financially^ focuses on building next generations interfaces and tools for professional thinking. A portion of this goes to exploring the possibilities in human-computer interfaces, ranging from languages to graphical user interfaces, to voice command services, etc.
 
+In parallel to my research, I have created an ecosystem of tools, languages, protocols, designs, frameworks, etc; to use for my personal and professional needs. In this page you can find these projects and hopefully use them to enhance your own projects and workflows.
 --- end
 
-// ────────────────────────────────────────────────────────────────────────────────
+<div class="kf-topic-page-spacer"></div>
+
+// ───────────────────────────────────────────────
+
+{% for topic in site.data.projects %}
+    <h2>{{ topic.topic }}</h2>
+
+    {% if topic.description %}
+        <div class="legend-section research-topic-description">
+            <div class="legend-paragraph">
+                <p>{{ topic.description }}</p>
+            </div>
+            <div class="legend-sidebar"></div>
+        </div>
+    {% endif %}
+
+    {% for project in topic.projects %}
+        <div class="research-project-box">
+            <img src="{{ project.image }}">
+            <div class="research-project-description-box">
+                <div class="research-project-title">{{ project.name }}</div>
+                <div class="research-project-description">{{ project.description }}</div>
+                <a class="research-project-website" href="{{ project.website }}">Visit this project</a>
+            </div>
+        </div>
+    {% endfor %}
+{% endfor %}
+
+// ───────────────────────────────────────────────
