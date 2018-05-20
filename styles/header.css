@@ -1,16 +1,16 @@
 
 #kf-nav-logo {
     float:          left;
-    padding-top:    1.3rem;
+    padding-top:    1.2rem;
 }
 
 #kf-nav-links {
     color:              #eee;
     float:              right;
-    font-size:          1.3rem;
+    font-size:          1.1rem;
     padding-left:       1.4rem;
     padding-right:      2.8vw;
-    padding-top:        1.3rem;
+    padding-top:        1.4rem;
 }
 
 @media ( max-width: 550px ) {
@@ -53,7 +53,7 @@
     background-color:       rgba( 0, 0, 0, 0.9);
     box-shadow:             0 0 1.8rem rgba( 0, 0, 0, 0.9);
     overflow:               hidden;
-    padding-bottom:         0.9rem;
+    padding-bottom:         1.1rem;
     position:               fixed;
     width:                  100%;
     z-index:                1;
@@ -77,7 +77,7 @@
 }
 
 #kf-header-logo {
-    height:             1.7rem;
+    height:             1.5rem;
     padding-left:       1.4rem;
     padding-top:        0;
 }

@@ -1,125 +1,123 @@
 
 .kf-footer {
-	/*box-shadow: 0 0 80px rgba( 0, 0, 0, 0.6);*/
-	background-color: 	#1a1a1a;
-	/* background-image: 	url("/media/footer-back.svg");
-	background-repeat: 	no-repeat;
-	background-size: 	cover; */
+    background-color:       #1a1a1a;
 }
 
 #kf-footer-wrap {
-	display: 		-moz-flex;
-	display: 		-webkit-flex;
-	display: 		flex;
-	height: 		100%;
-	margin-bottom: 	3rem;
-	margin-left: 	3rem;
-	margin-right: 	1rem;
-	padding-top: 	3rem;
-	width: 			calc( 100vw - 4rem);
+    display:            -moz-flex;
+    display:            -webkit-flex;
+    display:            flex;
+    height:             100%;
+    margin-bottom:      3rem;
+    margin-left:        3rem;
+    margin-right:       1rem;
+    padding-top:        3rem;
+    width:              calc( 100vw - 4rem);
 }
 
 @media ( max-width: 720px ) {
-	#kf-footer-wrap {
-		display: none;
-	}
+    #kf-footer-wrap {
+        display:    none;
+    }
 }
 
-
 .kf-footer-col-logo {
-	background-image: 		url('/media/general/kary-horse-footer.png');
-	background-position: 	top left;
-	background-repeat: 		no-repeat;
-	background-size: 		contain;
-	flex: 					1;
-	height: 				12rem;
-	margin-right: 			3rem;
-	margin-top: 			0.2rem;
-	opacity: 				0.6;
+    background-image:       url('/media/general/kary-horse-footer.png');
+    background-position:    top left;
+    background-repeat:      no-repeat;
+    background-size:        contain;
+    flex:                   1;
+    height:                 12rem;
+    margin-right:           3rem;
+    margin-top:             0.2rem;
+    opacity:                0.6;
 }
 
 @media ( max-width: 900px ) {
-	.kf-footer-col-logo {
-		display: none;
-	}
+    .kf-footer-col-logo {
+        display:    none;
+    }
 }
 
 .kf-footer-col-links {
-	padding-right: 3rem;
-	flex: 3;
+    flex:               3;
+    padding-right:      3rem;
 }
 
 .kf-footer-col-links h2 {
-	border-bottom:  	2px solid rgba(255, 255, 255, 0.2) !important;
-	color: 		    	rgba(255, 255, 255, 0.85);
-	margin-bottom:  	0.5em;
-	padding-bottom: 	0.2em;
+    border-bottom:      2px solid rgba(255, 255, 255, 0.2) !important;
+    color:              rgba(255, 255, 255, 0.85);
+    margin-bottom:      0.5em;
+    padding-bottom:     0.2em;
 }
 
 .kf-footer-col-links a {
-	color: 				rgba(255, 255, 255, 0.75);
-	display: 			block;
-	font-size: 			1.1rem;
-	padding-bottom: 	0.5em;
+    color:              rgba(255, 255, 255, 0.75);
+    display:            block;
+    font-size:          1.1rem;
+    padding-bottom:     0.5em;
 }
 
 .kf-footer-col-links a:hover {
-	color: white;
+    color:      white;
 }
 
 .kf-footer-spacer {
-	color: 				rgba(255, 255, 255, 0.7);
-	font-family: 		"hasklig";
-	font-size: 			0.7rem;
-	letter-spacing: 	3px;
-	padding-bottom: 	0.5rem;
-	padding-top: 		0.7rem;
-	text-transform: 	uppercase;
+    color:              rgba(255, 255, 255, 0.7);
+    font-family:        "Source Code Pro";
+    font-size:          0.7rem;
+    font-weight:        300;
+    letter-spacing:     3px;
+    padding-bottom:     0.5rem;
+    padding-top:        0.7rem;
+    text-transform:     uppercase;
 }
 
 #kf-footer-copy {
-	background-color: 	#1F1F1F;
-	color: 				rgba(255, 255, 255, 0.75);
-	padding: 			2.5rem;
+    background-color:       #1F1F1F;
+    color:                  rgba(255, 255, 255, 0.75);
+    padding:                2.5rem;
 }
 
 #kf-footer-copy a {
-	color: 		rgba(255, 255, 255, 0.75);
-	padding: 	4pt 6pt 3pt 6pt;
-	transition-duration: 0.3s;
+    color:                  rgba(255, 255, 255, 0.75);
+    padding:                4pt 6pt 3pt 6pt;
+    transition-duration:    0.3s;
 }
 
 #kf-footer-copy a:hover {
-	background-color: 	#323232;
-	border-radius: 		3pt;
-	color: 				#eee;
+    background-color:       #323232;
+    border-radius:          3pt;
+    color:                  #eee;
 }
 
 #kf-footer-copy-left {
-	float: left;
+    float:      left;
 }
 
 #kf-footer-copy-right {
-	float: right;
+    float:      right;
 }
 
 #kf-footer-copy-small {
-	display: none;
+    display:    none;
 }
 
 @media ( max-width: 550px ) {
-	#kf-footer-copy-left,
-	#kf-footer-copy-right {
-		clear: both;
-		float: none;
-	}
-	#kf-footer-copy-right {
-		margin-top: 0.5rem;
-	}
-	#kf-footer-copy-small {
-		display: inline;
-	}
-	#kf-footer-copy-big {
-		display: none;
-	}
+    #kf-footer-copy-left, #kf-footer-copy-right {
+        clear:      both;
+        float:      none;
+    }
+
+    #kf-footer-copy-right {
+        margin-top:     0.5rem;
+    }
+
+    #kf-footer-copy-small {
+        display:    inline;
+    }
+
+    #kf-footer-copy-big {
+        display:    none;
+    }
 }

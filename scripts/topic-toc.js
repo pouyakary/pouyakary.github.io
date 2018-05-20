@@ -105,7 +105,7 @@
                 toc.style.opacity = (
                     ( spaceHeight - distanceY ) / fadingLength ).toString( );
             }
-        } else if ( distanceY > 150 ) {
+        } else if ( distanceY > 130 ) {
             hideShowTitle( distanceY );
             // Middle
             if ( distanceY < catchLocation + tocHeight || catchLocation === 0 ) {
