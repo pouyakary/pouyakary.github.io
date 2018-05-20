@@ -31,7 +31,6 @@ section {
 h1 {
     color:          black;
     font-size:      1.4em;
-    font-weight:    300;
     margin:         0.2em 0 0.7em 0;
     padding:        0;
 }
@@ -120,11 +119,14 @@ h1 {
 }
 
 .kf-topic-tab-middle {
+    -moz-user-select:       none;
+    -webkit-user-select:    none;
     background-color:       white;
     font-size:              1.2rem;
     font-weight:            700;
     min-height:             2.2rem;
     padding:                0.5em 0.1em 0 0.1em;
+    user-select:            none;
 }
 
 .kf-topic-tab-side {
@@ -389,12 +391,12 @@ h1 {
 }
 
 #kf-topic-page-header-title {
+    border-left:            2px solid #5D5D5D;
     padding-bottom:         0.2rem;
-    padding-left:           0.9rem;
     color:                  white;
     font-size:              1.2rem;
     left:                   12rem;
-    border-left:            2px solid #5D5D5D;
+    padding-left:           0.9rem;
     padding-top:            0.2rem;
     position:               fixed;
     top:                    0.6rem;

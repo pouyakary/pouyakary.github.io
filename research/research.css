@@ -1,0 +1,63 @@
+
+.research-topic-description {
+    margin-bottom:      2rem;
+}
+
+.research-project-box {
+    display:            flex;
+    margin-bottom:      2rem;
+}
+
+.research-project-box + h2 {
+    margin-top:     5rem;
+}
+
+.kf-topic-page-article img {
+    flex:           auto;
+    height:         100%;
+    margin:         0 2rem 0 0;
+    max-height:     fit-content !important;
+    max-width:      250pt !important;
+    object-fit:     contain;
+    width:          100%;
+}
+
+.research-project-description-box {
+    flex:       1;
+}
+
+.research-project-title {
+    font-size:          1.3rem;
+    font-weight:        500;
+    margin-bottom:      0.5rem;
+}
+
+.research-project-description {
+    font-family:    "Cormorant";
+    font-size:      1.2rem;
+}
+
+.research-project-website {
+    font-weight:            500;
+    height:                 min-content;
+    display:                block;
+    background-color:       #f7f7f7;
+    background-image:       none !important;
+    border:                 1pt solid #eee;
+    font-size:              0.6em;
+    font-family:            "Source Code Pro";
+    letter-spacing:         0.2em;
+    margin-top:             1em !important;
+    max-width:              fit-content;
+    padding:                0 1em 0 1em;
+    text-decoration:        none !important;
+    text-transform:         uppercase !important;
+    transition-duration:    0.2s !important;
+}
+
+.research-project-website:focus, .research-project-website:hover {
+    background-color:       black;
+    border-color:           black;
+    color:                  white;
+    transition-duration:    0.2s !important;
+}
