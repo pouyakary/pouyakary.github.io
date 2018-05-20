@@ -31,7 +31,8 @@ section {
 h1 {
     color:          black;
     font-size:      1.4em;
-    margin:         0 0 0.7em 0;
+    font-weight:    300;
+    margin:         0.2em 0 0.7em 0;
     padding:        0;
 }
 
@@ -112,25 +113,26 @@ h1 {
 
 .kf-topic-page-tabs {
     display:        flex;
-    height:         2rem;
+    height:         2.2rem;
     position:       relative;
-    top:            -2rem;
+    top:            -2.2rem;
     width:          fit-content;
 }
 
 .kf-topic-tab-middle {
     background-color:       white;
+    font-size:              1.2rem;
     font-weight:            700;
-    min-height:             2rem;
-    padding:                0.5em 0.2em 0 0.2em;
+    min-height:             2.2rem;
+    padding:                0.5em 0.1em 0 0.1em;
 }
 
 .kf-topic-tab-side {
     background-position:    center;
     background-repeat:      no-repeat;
     background-size:        cover;
-    height:                 2rem;
-    width:                  2rem;
+    height:                 2.2rem;
+    width:                  2.2rem;
 }
 
 .kf-topic-tab-side.left {
@@ -387,12 +389,12 @@ h1 {
 }
 
 #kf-topic-page-header-title {
+    padding-bottom:         0.2rem;
     padding-left:           0.9rem;
-    border-left:            2px solid #5D5D5D;
     color:                  white;
     font-size:              1.2rem;
     left:                   12rem;
-    padding-bottom:         0.2rem;
+    border-left:            2px solid #5D5D5D;
     padding-top:            0.2rem;
     position:               fixed;
     top:                    0.6rem;
