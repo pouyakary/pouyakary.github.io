@@ -1,4 +1,8 @@
 
+.research-topic-h2 {
+    margin-bottom:      2rem !important;
+}
+
 .research-topic-description {
     margin-bottom:      2rem;
 }
@@ -38,26 +42,18 @@
 }
 
 .research-project-website {
-    font-weight:            500;
-    height:                 min-content;
-    display:                block;
-    background-color:       #f7f7f7;
     background-image:       none !important;
-    border:                 1pt solid #eee;
-    font-size:              0.6em;
-    font-family:            "Source Code Pro";
-    letter-spacing:         0.2em;
+    color:                  #AA630C !important;
+    display:                block;
+    font-family:            "Montserrat";
+    font-size:              0.9em;
+    font-weight:            500;
     margin-top:             1em !important;
-    max-width:              fit-content;
-    padding:                0 1em 0 1em;
     text-decoration:        none !important;
-    text-transform:         uppercase !important;
     transition-duration:    0.2s !important;
 }
 
 .research-project-website:focus, .research-project-website:hover {
-    background-color:       black;
-    border-color:           black;
-    color:                  white;
+    color:                  #D0491A !important;
     transition-duration:    0.2s !important;
 }
