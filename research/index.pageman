@@ -20,7 +20,7 @@ In parallel to my research, I have created an ecosystem of tools, languages, pro
 
 // ───────────────────────────────────────────────
 
-{% for topic in site.data.projects %}
+{% for topic in site.data.researches %}
     <h2>{{ topic.topic }}</h2>
 
     {% if topic.description %}
