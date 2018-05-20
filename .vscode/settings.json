@@ -1,5 +1,24 @@
 // Place your settings in this file to overwrite default and user settings.
 {
+    "scm.diffDecorations": "none",
+    "[pageman]": {
+        "editor.renderLineHighlight": "none",
+        "editor.occurrencesHighlight": false,
+        "editor.overviewRulerLanes": 0,
+        "editor.hideCursorInOverviewRuler": true,
+        "editor.fontFamily": "Avenir",
+        "editor.fontSize": 17,
+        "editor.lineHeight": 32,
+        "editor.lineNumbers": "off",
+        "editor.quickSuggestions": {
+            "other": false,
+            "comments": false,
+            "strings": false
+        },
+        "editor.wordWrapColumn": 60,
+        "editor.wordWrap": "on",
+    },
+
     "editor.renderWhitespace": false,
     "cSpell.enabledLanguageIds": [
         "pageman",
@@ -14,8 +33,10 @@
         "Kary",
         "Kary's",
         "Pouya",
+        "endfor",
         "headermini",
         "hidemargin",
+        "stylesheet",
         "topicpage"
     ]
 }
