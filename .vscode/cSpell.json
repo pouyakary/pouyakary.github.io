@@ -7,11 +7,13 @@
     // words - list of words to be always considered correct
     "words": [
         "divs",
+        "endfor",
         "headermini",
         "hidemargin",
         "Kary",
         "Kary's",
         "Pouya",
+        "stylesheet",
         "topicpage"
     ],
     // flagWords - list of words to be always considered incorrect
