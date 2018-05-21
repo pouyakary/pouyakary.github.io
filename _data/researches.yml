@@ -7,6 +7,14 @@
       image: https://user-images.githubusercontent.com/2157285/40284791-5b79d89e-5ca9-11e8-9374-6d29857acb06.png
 
 
+- topic: computer graphics
+  projects:
+    - name: Non-Linear Interpolating Shaders
+      description: A very powerful idea in computer graphics is the <a href="https://en.wikipedia.org/wiki/Gouraud_shading">Gouraoud Shading</a> because of it's color blending power. I started thinking that Gouraud's alogrithm shades every part of a given polygon evenly and therefore it can be used to create gradients with multiple lights, now what if; we apply eqautions to each transition? By doing so we can get not-linear shaders and create much stranger and better gradients and shades. My research is still ongoing and I'm developing the mathematics for the algorithm but I have successfully modeled it on basic equations and results are sublime.
+      website: https://www.youtube.com/watch?v=p5QoNAXlhVM
+      image: https://user-images.githubusercontent.com/2157285/40319831-c5cfc95c-5d3e-11e8-8d42-34731dda571e.png
+
+
 - topic: code readability
   projects:
     - name: Orchestra
@@ -28,3 +36,8 @@
       description: Righteous is a code formatter based on Kary Coding Standard that targets the web and currently is developed for CSS, JavaScript and TypeScript. It also comes with an extension for Visual Studio Code
       website: https://github.com/pmkary/righteous
       image: https://camo.githubusercontent.com/4a6b2656205614eefc47d90b6b41eff08eeebaae/687474703a2f2f6b6172792e75732f47726170686963732f426c6f672f373933362e32312e382e32362f6373732d332e706e67
+
+    - name: numeraX
+      description: Working with mathematics in computers has shown me that most people have a hard time to change the notation of math to computer language. numeraX is an experiment to find out to which extent is it possible to develop a language like math
+      website: http://numerax.toys.kary.us
+      image: https://user-images.githubusercontent.com/2157285/40322317-3b801758-5d47-11e8-90d5-8b4b967b4cba.png
