@@ -4,9 +4,30 @@
     - name: DesignTalk
       topics:
         - research
-      description: DesignTalk is a playground for implementing ideas of an illustration software. The idea is to play with possibilities of interface design and track how much it can improve the state of software's comfort. DesignTalk implements a a new approach of interface design where only the common tools are visual and they are all visible in the side of a selected object to minimize the interface and then every other task is given using an english like language by speaking it.
       website: https://designtalk.kary.us
       image: https://user-images.githubusercontent.com/2157285/40284791-5b79d89e-5ca9-11e8-9374-6d29857acb06.png
+      description: DesignTalk is a playground for implementing ideas of an illustration software. The idea is to play with possibilities of interface design and track how much it can improve the state of software's comfort. DesignTalk implements a a new approach of interface design where only the common tools are visual and they are all visible in the side of a selected object to minimize the interface and then every other task is given using an english like language by speaking it.
+
+
+
+- topic: Orchestra
+  description: Since 1950's the syntax of regular languages are kept the same, while today we have much more computational capabilities, due to the syntax of regular expressions one cannot write a big pattern inside of it. Orchestra is a new visual language that makes it easy and safe to write scalable patterns, It both compiles to RegExp and can be compiled from RegExp which makes it easy to be used in any host language.
+  projects:
+    - name: Orchestra Studio
+      topics:
+        - research
+        - development
+      website: https://github.com/pmkary/orchestra
+      image: https://user-images.githubusercontent.com/2157285/40280841-3ac8e7b0-5c6e-11e8-821b-fd4ad150ce69.png
+      description: Orchestra Studio is an IDE designed specially for Orchestra. It has an editor for Orchestra, Contains all the compilers used to compile and decompile Orchestra, Comes with a playground to write testing for the pattern, an offilne documentation that is integrated to the visual editor, and has extensions for other editors so that one can open a regexp from those editors in Orchestra and edit them.
+
+    - name: Concerto Compiler
+      topics:
+        - development
+      website: https://github.com/pmkary/concerto
+      image: https://user-images.githubusercontent.com/2157285/40433736-eb600004-5ec1-11e8-89cc-23c186c0b672.png
+      description: Concerto is an Orchestra Decompiler that compiles Regular Expressions written in the ECMAScript Specification to Orchestra Language. It comes bundled with the Orchestra Studio.
+
 
 
 - topic: computer graphics
@@ -14,49 +35,157 @@
     - name: Non-Linear Interpolating Shaders
       topics:
         - research
-      description: A shading algorithm that extends the ideas and mathematics of <a href="https://en.wikipedia.org/wiki/Gouraud_shading">Gouraoud Shading</a> by giving it custom transition equations. In Gouraud Shaders colors move from one light source to the other by a linear transition, within this shader one can define custom paths and equations and therefore create much more interesting lightings.
       website: https://www.youtube.com/watch?v=p5QoNAXlhVM
       image: https://user-images.githubusercontent.com/2157285/40319831-c5cfc95c-5d3e-11e8-8d42-34731dda571e.png
+      description: A shading algorithm that extends the ideas and mathematics of <a href="https://en.wikipedia.org/wiki/Gouraud_shading">Gouraoud Shading</a> by giving it custom transition equations. In Gouraud Shaders colors move from one light source to the other by a linear transition, within this shader one can define custom paths and equations and therefore create much more interesting lightings.
 
 
-- topic: code readability
+
+- topic: KaryScript
+  description: KaryScript is a programming language that compiles to JavaScript and tries to be a much more readable version of JavaScript. By bringing some of the grammars and ideas from different languages like pipes, ruby like structures, less punctuations, tables from markdown and etc. it makes the whole experience of programming much more readable.
   projects:
-    - name: Orchestra
+    - name: KaryScript's Compiler
       topics:
         - research
-        - devtools
-      description: Orchestra is a visual language that compiles to regular expression. Thanks to the advancements in computing power, one usally writes longer and more powerful regular expressions these days. While the usage has grown, our tools are still the same as they were in 1950s. Orchestra brings a new language that is safe and highly scalable for writing very complex regular expressions.
-      website: https://github.com/pmkary/orchestra
-      image: https://user-images.githubusercontent.com/2157285/40280841-3ac8e7b0-5c6e-11e8-821b-fd4ad150ce69.png
+        - development
+      website: https://github.com/pmkary/karyscript
+      image: https://user-images.githubusercontent.com/2157285/34886804-85f5d0a8-f7d9-11e7-932b-7253407e3522.png
+      description: KaryScript's compiler is a JavaScript compiler bundeled to one file. It can be embedded to any kind of JavaScript runtime such as Web, Node and Rhino and compile KaryScript to ES6. It also comes with a command line interface that can act as a language server too.
 
+    - name: KaryScript Monaco
+      topics:
+        - development
+      website: https://github.com/pmkary/karyscript-monaco
+      image: https://cloud.githubusercontent.com/assets/2157285/23721115/0da4236a-0456-11e7-8257-34316f49f713.png
+      description: An editor based on Microsoft's <a href="https://github.com/microsoft/monaco-editor">Monaco Editor</a> that comes with Kary Pro Colors, KaryScript Monarch Definitions and Monaco Comment IV integrations which means it's a full featured editor for KaryScript that can be integrated to web pages.
+
+    - name: KaryScript for Visual Studio Code
+      topics:
+        - developments
+      image: https://user-images.githubusercontent.com/2157285/40436673-beb3d998-5ec8-11e8-9236-b456c17ece19.png
+      website: https://marketplace.visualstudio.com/items?itemName=karyfoundation.karyscript
+      description: Adds language support of KaryScript to Visual Studio Code based on the API provided by the compiler server and KaryScript tmLanguage
+
+
+- topic: Graph Theory
+  projects:
+    - name: Graph
+      topics:
+        - graph
+        - math
+      website: https://github.com/pmkary/graph
+      image: https://cloud.githubusercontent.com/assets/2157285/17836282/0665fe62-67a2-11e6-9c78-c4d4acb87535.png
+      description: A   graph programming environment with a powerful graphing engine, powerful high-level API, mathematica notebook like interactive programming, code editor and plugin support.
+
+
+- topic: code quality
+  projects:
     - name: Kary Coding Standard
       topics:
         - research
-        - devtools
-      description: Kary Coding Standard is a coding style designed for readablity and beauty. It has a set of rules that eliminates many of the common readability problems and also incoporates the use of Kary Comments to visually orgnize the structure of the code.
+        - development
       website: http://kary.us/u/docs/style
       image: https://static.notion-static.com/5f2608d2-36f6-450a-b8d6-36abc6335b58/Screen_Shot_1396-12-11_at_2.21.50_AM.png
-
-    - name: KaryScript
-      topics:
-        - research
-        - devtools
-      description: KaryScript is a programming language that compiles to JavaScript and tries to be a much more readable version of JavaScript. By bringing some of the grammars and ideas from different languages like pipes, ruby like structures, less punctuations, tables from markdown and etc. it makes the whole experience of programming much more readable.
-      website: https://github.com/pmkary/karyscript
-      image: https://user-images.githubusercontent.com/2157285/34886804-85f5d0a8-f7d9-11e7-932b-7253407e3522.png
+      description: Kary Coding Standard is a coding style designed for readablity and beauty. It has a set of rules that eliminates many of the common readability problems and also incoporates the use of Kary Comments to visually orgnize the structure of the code.
 
     - name: Righteous
       topics:
         - research
-        - devtools
-      description: Righteous is a code formatter based on Kary Coding Standard that targets the web and currently is developed for CSS, JavaScript and TypeScript. It also comes with an extension for Visual Studio Code
+        - development
       website: https://github.com/pmkary/righteous
       image: https://camo.githubusercontent.com/4a6b2656205614eefc47d90b6b41eff08eeebaae/687474703a2f2f6b6172792e75732f47726170686963732f426c6f672f373933362e32312e382e32362f6373732d332e706e67
+      description: Righteous is a code formatter based on Kary Coding Standard that targets the web and currently is developed for CSS, JavaScript and TypeScript.
 
     - name: numeraX
       topics:
         - research
-        - devtools
-      description: Working with mathematics in computers has shown me that most people have a hard time to change the notation of math to computer language. numeraX is an experiment to find out to which extent is it possible to develop a language like math
+        - development
       website: http://numerax.toys.kary.us
       image: https://user-images.githubusercontent.com/2157285/40322317-3b801758-5d47-11e8-90d5-8b4b967b4cba.png
+      description: Working with mathematics in computers has shown me that most people have a hard time to change the notation of math to computer language. numeraX is an experiment to find out to which extent is it possible to develop a language like math.
+
+
+
+- topic: Arendelle
+  description: Arendelle was an educational language targeting kids. It used a basic language and some simple navigational and painting instructions to create a world where kids could use programming to create 8-bit like arts and learn some basic programming concepts.
+  projects:
+    - name: Arcade
+      topics:
+        - development
+        - language-tools
+        - intepreter
+      image: https://user-images.githubusercontent.com/2157285/40432908-fe08f870-5ebf-11e8-9800-96865f1657bd.png
+      description: Arcade was the first intepreter for Arendelle and supported up to version 1.16 of Arendelle. It was written in C# and could be embedded in .NET environments.
+
+    - name: Swifty
+      topic:
+        - development
+        - language-tools
+        - interpreter
+      image: https://user-images.githubusercontent.com/2157285/40434541-d6f0fdb0-5ec3-11e8-81e4-732657948114.png
+      website: https://github.com/pmkary/swifty
+      description: Swifty was a Swift/Objective-C based interpreter for Arendelle that powered Arendelle for iOS and the also had a macOS command line shell. It supported Arendelle up to version 2XIV
+
+    - name: Arcco
+      topic:
+        - development
+      image: https://user-images.githubusercontent.com/2157285/40434879-9da18376-5ec4-11e8-981d-5f0323f2263f.png
+      description: Arcco was a fork of <a href="https://github.com/jashkenas/docco">Docco</a> by Jeremy Ashkenas specially designed for Arendelle
+
+    - name: Gerda
+      topic:
+        - development
+      website: https://github.com/pmkary/gerda
+      image: https://user-images.githubusercontent.com/2157285/40435189-5c0bc574-5ec5-11e8-85d7-a175d8ee151c.png
+      description: Garda is was the stand alone context-aware autosuggestion server for Arendelle. Gerda scanned the code without parsing it in a linear way and therefore it could provide suggestions by the speed of O(n)
+
+    - name: Marker
+      topic:
+        - development
+        - highlighter
+      website: https://github.com/pmkary/marker.js
+      image: https://user-images.githubusercontent.com/2157285/40435382-c8292134-5ec5-11e8-86d9-c72f07de55a6.png
+      description: Marker was Arendelle's web syntax highlighter. It could generate a colored HTML from given Arendelle codes on the fly in the speed of O(n). It only supported Arendelle till version 1.18
+
+
+- topic: Pageman
+  projects:
+    - name: Pageman
+      topics:
+        - development
+        - education
+      website: https://github.com/pmkary/pageman
+      image: https://user-images.githubusercontent.com/2157285/40428139-e2ac43b2-5eb4-11e8-9659-d25228d21b02.png
+      description: Pageman is a basic HTML processor designed to be used alongside the Jekyll to develop this website but grown into a thing for itself. Pageman let's one use Markdown, HTML, Legend and any other language in one file as well as providing C-like comments.
+
+    - name: Pageman for Print
+      topics:
+        - development
+      image: https://user-images.githubusercontent.com/2157285/40432437-f5282632-5ebe-11e8-88b0-c929753835d5.png
+      description: A set of tools that makes it possible to use pageman as language for priting like TeX. It provides paging, and print layouts plus a watch mode server for live preview.
+
+
+- topic: Textual Interfaces
+  projects:
+    - name: Kary.Intactus
+      topics:
+        - development
+        - framework
+        - text
+      image: https://user-images.githubusercontent.com/2157285/40429669-7d58b758-5eb8-11e8-8e9f-8135f3dfe86b.png
+      website: https://github.com/pmkary/intactus
+      description: Intactus &mdash;Int in Latin&mdash; is a framework that extends the Kary Framework for creating Mathematical Notations and Charts is UTF-8 characters.
+
+    - name: Note
+      topics:
+        - development
+      image: https://user-images.githubusercontent.com/2157285/40429929-15081314-5eb9-11e8-8fc9-521fc06518b6.png
+      website: https://github.com/pmkary/note
+      description: Note is a demo app for Kary Framework that showcases some of its powers. Multi
+
+    - name: Clavinet
+      topics:
+        - development
+      website: https://github.com/pmkary/clavinet
+      image: https://user-images.githubusercontent.com/2157285/40428770-4ce30292-5eb6-11e8-8b62-e18a56555ed4.jpg
+      description: Clavinet is a command line argument parser with its own language rules. It reconstructs the array of args given by the os and uses its own parser to parse it. Given that it can give command line apps abilities like arrays.
