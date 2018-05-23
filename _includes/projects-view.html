@@ -41,7 +41,9 @@
                 <div class="projects-project-description-box">
                     <div class="projects-project-title">{{ project.name }}</div>
                     <div class="projects-project-description">{{ project.description }}</div>
-                    <a class="projects-project-website" href="{{ project.website }}">Visit this project</a>
+                    {%- if project.website -%}
+                        <a class="projects-project-website" href="{{ project.website }}">Visit this project</a>
+                    {%- endif -%}
                 </div>
             </div>
         {%- endif -%}
