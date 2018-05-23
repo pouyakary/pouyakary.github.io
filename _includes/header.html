@@ -1,9 +1,9 @@
 
-{% if page.headermini == true %}
+{%- if page.headermini == true -%}
 	<link rel="stylesheet" href="/styles/header-mini.css">
-{% else %}
+{%- else -%}
 	<link rel="stylesheet" href="/styles/header.css">
-{% endif %}
+{%- endif -%}
 
 <div id="kf-header" class="unselectable">
 	<div id="kf-nav-logo">
@@ -13,15 +13,21 @@
 	</div>
 	<div id="kf-nav-links">
 		<a href="http://blog.kary.us" id="kf-nav-link-3">Blog</a>
-		&bullet;
+		{%- if page.headermini == true -%}
+			&bullet;
+		{%- else -%}
+			&nbsp; &bullet; &nbsp;
+		{%- endif -%}
 		<a href="/research/index.html" id="kf-nav-link-1">Research</a>
-		&bullet;
-		<a href="/projects/index.html" id="kf-nav-link-2">Projects</a>
-		&bullet;
-		<a href="/developer/index.html" id="kf-nav-link-4">Dev Tools</a>
+		{%- if page.headermini == true -%}
+			&bullet;
+		{%- else -%}
+			&nbsp; &bullet; &nbsp;
+		{%- endif -%}
+		<a href="/projects/index.html" id="kf-nav-link-2">Projects Showcase</a>
 	</div>
 </div>
 
-{% if page.hidemargin != false %}
+{%- if page.hidemargin != false -%}
 	<div id="kf-header-margin"></div>
-{% endif %}
+{%- endif -%}
