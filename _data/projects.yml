@@ -14,7 +14,7 @@
     - name: Non-Linear Interpolating Shaders
       topics:
         - research
-      description: A very powerful idea in computer graphics is the <a href="https://en.wikipedia.org/wiki/Gouraud_shading">Gouraoud Shading</a> because of it's color blending power. I started thinking that Gouraud's alogrithm shades every part of a given polygon evenly and therefore it can be used to create gradients with multiple lights, now what if; we apply eqautions to each transition? By doing so we can get not-linear shaders and create much stranger and better gradients and shades. My research is still ongoing and I'm developing the mathematics for the algorithm but I have successfully modeled it on basic equations and results are sublime.
+      description: A shading algorithm that extends the ideas and mathematics of <a href="https://en.wikipedia.org/wiki/Gouraud_shading">Gouraoud Shading</a> by giving it custom transition equations. In Gouraud Shaders colors move from one light source to the other by a linear transition, within this shader one can define custom paths and equations and therefore create much more interesting lightings.
       website: https://www.youtube.com/watch?v=p5QoNAXlhVM
       image: https://user-images.githubusercontent.com/2157285/40319831-c5cfc95c-5d3e-11e8-8d42-34731dda571e.png
 
