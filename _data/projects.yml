@@ -75,7 +75,23 @@
         - math
       website: https://github.com/pmkary/graph
       image: https://cloud.githubusercontent.com/assets/2157285/17836282/0665fe62-67a2-11e6-9c78-c4d4acb87535.png
-      description: A   graph programming environment with a powerful graphing engine, powerful high-level API, mathematica notebook like interactive programming, code editor and plugin support.
+      description: A graph programming environment with a powerful graphing engine, powerful high-level API, mathematica notebook like interactive programming, code editor and plugin support.
+
+    - name: Workout
+      topics:
+        - graph
+        - math
+      website: http://workout.toys.kary.us
+      image: https://user-images.githubusercontent.com/2157285/40441072-286a9c80-5ed5-11e8-9d17-80b89c080956.png
+      description: Workout is an experiment with the idea of dependent equations. Say <code>A = x + 2</code> is a given equation, then it depends on <code>x</code>. Workout computes a dependency graph and then tries to compute as equations as possible.
+
+    - name: Octobass
+      topics:
+        - graph
+      website: https://github.com/pmkary/octobass
+      image: https://user-images.githubusercontent.com/2157285/40444802-94feded8-5edf-11e8-936b-a33b59516c08.jpg
+      description: Octobass is a dependency execution framework for developers. It gets a dependency graph and then executes a function on each node by first evaluating the dependencies.
+
 
 
 - topic: code quality
