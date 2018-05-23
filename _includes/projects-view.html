@@ -1,0 +1,41 @@
+
+<link rel="stylesheet" href="{{ site.baseurl }}styles/projects-view.css">
+
+{%- for topic in site.data.projects -%}
+
+    {%- assign project_in_topi_exists = "false" -%}
+    {%- for project in topic.projects -%}
+        {%- for tag in project.topics -%}
+            {%- if tag == include.tag or include.tag == "all" -%}
+                {%- assign project_in_topi_exists = "true" -%}
+            {%- endif -%}
+        {%- endfor -%}
+    {%- endfor -%}
+    {%- if project_in_topi_exists == "true" -%}
+        <h2 class="projects-topic-h2">{{ topic.topic }}</h2>
+    {%- endif -%}
+
+    {%- if topic.description -%}
+        <div class="legend-section projects-topic-description">
+            <div class="legend-paragraph">
+                <p>{{ topic.description }}</p>
+            </div>
+            <div class="legend-sidebar"></div>
+        </div>
+    {%- endif -%}
+
+    {%- for project in topic.projects -%}
+        {%- for tag in project.topics -%}
+            {%- if tag == include.tag or include.tag == "all" -%}
+                <div class="projects-project-box">
+                    <img src="{{ project.image }}">
+                    <div class="projects-project-description-box">
+                        <div class="projects-project-title">{{ project.name }}</div>
+                        <div class="projects-project-description">{{ project.description }}</div>
+                        <a class="projects-project-website" href="{{ project.website }}">Visit this project</a>
+                    </div>
+                </div>
+            {%- endif -%}
+        {%- endfor -%}
+    {%- endfor -%}
+{%- endfor -%}
