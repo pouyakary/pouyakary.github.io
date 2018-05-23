@@ -1,0 +1,16 @@
+---
+layout: article
+title: Project Showcase
+headermini: true
+back: projects/back.jpg
+---
+
+// ───────────────────────────────────────────────
+
+<div class="kf-topic-page-spacer"></div>
+
+// ───────────────────────────────────────────────
+
+    {% include projects-view.html tag="all" %}
+
+// ───────────────────────────────────────────────
