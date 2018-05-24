@@ -1,25 +1,25 @@
 
-'use strict';
+'use strict'
 
 //
 // ─── GLOBAL COUNTERS ────────────────────────────────────────────────────────────
 //
 
-    var catchLocation = 0;
+    var catchLocation = 0
 
 //
 // ─── HIDE SHOW PAGE TITLE ───────────────────────────────────────────────────────
 //
 
     function hideShowTitle ( distance ) {
-        let titleDisplay = document.getElementById('kf-topic-page-header-title');
-        if ( distance > 180 ) {
-            //titleDisplay.hidden = false;
-            titleDisplay.className = 'kf-topic-page-header-title-visible';
-        } else {
-            //titleDisplay.hidden = true;
-            titleDisplay.className = 'kf-topic-page-header-title-hidden';
-        }
+        var titleDisplay =
+            document.getElementById('kf-topic-page-header-title')
+        if ( distance > 180 )
+            titleDisplay.className =
+                'kf-topic-page-header-title-visible';
+        else
+            titleDisplay.className =
+                'kf-topic-page-header-title-hidden'
     }
 
 //
@@ -28,31 +28,40 @@
 
     function TableOfContents ( ) {
         // defs
-        var container = document.getElementById('kf-topic-article-container');
-        var output = document.getElementById('kf-topic-toc');
-        var tableOfContents = '';
+        var container =
+            document.getElementById( 'kf-topic-article-container' )
+        var output =
+            document.getElementById( 'kf-topic-toc' )
+        var tableOfContents =
+            ''
 
         // finding headers
-        var headers = container.querySelectorAll('h1, h2, h3, h4, h5, h6');
+        var headers =
+            container.querySelectorAll( 'h1, h2, h3, h4, h5, h6' )
 
         // adding headers
         for ( var index = 0; index < headers.length; index++ ) {
-            var heading = headers[ index ];
+            var heading =
+                headers[ index ]
 
             // making the reference
-            var reference = document.createElement('div');
-            var headingStartingSymbol = ( heading.nodeName === 'H2' )? '\u2192 ': '';
+            var reference =
+                document.createElement( 'div' )
+            var headingStartingSymbol = ""
+                // (( heading.nodeName === 'H2' )? '\u2192 ': '')
 
-            reference.innerText = headingStartingSymbol + heading.innerText;
-            reference.className = 'kf-sidebar-' + heading.nodeName;
-            reference.setAttribute('target-id', heading.id);
+            reference.innerText =
+                headingStartingSymbol + heading.innerText
+            reference.className =
+                'kf-sidebar-' + heading.nodeName
+            reference.setAttribute( 'target-id', heading.id )
 
             reference.onclick = function ( ev ) {
-                scroll( ev.target.getAttribute('target-id') );
+                scroll( ev.target.getAttribute('target-id') )
             }
 
             // done
-            output.appendChild( reference );
+            output.appendChild( reference )
         }
     }
 
@@ -61,7 +70,7 @@
 //
 
     function scroll ( element ) {
-        window.scrollTo( 0, document.getElementById( element ).offsetTop - 100 );
+        window.scrollTo( 0, document.getElementById( element ).offsetTop - 100 )
     }
 
 //
@@ -70,7 +79,7 @@
 
     function getScrollPosition ( ) {
         return ( window.pageYOffset || document.documentElement.scrollTop )
-             - ( document.documentElement.clientTop || 0 );
+             - ( document.documentElement.clientTop || 0 )
     }
 
 //
@@ -79,17 +88,24 @@
 
     function updateTableOfContentsInLocation ( ) {
         // basic info
-        var distanceY = getScrollPosition( );
-        var toc = document.getElementById( 'kf-topic-page-sidebar' );
+        var distanceY =
+            getScrollPosition( )
+        var toc =
+            document.getElementById( 'kf-topic-page-sidebar' )
 
         // constants
-        var fadingLength = 300;
+        var fadingLength =
+            300
 
         // sizing tools
-        var windowHeight = document.documentElement.scrollHeight;
-        var tocHeight    = toc.scrollHeight;
-        var footerHeight = document.getElementById('footer').scrollHeight;
-        var spaceHeight  = windowHeight - tocHeight - footerHeight - 250;
+        var windowHeight =
+            document.documentElement.scrollHeight
+        var tocHeight =
+            toc.scrollHeight
+        var footerHeight =
+            document.getElementById('footer').scrollHeight
+        var spaceHeight =
+            windowHeight - tocHeight - footerHeight - 250
 
         // logic
         if ( distanceY > spaceHeight - fadingLength ) {
@@ -97,26 +113,26 @@
             if ( distanceY > spaceHeight ) {
                 // hide
                 if ( catchLocation === 0 ) {
-                    toc.style.opacity = '0';
-                    catchLocation = distanceY;
+                    toc.style.opacity = '0'
+                    catchLocation = distanceY
                 }
             } else {
                 // apply fading effect
-                toc.style.opacity = (
-                    ( spaceHeight - distanceY ) / fadingLength ).toString( );
+                toc.style.opacity =
+                    ( ( spaceHeight - distanceY ) / fadingLength ).toString( )
             }
         } else if ( distanceY > 130 ) {
-            hideShowTitle( distanceY );
+            hideShowTitle( distanceY )
             // Middle
             if ( distanceY < catchLocation + tocHeight || catchLocation === 0 ) {
-                toc.className = 'toc-on-middle';
-                toc.style.opacity = '1.0';
-                catchLocation = 0;
+                toc.className = 'toc-on-middle'
+                toc.style.opacity = '1.0'
+                catchLocation = 0
             }
         } else {
             // Top
-            toc.className = 'toc-on-top';
-            hideShowTitle( distanceY );
+            toc.className = 'toc-on-top'
+            hideShowTitle( distanceY )
         }
     }
 
@@ -124,7 +140,7 @@
 // ─── EVENTS ─────────────────────────────────────────────────────────────────────
 //
 
-    document.addEventListener( 'DOMContentLoaded', TableOfContents );
-    document.addEventListener( 'scroll', updateTableOfContentsInLocation );
+    document.addEventListener( 'DOMContentLoaded', TableOfContents )
+    document.addEventListener( 'scroll', updateTableOfContentsInLocation )
 
 // ────────────────────────────────────────────────────────────────────────────────
