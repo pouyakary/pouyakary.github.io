@@ -238,11 +238,43 @@
 
 
 
+- topic: Frameworks
+  projects:
+    - name: Cozy
+      topics:
+        - development
+        - web
+        - framework
+      website: https://github.com/pmkary/cozy
+      image: https://user-images.githubusercontent.com/2157285/40476346-12d1b01e-5f59-11e8-97e2-0708dcd5c29e.jpg
+      description: Cozy is a web framework that is not a framework but rather a base project. It implements a Functional Reactive Programming structure with Storage, View and mid-level toolings on TypeScript. It creates a project in such way that only a TypeScript compiler be enough for compiling/bundling and minimizing the code.
+
+    - name: Tambourine
+      topics:
+        - development
+        - music
+      website: https://github.com/pmkary/tambourine
+      image: https://user-images.githubusercontent.com/2157285/40477924-f063778e-5f5c-11e8-867b-ca295a802f40.jpg
+      description: Tambourine is a framework for writing musical theory software. Main goal is to have a library capable of computing musical theory so that one can write a Harmonizer Engine on top of it.
+
+
 - topic: Textual Interfaces
   projects:
+    - name: Kary Framework
+      topics:
+        - development
+        - terminal
+        - ui
+        - string
+        - text
+        - framework
+      image: https://user-images.githubusercontent.com/2157285/40478216-b4f8651e-5f5d-11e8-9aba-62df7b6d10d0.png
+      description: Kary Framework &mdash;originally targeting .NET&mdash; was a String Manipulation Framework. It had tools for visually aligning, lay-outing, manipulating, and styling strings. It also had tools for creating UIs with strings and also had Terminal Widgets for creating rich Text UIs.
+
     - name: Kary.Intactus
       topics:
         - development
+        - terminal
         - framework
         - text
       image: https://user-images.githubusercontent.com/2157285/40429669-7d58b758-5eb8-11e8-8e9f-8135f3dfe86b.png
@@ -252,13 +284,26 @@
     - name: Note
       topics:
         - development
+        - terminal
       image: https://user-images.githubusercontent.com/2157285/40429929-15081314-5eb9-11e8-8fc9-521fc06518b6.png
       website: https://github.com/pmkary/note
       description: Note is a demo app for Kary Framework that showcases some of its powers. Multi
 
+    - name: Go Corelib
+      topics:
+        - development
+        - terminal
+        - framework
+        - text
+      website: https://github.com/pmkary/go-corelib
+      image: https://user-images.githubusercontent.com/2157285/40479222-55380e38-5f60-11e8-831a-f52bac128f20.jpg
+      description: Go Corelib is a reimplementation of the original Kary Framework for the Go Language with some extra goodies and new capabilities
+
     - name: Clavinet
       topics:
         - development
+        - terminal
+        - language
       website: https://github.com/pmkary/clavinet
       image: https://user-images.githubusercontent.com/2157285/40428770-4ce30292-5eb6-11e8-8b62-e18a56555ed4.jpg
       description: Clavinet is a command line argument parser with its own language rules. It reconstructs the array of args given by the os and uses its own parser to parse it. Given that it can give command line apps abilities like arrays.
