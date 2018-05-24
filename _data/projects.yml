@@ -233,8 +233,8 @@
         - language
         - markdown
       website: https://github.com/pmkary/timpani
-      image: https://user-images.githubusercontent.com/2157285/40471764-dc8b1844-5f4c-11e8-895e-2d5081754816.jpg
-      description: Timpani is a very small language like Markdown but with only a few of Markdown's tools, designed to be parsed in O(n) time for apps written in React Native and similar other platforms where computation is expensive.
+      image: https://user-images.githubusercontent.com/2157285/40472111-ccbfc97c-5f4d-11e8-8bf3-1b93983daa96.png
+      description: Timpani is a very small language like Markdown but with only a few of Markdown's tools, designed to be parsed in O(n) time for apps in React Native and similar other platforms where computation is expensive.
 
 
 
