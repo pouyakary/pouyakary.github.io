@@ -163,12 +163,31 @@
       image: https://user-images.githubusercontent.com/2157285/40435382-c8292134-5ec5-11e8-86d9-c72f07de55a6.png
       description: Marker was Arendelle's web syntax highlighter. It could generate a colored HTML from given Arendelle codes on the fly in the speed of O(n). It only supported Arendelle till version 1.18
 
+    - name: Grid Importer
+      topic:
+        - development
+        - 3d
+      website: https://github.com/pmkary/sketchup-grid-importer
+      image: https://user-images.githubusercontent.com/2157285/40448548-15c257f6-5eeb-11e8-8d76-c54c6f5912fd.png
+      description: A tool that loads the rendered Arendelle blueprints using the Arendelle Grid Files into SketchUp for 3d Printing.
 
-- topic: Pageman
+    - name: Arendelle for Visual Studio Code
+      topic:
+        - development
+        - language
+        - language-support
+      website: https://marketplace.visualstudio.com/items?itemName=karyfoundation.arendelle
+      image: https://user-images.githubusercontent.com/2157285/40471139-004efa90-5f4b-11e8-8bdb-46ec115bd69d.png
+      description: An extension to provide Arendelle language support for Visual Studio Code. This package provides syntax highlighting as well as context-aware intelliSense powered by the Gerda Core.
+
+
+- topic: Markup & Layout
   projects:
     - name: Pageman
       topics:
         - development
+        - language
+        - markup
         - education
       website: https://github.com/pmkary/pageman
       image: https://user-images.githubusercontent.com/2157285/40428139-e2ac43b2-5eb4-11e8-9659-d25228d21b02.png
@@ -177,8 +196,32 @@
     - name: Pageman for Print
       topics:
         - development
+        - language
+        - markup
+        - print
       image: https://user-images.githubusercontent.com/2157285/40432437-f5282632-5ebe-11e8-88b0-c929753835d5.png
       description: A set of tools that makes it possible to use pageman as language for priting like TeX. It provides paging, and print layouts plus a watch mode server for live preview.
+
+    - name: Pageman for Visual Studio Code
+      topics:
+        - development
+        - vscode
+        - highlighter
+        - language
+        - markup
+      website: https://marketplace.visualstudio.com/items?itemName=karyfoundation.pageman
+      image: https://user-images.githubusercontent.com/2157285/40469256-22f04f6e-5f45-11e8-9b58-6eb243a7d82f.png
+      description: Language support package for Visual Studio Code
+
+    - name: Legend
+      topics:
+        - development
+        - web
+        - markup
+        - language
+      website: https://github.com/pmkary/legend
+      image: https://user-images.githubusercontent.com/2157285/40469497-00c06e8c-5f46-11e8-9def-babf620d6921.png
+      description: Legend is an extension to markdown that compiles to a very special HTML format optimized for side bar footnotes as in books. This website uses Legend for it's side notes.
 
 
 - topic: Textual Interfaces
