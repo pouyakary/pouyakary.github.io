@@ -72,14 +72,15 @@
 
 
 
-- topic: Themes
+- topic: Color Schemes
   projects:
     - name: Kary Pro Colors Scheme
       topics:
         - themes
         - themex
+      image: https://user-images.githubusercontent.com/2157285/40503504-7fce4250-5fa3-11e8-9ead-1ac569c941ec.png
       website: https://github.com/pmkary/ProColors
-      description:
+      description: Pro Colors is a color scheme for code highlighting. It's designed to have a look that is pretty and feels like candy because most developer tools do not look like pretty, It's designed to have a homogenous color distribution and in such way that pretty colors are near each other. It's also designed to support as much as tokens as possible to have to most accurate coloring.
 
 
     - name: Kary Pro Colors for Visual Studio Code
@@ -89,7 +90,15 @@
         - procolors
       image: https://user-images.githubusercontent.com/2157285/39585670-942a19bc-4f0a-11e8-9bba-f1ae1471ef5c.png
       website: https://user-images.githubusercontent.com/2157285/39585670-942a19bc-4f0a-11e8-9bba-f1ae1471ef5c.png
-      description:
+      description: Pro Colors for Visual Studio Code is a distribution of Pro Colors with Visual Studio Code's Workbench Themes supporting the color scheme. Since it's release to the Visual Studio Marketplace, Pro Colors has remained in the first page of the themes making it one of the most popular themes in Visual Studio Code.
+
+    - name: themeX
+      topic:
+        - themex
+        - color-scheme
+      image: https://user-images.githubusercontent.com/2157285/40503609-e32e22ac-5fa3-11e8-8760-21f885b0d65c.png
+      website: https://github.com/pmkary/themeX
+      description: themeX is a color scheme generator. It solves some of the major problems in composing cross-editor color schemes by defining a single file that contains tokens, color schemes, and let's the user define color variables. Using this method one can define multiple color schemes via one theme, for example a theme that has Light/Dark versions is easier to be made in themeX. themeX then compiles the theme for different editors making it easy to mailing a singular code-base.
 
 
 
