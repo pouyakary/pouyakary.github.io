@@ -10,6 +10,7 @@
 
 
 
+
 - topic: Orchestra
   description: Since 1950's the syntax of regular languages are kept the same, while today we have much more computational capabilities, due to the syntax of regular expressions one cannot write a big pattern inside of it. Orchestra is a new visual language that makes it easy and safe to write scalable patterns, It both compiles to RegExp and can be compiled from RegExp which makes it easy to be used in any host language.
   projects:
@@ -30,6 +31,7 @@
 
 
 
+
 - topic: computer graphics
   projects:
     - name: Non-Linear Interpolating Shaders
@@ -38,6 +40,7 @@
       website: https://www.youtube.com/watch?v=p5QoNAXlhVM
       image: https://user-images.githubusercontent.com/2157285/40319831-c5cfc95c-5d3e-11e8-8d42-34731dda571e.png
       description: A shading algorithm that extends the ideas and mathematics of <a href="https://en.wikipedia.org/wiki/Gouraud_shading">Gouraoud Shading</a> by giving it custom transition equations. In Gouraud Shaders colors move from one light source to the other by a linear transition, within this shader one can define custom paths and equations and therefore create much more interesting lightings.
+
 
 
 
@@ -67,7 +70,31 @@
       description: Adds language support of KaryScript to Visual Studio Code based on the API provided by the compiler server and KaryScript tmLanguage
 
 
-- topic: Graph Theory
+
+
+- topic: Themes
+  projects:
+    - name: Kary Pro Colors Scheme
+      topics:
+        - themes
+        - themex
+      website: https://github.com/pmkary/ProColors
+      description:
+
+
+    - name: Kary Pro Colors for Visual Studio Code
+      topic:
+        - themex
+        - themes
+        - procolors
+      image: https://user-images.githubusercontent.com/2157285/39585670-942a19bc-4f0a-11e8-9bba-f1ae1471ef5c.png
+      website: https://user-images.githubusercontent.com/2157285/39585670-942a19bc-4f0a-11e8-9bba-f1ae1471ef5c.png
+      description:
+
+
+
+
+- topic: Mathematics
   projects:
     - name: Graph
       topics:
@@ -77,6 +104,21 @@
       image: https://cloud.githubusercontent.com/assets/2157285/17836282/0665fe62-67a2-11e6-9c78-c4d4acb87535.png
       description: A graph programming environment with a powerful graphing engine, powerful high-level API, mathematica notebook like interactive programming, code editor and plugin support.
 
+    - name: numeraX
+      topics:
+        - research
+        - development
+      website: http://numerax.toys.kary.us
+      image: https://user-images.githubusercontent.com/2157285/40322317-3b801758-5d47-11e8-90d5-8b4b967b4cba.png
+      description: Working with mathematics in computers has shown me that most people have a hard time to change the notation of math to computer language. numeraX is an experiment to find out to which extent is it possible to develop a language like math.
+
+    - name: Octobass
+      topics:
+        - graph
+      website: https://github.com/pmkary/octobass
+      image: https://user-images.githubusercontent.com/2157285/40444802-94feded8-5edf-11e8-936b-a33b59516c08.jpg
+      description: Octobass is a dependency execution framework for developers. It gets a dependency graph and then executes a function on each node by first evaluating the dependencies.
+
     - name: Workout
       topics:
         - graph
@@ -85,12 +127,6 @@
       image: https://user-images.githubusercontent.com/2157285/40441072-286a9c80-5ed5-11e8-9d17-80b89c080956.png
       description: Workout is an experiment with the idea of dependent equations. Say <code>A = x + 2</code> is a given equation, then it depends on <code>x</code>. Workout computes a dependency graph and then tries to compute as equations as possible.
 
-    - name: Octobass
-      topics:
-        - graph
-      website: https://github.com/pmkary/octobass
-      image: https://user-images.githubusercontent.com/2157285/40444802-94feded8-5edf-11e8-936b-a33b59516c08.jpg
-      description: Octobass is a dependency execution framework for developers. It gets a dependency graph and then executes a function on each node by first evaluating the dependencies.
 
 
 
@@ -112,13 +148,6 @@
       image: https://camo.githubusercontent.com/4a6b2656205614eefc47d90b6b41eff08eeebaae/687474703a2f2f6b6172792e75732f47726170686963732f426c6f672f373933362e32312e382e32362f6373732d332e706e67
       description: Righteous is a code formatter based on Kary Coding Standard that targets the web and currently is developed for CSS, JavaScript and TypeScript.
 
-    - name: numeraX
-      topics:
-        - research
-        - development
-      website: http://numerax.toys.kary.us
-      image: https://user-images.githubusercontent.com/2157285/40322317-3b801758-5d47-11e8-90d5-8b4b967b4cba.png
-      description: Working with mathematics in computers has shown me that most people have a hard time to change the notation of math to computer language. numeraX is an experiment to find out to which extent is it possible to develop a language like math.
 
 
 
@@ -181,6 +210,8 @@
       description: An extension to provide Arendelle language support for Visual Studio Code. This package provides syntax highlighting as well as context-aware intelliSense powered by the Gerda Core.
 
 
+
+
 - topic: Markup & Layout
   projects:
     - name: Pageman
@@ -238,6 +269,7 @@
 
 
 
+
 - topic: Frameworks
   projects:
     - name: Cozy
@@ -258,6 +290,8 @@
       description: Tambourine is a framework for writing musical theory software. Main goal is to have a library capable of computing musical theory so that one can write a Harmonizer Engine on top of it.
 
 
+
+
 - topic: Textual Interfaces
   projects:
     - name: Kary Framework
@@ -271,7 +305,7 @@
       image: https://user-images.githubusercontent.com/2157285/40478216-b4f8651e-5f5d-11e8-9aba-62df7b6d10d0.png
       description: Kary Framework &mdash;originally targeting .NET&mdash; was a String Manipulation Framework. It had tools for visually aligning, lay-outing, manipulating, and styling strings. It also had tools for creating UIs with strings and also had Terminal Widgets for creating rich Text UIs.
 
-    - name: Kary.Intactus
+    - name: Intactus
       topics:
         - development
         - terminal
