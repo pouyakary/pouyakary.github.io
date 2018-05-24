@@ -189,6 +189,7 @@
         - language
         - markup
         - education
+        - markdown
       website: https://github.com/pmkary/pageman
       image: https://user-images.githubusercontent.com/2157285/40428139-e2ac43b2-5eb4-11e8-9659-d25228d21b02.png
       description: Pageman is a basic HTML processor designed to be used alongside the Jekyll to develop this website but grown into a thing for itself. Pageman let's one use Markdown, HTML, Legend and any other language in one file as well as providing C-like comments.
@@ -219,9 +220,22 @@
         - web
         - markup
         - language
+        - markdown
       website: https://github.com/pmkary/legend
       image: https://user-images.githubusercontent.com/2157285/40469497-00c06e8c-5f46-11e8-9def-babf620d6921.png
       description: Legend is an extension to markdown that compiles to a very special HTML format optimized for side bar footnotes as in books. This website uses Legend for it's side notes.
+
+    - name: Timpani
+      topics:
+        - development
+        - web
+        - markup
+        - language
+        - markdown
+      website: https://github.com/pmkary/timpani
+      image: https://user-images.githubusercontent.com/2157285/40471764-dc8b1844-5f4c-11e8-895e-2d5081754816.jpg
+      description: Timpani is a very small language like Markdown but with only a few of Markdown's tools, designed to be parsed in O(n) time for apps written in React Native and similar other platforms where computation is expensive.
+
 
 
 - topic: Textual Interfaces
