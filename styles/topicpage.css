@@ -345,11 +345,13 @@ h1 {
 
 .kf-sidebar-H2 {
     border-left:            1.5px #47AC19 solid;
+    clear:                  left;
     color:                  #424242;
+    display:                block;
     font-size:              0.7rem;
     letter-spacing:         2px;
     margin-left:            1px;
-    padding:                3px 0 3px 10px;
+    padding:                3px 0 10px 10px;
     transition-duration:    0.4s;
 }
 
@@ -393,12 +395,12 @@ h1 {
 }
 
 #kf-topic-page-header-title {
-    border-left:            2px solid #5D5D5D;
     padding-bottom:         0.2rem;
+    padding-left:           0.9rem;
     color:                  white;
     font-size:              1.2rem;
     left:                   12rem;
-    padding-left:           0.9rem;
+    border-left:            2px solid #5D5D5D;
     padding-top:            0.2rem;
     position:               fixed;
     top:                    0.6rem;
