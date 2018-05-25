@@ -221,7 +221,7 @@ h1 {
 
 .toc-on-top #kf-topic-toc {
     max-height:             calc( 100vh - 240pt );
-    transition-duration:    0.1s;
+    transition-duration:    0.2s;
 }
 
 .kf-topic-page-sidebar-box {
@@ -412,12 +412,12 @@ h1 {
 }
 
 #kf-topic-page-header-title {
+    padding-bottom:         0.2rem;
     padding-left:           0.9rem;
-    border-left:            2px solid #5D5D5D;
     color:                  white;
     font-size:              1.2rem;
     left:                   12rem;
-    padding-bottom:         0.2rem;
+    border-left:            2px solid #5D5D5D;
     padding-top:            0.2rem;
     position:               fixed;
     top:                    0.6rem;
