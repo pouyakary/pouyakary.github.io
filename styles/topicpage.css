@@ -371,7 +371,14 @@ h1 {
     font-size:              0.7rem;
     letter-spacing:         2px;
     margin-left:            1px;
-    padding:                3px 0 10px 10px;
+    max-width:              calc( 100% - 15px );
+    padding:                6px 0 6px 15px;
+    transition-duration:    0.4s;
+}
+
+.toc-on-middle .kf-sidebar-H2 {
+    border-left-color:      transparent;
+    padding-left:           5px;
     transition-duration:    0.4s;
 }
 
@@ -380,13 +387,12 @@ h1 {
 }
 
 .kf-sidebar-H1:hover, .kf-sidebar-H2:hover {
-    color:      #9F0D97;
+    color:      #1C7AB8;
     cursor:     default;
 }
 
 .kf-sidebar-H2:hover {
-    padding-left:           15px;
-    transition-duration:    0.4s;
+    background-color:       rgba(224, 238, 250, 0.521);
 }
 
 .toc-on-top {
@@ -419,12 +425,12 @@ h1 {
 }
 
 #kf-topic-page-header-title {
+    padding-bottom:         0.2rem;
     padding-left:           0.9rem;
-    border-left:            2px solid #5D5D5D;
     color:                  white;
     font-size:              1.2rem;
     left:                   12rem;
-    padding-bottom:         0.2rem;
+    border-left:            2px solid #5D5D5D;
     padding-top:            0.2rem;
     position:               fixed;
     top:                    0.6rem;

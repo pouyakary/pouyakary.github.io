@@ -15,8 +15,9 @@
 }
 
 #kf-nav-logo {
-    float:          left;
-    padding-top:    0.9rem;
+    float:              left;
+    padding-bottom:     0.1rem;
+    padding-top:        0.8rem;
 }
 
 #kf-nav-links {
@@ -32,13 +33,14 @@
     background-color:       transparent;
     border-bottom:          2pt transparent dashed;
     color:                  #eee;
-    padding:                0.2rem 0 0.2rem 0;
+    font-weight:            300;
+    padding-bottom:         0.2rem;
     text-decoration:        none;
     transition-duration:    0.3s;
 }
 
 #kf-nav-links a:hover {
-    background-color:       #111;
+    color:                  white;
     transition-duration:    0.2s;
 }
 
