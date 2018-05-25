@@ -37,9 +37,17 @@
     - name: Non-Linear Interpolating Shaders
       topics:
         - research
+        - cgi
       website: https://www.youtube.com/watch?v=p5QoNAXlhVM
       image: https://user-images.githubusercontent.com/2157285/40319831-c5cfc95c-5d3e-11e8-8d42-34731dda571e.png
       description: A shading algorithm that extends the ideas and mathematics of <a href="https://en.wikipedia.org/wiki/Gouraud_shading">Gouraoud Shading</a> by giving it custom transition equations. In Gouraud Shaders colors move from one light source to the other by a linear transition, within this shader one can define custom paths and equations and therefore create much more interesting lightings.
+
+    - name: Fun Shaders
+      topics:
+        - cgi
+      image: https://user-images.githubusercontent.com/2157285/40540554-d2f77372-602d-11e8-8429-57c9fb1b479d.png
+      website: http://shaders.toys.kary.us/
+      description: I write GLSL shaders from time to time and this is a small gallery containing them. You may find them fun or dumb! it's notihng serious.
 
 
 
