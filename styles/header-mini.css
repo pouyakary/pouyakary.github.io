@@ -34,11 +34,12 @@
     color:                  #eee;
     padding:                0.2rem 0 0.2rem 0;
     text-decoration:        none;
-    transition-duration:    0.5s;
+    transition-duration:    0.3s;
 }
 
 #kf-nav-links a:hover {
     background-color:       #111;
+    transition-duration:    0.2s;
 }
 
 #kf-nav-link-1:hover {
