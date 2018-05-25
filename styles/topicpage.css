@@ -228,7 +228,7 @@ h1 {
     background-color:       white;
     border:                 1pt solid #f1f1f1;
     border-radius:          5pt;
-    box-shadow:             0 0 6pt rgba( 0, 0, 0, 0.1 );
+    box-shadow:             0 0 6pt rgba( 0, 0, 0, 0.15 );
     padding:                15pt;
     padding-top:            14px;
     transition-duration:    0.5s;
@@ -412,12 +412,12 @@ h1 {
 }
 
 #kf-topic-page-header-title {
-    border-left:            2px solid #5D5D5D;
     padding-bottom:         0.2rem;
+    padding-left:           0.9rem;
     color:                  white;
     font-size:              1.2rem;
     left:                   12rem;
-    padding-left:           0.9rem;
+    border-left:            2px solid #5D5D5D;
     padding-top:            0.2rem;
     position:               fixed;
     top:                    0.6rem;
