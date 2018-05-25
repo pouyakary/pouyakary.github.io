@@ -77,8 +77,17 @@
     - name: HeatStudio v.1
       topics:
         - bim
+        - heatstudio
       image: https://user-images.githubusercontent.com/2157285/40538585-63c8ea40-6027-11e8-9b7a-ce40b15cb139.jpg
       description: HeatStudio is a suite of software for computing building's Heat Transfer Coefficient. It's being developed as a software for evaluating Iranian's Building Regulation (A.K.A Chapter 19) for Energy Efficiency. It has a set of tools for modeling a building, a computational engine to compute the heat transfer based on the model and a given algorithm by the Chapter 19 and a tool for investigating the results. We abandoned this software in favor of the version 2 which has a much broader set of features.
+
+    - name: IDF for Visual Studio Code
+      topics:
+        - bim
+        - heatstudio
+      website: https://marketplace.visualstudio.com/items?itemName=karyfoundation.idf
+      image: https://cloud.githubusercontent.com/assets/2157285/16933298/7c71ed2e-4d61-11e6-8c67-1b5722619c94.png
+      description: A package that provides language support for all the IDF based energy file formats like IDF, OpenStudio, HeatStudio, Heat19, HSTB, etc.
 
 
 
