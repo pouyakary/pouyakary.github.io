@@ -32,7 +32,7 @@
 
 
 
-- topic: computer graphics
+- topic: Computer Graphics
   projects:
     - name: Non-Linear Interpolating Shaders
       topics:
@@ -139,7 +139,7 @@
 
 
 
-- topic: code quality
+- topic: Code Quality
   projects:
     - name: Kary Coding Standard
       topics:
@@ -156,6 +156,22 @@
       website: https://github.com/pmkary/righteous
       image: https://camo.githubusercontent.com/4a6b2656205614eefc47d90b6b41eff08eeebaae/687474703a2f2f6b6172792e75732f47726170686963732f426c6f672f373933362e32312e382e32362f6373732d332e706e67
       description: Righteous is a code formatter based on Kary Coding Standard that targets the web and currently is developed for CSS, JavaScript and TypeScript.
+
+    - name: Comment V for Visual Studio Code
+      topics:
+        - research
+        - development
+      website: https://marketplace.visualstudio.com/items?itemName=karyfoundation.comment
+      image: https://user-images.githubusercontent.com/2157285/40504888-d2d75bcc-5fa7-11e8-8008-ff77a2b7f959.png
+      description: Comment V is an extension for Visual Studio Code providing Kary Comments. It uses contex-aware generation of comment making it easy to just create a comment by pushing a button.
+
+    - name: Comment IV
+      topics:
+        - research
+        - development
+      website: http://comment.kary.us
+      image: https://user-images.githubusercontent.com/2157285/40504617-01b5f9e0-5fa7-11e8-953c-81ffe65d11c5.png
+      description: Comment IV is a web app for generating Kary Comments, It supports every comment format and most of the supported languages
 
 
 
@@ -290,6 +306,12 @@
       image: https://user-images.githubusercontent.com/2157285/40476346-12d1b01e-5f59-11e8-97e2-0708dcd5c29e.jpg
       description: Cozy is a web framework that is not a framework but rather a base project. It implements a Functional Reactive Programming structure with Storage, View and mid-level toolings on TypeScript. It creates a project in such way that only a TypeScript compiler be enough for compiling/bundling and minimizing the code.
 
+    - name: Bassoon
+      topics:
+        - storage
+      image: https://user-images.githubusercontent.com/2157285/40504098-75b5a8e2-5fa5-11e8-89d3-0257542c37de.png
+      description: Bassoon is a framework that implements an I/O infrastructure for apps in which makes it possible for them to share their data without a central server using an algorithm like IMAP on any given protocol (say a hard disk, FTP, Dropbox...)
+
     - name: Tambourine
       topics:
         - development
@@ -350,3 +372,37 @@
       website: https://github.com/pmkary/clavinet
       image: https://user-images.githubusercontent.com/2157285/40428770-4ce30292-5eb6-11e8-8b62-e18a56555ed4.jpg
       description: Clavinet is a command line argument parser with its own language rules. It reconstructs the array of args given by the os and uses its own parser to parse it. Given that it can give command line apps abilities like arrays.
+
+
+
+
+- topic: Mental Health
+  projects:
+    - name: Ungamify
+      topics:
+        - mental-health
+        - web
+        - webextension
+      website: http://health.kary.us/
+      image: https://user-images.githubusercontent.com/2157285/40536185-8b1da56a-6020-11e8-9550-c7336ec76842.png
+      description: Since gamification methods are being used to keep us release dopamine and stay within a website for a long time, This WebExtension tries to remove all gamification elements of a website like counters, notifications, related suggestions, commenting, like and any other method used to keep you stuck in a web page.
+
+    - name: Self Stopper
+      topics:
+        - mental-health
+        - web
+        - webextension
+      website: http://health.kary.us/
+      image: https://user-images.githubusercontent.com/2157285/40536292-e03e3906-6020-11e8-84bf-129466a9f8e0.png
+      description: For those of us with bad habits, Self Stopper is a WebExtension that blocks a given set of web addresses. So if you just keep returning to Twitter and find it a waste of your time you can simply block it to yourself!
+
+
+
+
+- topic: Others
+  projects:
+    - name: Kary Note for Phones
+      topics:
+        - notes
+      image: https://user-images.githubusercontent.com/2157285/40503994-1d72131e-5fa5-11e8-8474-071c486674c3.png
+      description: Note for Phone is was a re-implementation of Kary Note in Command line. In making of this phone app I developed the Bassoon and Timpani tools and started to make the app more than what it used to be. For now I'm making a new app for the web and for the Phone to become the dominant note app for me.
