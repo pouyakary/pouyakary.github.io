@@ -30,27 +30,27 @@
 
 #kf-nav-links a {
     background-color:       transparent;
-    border-radius:          20px;
+    border-bottom:          2pt transparent dashed;
     color:                  #eee;
-    padding:                0.2rem 0.8rem 0.2rem 0.8rem;
+    padding:                0.2rem 0 0.2rem 0;
     text-decoration:        none;
     transition-duration:    0.5s;
 }
 
-#kf-nav-links a {
-    transition-duration:    0.5s;
+#kf-nav-links a:hover {
+    background-color:       #111;
 }
 
 #kf-nav-link-1:hover {
-    background-color:       #5B67A5;
+    border-color:       #5B67A5;
 }
 
 #kf-nav-link-2:hover {
-    background-color:       #745CA5;
+    border-color:       #745CA5;
 }
 
 #kf-nav-link-3:hover {
-    background-color:       #5BA55C;
+    border-color:       #5BA55C;
 }
 
 @media ( max-width: 550px ) {
