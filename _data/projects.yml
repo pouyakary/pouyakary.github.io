@@ -72,6 +72,17 @@
 
 
 
+- topic: Building Energy
+  projects:
+    - name: HeatStudio v.1
+      topics:
+        - bim
+      image: https://user-images.githubusercontent.com/2157285/40538585-63c8ea40-6027-11e8-9b7a-ce40b15cb139.jpg
+      description: HeatStudio is a suite of software for computing building's Heat Transfer Coefficient. It's being developed as a software for evaluating Iranian's Building Regulation (A.K.A Chapter 19) for Energy Efficiency. It has a set of tools for modeling a building, a computational engine to compute the heat transfer based on the model and a given algorithm by the Chapter 19 and a tool for investigating the results. We abandoned this software in favor of the version 2 which has a much broader set of features.
+
+
+
+
 - topic: Color Schemes
   projects:
     - name: Kary Pro Colors Scheme
@@ -354,6 +365,16 @@
       website: https://github.com/pmkary/note
       description: Note is a demo app for Kary Framework that showcases some of its powers. Multi
 
+    - name: Kary Series
+      topics:
+        - development
+        - text
+        - demo
+        - game
+      website: https://github.com/pmkary/series
+      image: https://user-images.githubusercontent.com/2157285/40537540-72b3f5b6-6024-11e8-95d0-b17794eff3d1.png
+      description: Series is a game in which one has to find the formula of a series. It's made using Kary Framework and Monodraw to show the power of the textual interface creation.
+
     - name: Go Corelib
       topics:
         - development
@@ -372,6 +393,26 @@
       website: https://github.com/pmkary/clavinet
       image: https://user-images.githubusercontent.com/2157285/40428770-4ce30292-5eb6-11e8-8b62-e18a56555ed4.jpg
       description: Clavinet is a command line argument parser with its own language rules. It reconstructs the array of args given by the os and uses its own parser to parse it. Given that it can give command line apps abilities like arrays.
+
+
+
+
+- topic: Nearley
+  description: I use <a href="https://nearley.js.org/">Nearley</a> parser generator which is a fantastic generator, but it didn't have much of language support and so I made a few tools to make it usable in my workflow.
+  projects:
+    - name: Nearley for Visual Studio Code
+      topics:
+        - notes
+      image: https://cloud.githubusercontent.com/assets/2157285/24349074/2b0030ba-12f3-11e7-948e-72951a8bc35c.png
+      website: https://marketplace.visualstudio.com/items?itemName=karyfoundation.nearley
+      description: Syntax Highlighting Support for Nearley Parser Generator Language. Supported by other Kary extensions like Comment and Kary Pro Colors.
+
+    - name: Nearley Playground for Mac
+      topics:
+        - notes
+      image: https://cloud.githubusercontent.com/assets/2157285/24335257/ec18d65e-128e-11e7-9fac-945b0f1d46a8.png
+      website: https://github.com/pmkary/nearley-playground-mac
+      description: A very simple offline version of Nearley Playground for Mac using MacGap with an optimized view.
 
 
 
@@ -399,6 +440,7 @@
 
 
 
+
 - topic: Others
   projects:
     - name: Kary Note for Phones
@@ -406,3 +448,23 @@
         - notes
       image: https://user-images.githubusercontent.com/2157285/40503994-1d72131e-5fa5-11e8-8474-071c486674c3.png
       description: Note for Phone is was a re-implementation of Kary Note in Command line. In making of this phone app I developed the Bassoon and Timpani tools and started to make the app more than what it used to be. For now I'm making a new app for the web and for the Phone to become the dominant note app for me.
+
+    - name: Pirate Browser
+      topics:
+        - electron
+        - web
+        - browser
+        - fork
+      image: https://cloud.githubusercontent.com/assets/2157285/21816130/3bcfae62-d774-11e6-884b-694a3e5c8ade.png
+      website: https://github.com/pmkary/pirate
+      description: Pirate is a fork of <a href="https://brave.com/">Brave Browser</a> that is just a little bit more pretty because I found the original browser unbearable.
+
+    - name: Telephone
+      topics:
+        - electron
+        - web
+        - terminal
+        - fork
+      image: https://cloud.githubusercontent.com/assets/2157285/21894736/849c3624-d8f5-11e6-800f-db999f6ac713.png
+      website: https://github.com/pmkary/telephone
+      description: A fork of <a href="https://github.com/railsware/upterm">Upterm</a> Terminal with a few goodies like a much better auto-suggestion algorithm supporting T9 search and a light and fun theme.
