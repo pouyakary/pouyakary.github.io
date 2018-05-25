@@ -12,6 +12,12 @@
     margin-bottom:      3rem;
 }
 
+@media screen and ( max-width: 500px ) {
+    .projects-project-box {
+        flex-direction:     column-reverse;
+    }
+}
+
 .projects-project-box + h2 {
     margin-top:     5rem;
 }
@@ -24,6 +30,19 @@
     max-width:      220pt !important;
     object-fit:     contain;
     width:          100%;
+}
+
+@media screen and ( max-width: 700px ) {
+    .kf-topic-page-article img {
+        max-width:      150pt !important;
+    }
+}
+
+@media screen and ( max-width: 500px ) {
+    .kf-topic-page-article img {
+        margin-top:     1rem;
+        max-width:      100% !important;
+    }
 }
 
 .projects-project-description-box {
@@ -46,7 +65,7 @@
     color:                  #AA630C !important;
     display:                block;
     font-family:            "Montserrat";
-    font-size:              0.9em;
+    font-size:              0.9rem;
     font-weight:            500;
     margin-top:             1em !important;
     text-decoration:        none !important;
