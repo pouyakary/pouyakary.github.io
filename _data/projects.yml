@@ -468,6 +468,15 @@
       website: https://github.com/pmkary/pirate
       description: Pirate is a fork of <a href="https://brave.com/">Brave Browser</a> that is just a little bit more pretty because I found the original browser unbearable.
 
+    - name: Racket for Visual Studio Code
+      topics:
+        - vscode
+        - racket
+        - lisp
+      image: https://user-images.githubusercontent.com/2157285/27756038-51ac30b8-5e09-11e7-812e-dba843728e6c.png
+      website: https://marketplace.visualstudio.com/items?itemName=karyfoundation.racket
+      description: Language support for the <a href="https://racket-lang.org/">Racket Language</a> that has better colorization which is heavily supported by the Pro Colors and also having a context-aware auto-compilation support for Racket.
+
     - name: Telephone
       topics:
         - electron
