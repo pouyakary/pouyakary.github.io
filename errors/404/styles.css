@@ -1,0 +1,56 @@
+
+.back {
+    background-color:       black;
+    background-image:       url('/media/404/back.png');
+    background-position:    center;
+    background-repeat:      no-repeat;
+    background-size:        contain;
+    height:                 100vh;
+    width:                  100vw;
+}
+
+.dynamic-back {
+    height:     100vh;
+    width:      100vw;
+}
+
+#error-text {
+    background-image:       url('/media/404/repeat.png');
+    background-size:        contain;
+    color:                  white;
+    height:                 150px;
+    padding:                50px;
+    position:               absolute;
+    top:                    calc( 50vh - 120px );
+    width:                  calc( 100vw - 100px );
+}
+
+.error-text-box {
+    display:        flex;
+    font-size:      1.1rem;
+    margin:         auto;
+    max-width:      550px;
+    padding:        0 20px 0 20px;
+}
+
+.error-text-box > h1 {
+    border-bottom:      rgba(255, 255, 255, 0.7) 2px solid;
+    margin-bottom:      10px;
+    padding-bottom:     5px;
+}
+
+#error-icon {
+    background-image:       url('/media/404/icon.svg');
+    background-size:        contain;
+    flex:                   auto;
+    height:                 90px;
+    margin-top:             10px;
+    max-width:              90px;
+    min-width:              90px;
+    width:                  90px;
+}
+
+#error-body {
+    flex:               auto;
+    padding-left:       20px;
+}
