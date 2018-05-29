@@ -203,8 +203,12 @@ h1 {
 }
 
 #kf-topic-page-sidebar {
-    right:      9vw;
-    width:      9rem;
+    -moz-user-select:       none;
+    -ms-user-select:        none;
+    -webkit-user-select:    none;
+    right:                  9vw;
+    user-select:            none;
+    width:                  9rem;
 }
 
 @media ( max-width: 1000px ) {
@@ -432,12 +436,12 @@ h1 {
 }
 
 #kf-topic-page-header-title {
-    padding-bottom:         0.2rem;
     padding-left:           0.9rem;
+    border-left:            2px solid #5D5D5D;
     color:                  white;
     font-size:              1.2rem;
     left:                   12rem;
-    border-left:            2px solid #5D5D5D;
+    padding-bottom:         0.2rem;
     padding-top:            0.2rem;
     position:               fixed;
     top:                    0.6rem;
