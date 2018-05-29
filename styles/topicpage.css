@@ -437,15 +437,19 @@ h1 {
 
 #kf-topic-page-header-title {
     padding-left:           0.9rem;
-    border-left:            2px solid #5D5D5D;
+    position:               fixed;
     color:                  white;
     font-size:              1.2rem;
     left:                   12rem;
     padding-bottom:         0.2rem;
+    border-left:            2px solid #5D5D5D;
     padding-top:            0.2rem;
-    position:               fixed;
+    -webkit-user-select:    none;
+    -moz-user-select:       none;
+    -ms-user-select:        none;
     top:                    0.6rem;
     transition-duration:    0.3s;
+    user-select:            none;
     z-index:                2;
 }
 
