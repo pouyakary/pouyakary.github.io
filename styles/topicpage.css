@@ -436,17 +436,17 @@ h1 {
 }
 
 #kf-topic-page-header-title {
-    padding-left:           0.9rem;
-    position:               fixed;
+    padding-bottom:         0.2rem;
+    -ms-user-select:        none;
+    -moz-user-select:       none;
+    padding-top:            0.2rem;
     color:                  white;
+    -webkit-user-select:    none;
+    border-left:            2px solid #5D5D5D;
     font-size:              1.2rem;
     left:                   12rem;
-    padding-bottom:         0.2rem;
-    border-left:            2px solid #5D5D5D;
-    padding-top:            0.2rem;
-    -webkit-user-select:    none;
-    -moz-user-select:       none;
-    -ms-user-select:        none;
+    padding-left:           0.9rem;
+    position:               fixed;
     top:                    0.6rem;
     transition-duration:    0.3s;
     user-select:            none;
