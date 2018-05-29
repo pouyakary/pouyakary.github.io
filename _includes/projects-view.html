@@ -12,7 +12,7 @@
         {%- endfor -%}
     {%- endfor -%}
     {%- if project_in_topi_exists == "true" -%}
-        <h2 class="projects-topic-h2">{{ topic.topic }}</h2>
+        <h2 id="{{ topic.topic | url_encode }}" class="projects-topic-h2">{{ topic.topic }}</h2>
         {%- if topic.description -%}
             <div class="legend-section projects-topic-description">
                 <div class="legend-paragraph">
