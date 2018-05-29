@@ -57,7 +57,7 @@
             reference.setAttribute( 'target-id', heading.id )
 
             reference.onclick = function ( ev ) {
-                scroll( ev.target.getAttribute('target-id') )
+                scrollToElementId( ev.target.getAttribute('target-id') )
             }
 
             // done
@@ -69,8 +69,12 @@
 // ─── SCROLL TO FUNCTION ─────────────────────────────────────────────────────────
 //
 
-    function scroll ( element ) {
-        window.scrollTo( 0, document.getElementById( element ).offsetTop - 100 )
+    function scrollToElementId ( element ) {
+        window.scroll({
+            top:        document.getElementById( element ).offsetTop - 100,
+            left:       0,
+            behavior:   'smooth'
+        })
     }
 
 //
