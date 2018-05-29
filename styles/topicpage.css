@@ -123,34 +123,42 @@ h1 {
     height:         2.2rem;
     position:       relative;
     top:            -2.2rem;
-    width:          fit-content;
 }
 
 .kf-topic-tab-middle {
     -moz-user-select:       none;
+    font-weight:            700;
     -webkit-user-select:    none;
     background-color:       white;
     font-size:              1.2rem;
-    font-weight:            700;
+    max-width:              fit-content;
     min-height:             2.2rem;
-    padding:                0.5em 0.1em 0 0.1em;
+    min-width:              fit-content;
+    overflow:               hidden;
+    padding:                0.5em 0 0 0;
     user-select:            none;
 }
 
 .kf-topic-tab-side {
+    background-image:       url('/media/topicpage/tab-left.svg');
     background-position:    center;
     background-repeat:      no-repeat;
     background-size:        cover;
+    flex:                   auto;
     height:                 2.2rem;
+    max-width:              2.2rem;
+    min-width:              2.2rem;
     width:                  2.2rem;
 }
 
 .kf-topic-tab-side.left {
-    background-image:       url('/media/topicpage/tab-left.svg');
+    background-position:    center right;
 }
 
 .kf-topic-tab-side.right {
-    background-image:       url('/media/topicpage/tab-right.svg');
+    background-position:    center left;
+    margin-left:            -1px;
+    transform:              scaleX(-1);
 }
 
 .kf-topic-page-main-container {
@@ -366,10 +374,6 @@ h1 {
     color:                  #1C7AB8 !important;
 }
 
-.kf-sidebar-H1 + .kf-sidebar-H1 {
-    padding-bottom:     0.7em !important;
-}
-
 .kf-sidebar-H1 a, .kf-sidebar-H1 a:visited {
     color:      inherit;
 }
@@ -436,16 +440,16 @@ h1 {
 }
 
 #kf-topic-page-header-title {
+    font-size:              1.2rem;
     padding-bottom:         0.2rem;
-    -ms-user-select:        none;
     -moz-user-select:       none;
-    padding-top:            0.2rem;
+    left:                   12rem;
     color:                  white;
     -webkit-user-select:    none;
     border-left:            2px solid #5D5D5D;
-    font-size:              1.2rem;
-    left:                   12rem;
+    -ms-user-select:        none;
     padding-left:           0.9rem;
+    padding-top:            0.2rem;
     position:               fixed;
     top:                    0.6rem;
     transition-duration:    0.3s;
