@@ -126,17 +126,17 @@ h1 {
 }
 
 .kf-topic-tab-middle {
-    -moz-user-select:       none;
-    font-weight:            700;
-    -webkit-user-select:    none;
+    max-width:              fit-content;
     background-color:       white;
     font-size:              1.2rem;
-    max-width:              fit-content;
+    font-weight:            700;
     min-height:             2.2rem;
     min-width:              fit-content;
     overflow:               hidden;
     padding:                0.5em 0 0 0;
     user-select:            none;
+    -moz-user-select:       none;
+    -webkit-user-select:    none;
 }
 
 .kf-topic-tab-side {
@@ -441,20 +441,28 @@ h1 {
 
 #kf-topic-page-header-title {
     font-size:              1.2rem;
-    padding-bottom:         0.2rem;
-    -moz-user-select:       none;
-    left:                   12rem;
-    color:                  white;
-    -webkit-user-select:    none;
     border-left:            2px solid #5D5D5D;
-    -ms-user-select:        none;
+    color:                  white;
+    left:                   12rem;
     padding-left:           0.9rem;
     padding-top:            0.2rem;
     position:               fixed;
     top:                    0.6rem;
     transition-duration:    0.3s;
     user-select:            none;
+    -moz-user-select:       none;
+    -ms-user-select:        none;
+    -webkit-user-select:    none;
     z-index:                2;
+}
+
+#kf-topic-page-header-title-link {
+    padding-bottom:     0.15em;
+    border-bottom:      0.1em solid transparent;
+}
+
+#kf-topic-page-header-title-link:hover {
+    border-bottom-color:    red;
 }
 
 .kf-topic-page-header-title-hidden {

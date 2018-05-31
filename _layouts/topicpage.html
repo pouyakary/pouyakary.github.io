@@ -11,8 +11,11 @@ hidemargin: false
 	 style="background-image: url('/media/{{ page.back }}');">
 </div>
 
-<div id="kf-topic-page-header-title"
-	 class="kf-topic-page-header-title-hidden">{{ page.title }}</div>
+<div onclick="topicPageScrollToTop( )"
+  	      id="kf-topic-page-header-title"
+	   class="kf-topic-page-header-title-hidden">
+	   <div id="kf-topic-page-header-title-link">{{ page.title }}</div>
+</div>
 
 <div class="kf-topic-page-main-container">
 	<div class="kf-topic-page-main">
