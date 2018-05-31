@@ -457,11 +457,13 @@ h1 {
 }
 
 #kf-topic-page-header-title-link {
-    padding-bottom:     0.15em;
-    border-bottom:      0.1em solid transparent;
+    padding-bottom:         0.15em;
+    border-bottom:          0.1em solid transparent;
+    transition-duration:    0.3s;
 }
 
 #kf-topic-page-header-title-link:hover {
+    transition-duration:    0.2s;
     border-bottom-color:    red;
 }
 
