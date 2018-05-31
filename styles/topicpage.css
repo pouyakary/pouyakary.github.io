@@ -420,10 +420,6 @@ h1 {
     top:            80px;
 }
 
-.toc-on-middle .kf-topic-page-sidebar-box {
-
-}
-
 .toc-on-bottom .kf-topic-page-sidebar-box, .toc-on-middle .kf-topic-page-sidebar-box {
     box-shadow:     0 0 0 transparent;
 }
