@@ -164,6 +164,12 @@
       image: https://user-images.githubusercontent.com/2157285/40441072-286a9c80-5ed5-11e8-9d17-80b89c080956.png
       description: Workout is an experiment with the idea of dependent equations. Say <code>A = x + 2</code> is a given equation, then it depends on <code>x</code>. Workout computes a dependency graph and then tries to compute as equations as possible.
 
+    - name: Calculat
+      topics:
+        - math
+      image: https://user-images.githubusercontent.com/2157285/40780823-01b4238e-64ef-11e8-9513-75842297a7b4.png
+      description: Calculate was a fork of <a href="https://github.com/MichaelAguilar/NCalc">NCalc</a> for Kary Framework that added a lot to its foundation. It added case-insensitivity to the parser, a few new operators and change the bitwise operators to math operators. At the end it completely removed the storage and type-caster in favor of implementing big number to the NCalc.
+
     - name: Numerica
       topics:
         - arbitrary-percision-type
@@ -257,6 +263,13 @@
       website: https://github.com/pmkary/sketchup-grid-importer
       image: https://user-images.githubusercontent.com/2157285/40448548-15c257f6-5eeb-11e8-8d76-c54c6f5912fd.png
       description: A tool that loads the rendered Arendelle blueprints using the Arendelle Grid Files into SketchUp for 3d Printing.
+
+    - name: Pabbie Language
+      topics:
+        - arandelle
+        - nlp
+      image: https://user-images.githubusercontent.com/2157285/40772095-544f4c7e-64d4-11e8-8f53-02f87316628c.png
+      description: Pabbie language was an experiment to create a language with Arendelle as it's engine that looked as Plain-English. Motivation was to bring Arendelle to the ones who didn't like it's short army-code like style.
 
     - name: Arendelle for Visual Studio Code
       topic:
@@ -508,6 +521,15 @@
         - text
       image: http://image.basekit.com/live116395_screenshotfrom2012-06-16131006.png
       description: Nexear was a cross-platform text editor. It supported multiple panels for editing (things like tabs), had a GUI interface as well as an internal commanding interface and could be controlled by only typing. The interface came with many tools like an internal calculator, formatters, editing options, Arendelle toolings and could import many formats like ePub, PDF, DOC, etc to plain text.
+
+    - name: Flip it Kary!
+      topcis:
+        - encoding
+        - pdf
+        - text
+        - persian
+      image: https://user-images.githubusercontent.com/2157285/40772872-6bcc5944-64d6-11e8-9b7a-bf0d5801e506.png
+      description: When trying to import text from a Persian PDF file you'll end up having all the text broken. Persian characters get mixed up with Arabic ones, the directions get messy and the places get mixed up. Flip it Kary! was a project that could import text from PDF and fix it to normal Persian.
 
     - name: Racket for Visual Studio Code
       topics:
