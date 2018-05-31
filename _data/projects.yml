@@ -527,7 +527,7 @@
         - mental-health
         - web
         - webextension
-      image: https://user-images.githubusercontent.com/2157285/40781333-b572891e-64f0-11e8-9309-e3b8d812869f.png
+      image: https://user-images.githubusercontent.com/2157285/40781654-f18e4b9e-64f1-11e8-97c5-0c44ad91faab.png
       description: A simple YouTube ad blocker based on a flaw in the frontend of YouTube that I recently found.
 
     - name: Flip it Kary!
