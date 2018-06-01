@@ -1,0 +1,18 @@
+---
+layout: article
+title: Projects Showcase
+headermini: true
+back: media/back.jpg
+---
+
+--- legend
+# Things I made over the years...
+
+Here is curated list of the things I made over the years and I personally hold the copyright to them^Which excludes any corporate project, contracted project, and any project that I used to be the managing or overseeing party of.^. I made these projects in order for my research, tooling and mostly fun of it.
+
+This list includes stable projects, projects under heavy development, abandoned/discontinued projects and some proprietary ones and so not all of them are accessible in the internet. If you wish to get one of these projects, contact me directly.
+--- end
+
+<div class="kf-topic-page-spacer"></div>
+
+{% include projects-view.html tag="all" %}
