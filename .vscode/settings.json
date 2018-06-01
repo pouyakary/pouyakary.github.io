@@ -41,6 +41,8 @@
         "endfor",
         "headermini",
         "hidemargin",
+        "middot",
+        "precomposed",
         "stylesheet",
         "topicpage"
     ]
