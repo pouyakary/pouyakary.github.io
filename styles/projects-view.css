@@ -1,78 +1,98 @@
 
-.projects-topic-h2 {
-    margin-bottom:      2rem !important;
-}
+/*
+ * ─── TITLE ──────────────────────────────────────────────────────────────────────
+ */
 
-.projects-topic-description {
-    margin-bottom:      2rem;
-}
+    .projects-topic-h2 {
+        margin-bottom:      2rem !important;
+    }
 
-.projects-project-box {
-    display:            flex;
-    margin-bottom:      3rem;
-}
+/*
+ * ─── DESCRIPTION ────────────────────────────────────────────────────────────────
+ */
 
-@media screen and ( max-width: 500px ) {
+    .projects-topic-description {
+        margin-bottom:      2rem;
+    }
+
+/*
+ * ─── CONTAINER ──────────────────────────────────────────────────────────────────
+ */
+
     .projects-project-box {
-        flex-direction:     column-reverse;
+        display:            flex;
+        margin-bottom:      3rem;
     }
-}
 
-.projects-project-box + h2 {
-    margin-top:     5rem;
-}
+    @media screen and ( max-width: 500px ) {
+            .projects-project-box {
+                flex-direction:     column-reverse;
+            }
+    }
 
-.kf-topic-page-article img {
-    flex:           auto;
-    height:         100%;
-    margin:         0 2rem 0 0;
-    max-height:     fit-content !important;
-    max-width:      220pt !important;
-    object-fit:     contain;
-    width:          100%;
-}
+    .projects-project-box + h2 {
+        margin-top:     5rem;
+    }
 
-@media screen and ( max-width: 700px ) {
+/*
+ * ─── ARTICLE ────────────────────────────────────────────────────────────────────
+ */
+
     .kf-topic-page-article img {
-        max-width:      150pt !important;
+        flex:           auto;
+        height:         100%;
+        margin:         0 2rem 0 0;
+        max-height:     fit-content !important;
+        max-width:      220pt !important;
+        object-fit:     contain;
+        width:          100%;
     }
-}
 
-@media screen and ( max-width: 500px ) {
-    .kf-topic-page-article img {
-        margin-top:     1rem;
-        max-width:      100% !important;
+    @media screen and ( max-width: 700px ) {
+            .kf-topic-page-article img {
+                max-width:      150pt !important;
+            }
     }
-}
 
-.projects-project-description-box {
-    flex:       1;
-}
+    @media screen and ( max-width: 500px ) {
+            .kf-topic-page-article img {
+                margin-top:     1rem;
+                max-width:      100% !important;
+            }
+    }
 
-.projects-project-title {
-    font-size:          1.3rem;
-    font-weight:        500;
-    margin-bottom:      0.5rem;
-}
+    .projects-project-description-box {
+        flex:       1;
+    }
 
-.projects-project-description {
-    font-family:    "Cormorant";
-    font-size:      1.2rem;
-}
+    .projects-project-title {
+        font-size:          1.3rem;
+        font-weight:        500;
+        margin-bottom:      0.5rem;
+    }
 
-.projects-project-website {
-    background-image:       none !important;
-    color:                  #AA630C !important;
-    display:                block;
-    font-family:            "Montserrat";
-    font-size:              0.9rem;
-    font-weight:            500;
-    margin-top:             1em !important;
-    text-decoration:        none !important;
-    transition-duration:    0.2s !important;
-}
+    .projects-project-description {
+        font-family:    "Cormorant";
+        font-size:      1.2rem;
+    }
 
-.projects-project-website:focus, .projects-project-website:hover {
-    color:                  #D0491A !important;
-    transition-duration:    0.2s !important;
-}
+/*
+ * ─── WEBSITE ────────────────────────────────────────────────────────────────────
+ */
+
+    .projects-project-website {
+        background-image:       none !important;
+        color:                  #AA630C !important;
+        display:                block;
+        font-family:            "Montserrat";
+        font-size:              0.9rem;
+        font-weight:            500;
+        margin-top:             1em !important;
+        text-decoration:        none !important;
+        transition-duration:    0.2s !important;
+    }
+
+    .projects-project-website:focus, .projects-project-website:hover {
+        color:                  #D0491A !important;
+        transition-duration:    0.2s !important;
+    }
