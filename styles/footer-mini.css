@@ -1,103 +1,128 @@
 
-.kf-footer {
-	box-shadow: 0 0 80px rgba( 0, 0, 0, 0.6);
-	background-color: #141414;
-}
+/* Copyright 2013-present by Pouya Kary <pouya@kary.us> */
 
-#kf-footer-wrap {
-	display: flex;
-	display: -webkit-flex;
-	display: -moz-flex;
-    max-width: 900px;
-	height: 100%;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 3rem;
-	margin-bottom: 3rem;
-}
+/*
+ * ─── FOOTER BOX ─────────────────────────────────────────────────────────────────
+ */
 
-@media ( max-width: 720px ) {
-	#kf-footer-wrap {
-		display: none;
-	}
-}
+    .kf-footer {
+        box-shadow:             0 0 80px rgba( 0, 0, 0, 0.6);
+        background-color:       #141414;
+    }
 
-.kf-footer-col-logo {
-	display: none;
-}
+    #kf-footer-wrap {
+        display:            flex;
+        display:            -webkit-flex;
+        display:            -moz-flex;
+        max-width:          900px;
+        height:             100%;
+        margin-left:        auto;
+        margin-right:       auto;
+        margin-top:         3rem;
+        margin-bottom:      3rem;
+    }
 
-.kf-footer-col-links {
-	padding-right: 3rem;
-	flex: 3;
-}
+    @media ( max-width: 720px ) {
+            #kf-footer-wrap {
+                display:    none;
+            }
+    }
 
+/*
+ * ─── LOGO ───────────────────────────────────────────────────────────────────────
+ */
 
-.kf-footer-col-links h2 {
-    font-size: 1.1rem;
-	padding-bottom: 0.2em;
-	border-bottom: 2px solid cornflowerblue;
-	margin-bottom: 0.5em;
-}
+    .kf-footer-col-logo {
+        display:    none;
+    }
 
-.kf-footer-col-links a {
-	display: block;
-	color: #A0A0A0;
-	padding-bottom: 0.5em;
-	font-size: 0.9rem;
-}
+/*
+ * ─── LINKS ──────────────────────────────────────────────────────────────────────
+ */
 
-.kf-footer-col-links a:hover {
-	color: white;
-}
+    .kf-footer-col-links {
+        padding-right:      3rem;
+        flex:               3;
+    }
 
-.kf-footer-spacer {
-	padding-top: 0.7rem;
-	font-size: 0.6rem;
-	text-transform: uppercase;
-	letter-spacing: 3px;
-	padding-bottom: 0.5rem;
-	color: white;
-}
+    .kf-footer-col-links h2 {
+        font-size:          1.1rem;
+        padding-bottom:     0.2em;
+        border-bottom:      2px solid cornflowerblue;
+        margin-bottom:      0.5em;
+    }
 
-#kf-footer-copy {
-	background-color: #1A1A1A;
-	color: #9A9A9A;
-	padding: 2.5rem;
-}
+    .kf-footer-col-links a {
+        display:            block;
+        color:              #A0A0A0;
+        padding-bottom:     0.5em;
+        font-size:          0.9rem;
+    }
 
-#kf-footer-copy a {
-	color: #9A9A9A;
-}
+    .kf-footer-col-links a:hover {
+        color:      white;
+    }
 
-#kf-footer-copy a:hover {
-	color: white;
-}
+/*
+ * ─── SPACER ─────────────────────────────────────────────────────────────────────
+ */
 
-#kf-footer-copy-left {
-	float: left;
-}
+    .kf-footer-spacer {
+        padding-top:        0.7rem;
+        font-size:          0.6rem;
+        text-transform:     uppercase;
+        letter-spacing:     3px;
+        padding-bottom:     0.5rem;
+        color:              white;
+    }
 
-#kf-footer-copy-right {
-	float: right;
-}
+/*
+ * ─── COPYRIGHT ──────────────────────────────────────────────────────────────────
+ */
 
-#kf-footer-copy-small {
-	display: none;
-}
+    #kf-footer-copy {
+        background-color:       #1A1A1A;
+        color:                  #9A9A9A;
+        padding:                2.5rem;
+    }
 
-@media ( max-width: 550px ) {
-	#kf-footer-copy-left,
-	#kf-footer-copy-right {
-		clear: both;
-		float: none;
-	}
-	#kf-footer-copy-right {
-		margin-top: 0.5rem;
-	}
-	#kf-footer-copy-small {
-		display: inline;
-	}
-	#kf-footer-copy-big {
-		display: none;
-	}
-}
+    #kf-footer-copy a {
+        color:      #9A9A9A;
+    }
+
+    #kf-footer-copy a:hover {
+        color:      white;
+    }
+
+    #kf-footer-copy-left {
+        float:      left;
+    }
+
+    #kf-footer-copy-right {
+        float:      right;
+    }
+
+    #kf-footer-copy-small {
+        display:    none;
+    }
+
+    @media ( max-width: 550px ) {
+            #kf-footer-copy-left, #kf-footer-copy-right {
+                clear:      both;
+                float:      none;
+            }
+
+            #kf-footer-copy-right {
+                margin-top:     0.5rem;
+            }
+
+            #kf-footer-copy-small {
+                display:    inline;
+            }
+
+            #kf-footer-copy-big {
+                display:    none;
+            }
+    }
+
+/* ──────────────────────────────────────────────────────────────────────────────── */

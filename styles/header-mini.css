@@ -1,90 +1,106 @@
 
-#kf-header {
-    background-color:       black;
-    box-shadow:             0 0 0.7rem rgba( 0, 0, 0, 0.4);
-    padding-bottom:         0.5rem;
-    position:               fixed;
-    width:                  100%;
-    z-index:                1;
-}
+/* Copyright 2013-present by Pouya Kary <pouya@kary.us> */
 
-@media ( max-width: 550px ) {
+/*
+ * ─── HEADER ─────────────────────────────────────────────────────────────────────
+ */
+
     #kf-header {
-        position:       relative;
+        background-color:       black;
+        box-shadow:             0 0 0.7rem rgba( 0, 0, 0, 0.4);
+        padding-bottom:         0.5rem;
+        position:               fixed;
+        width:                  100%;
+        z-index:                1;
     }
-}
 
-#kf-nav-logo {
-    float:              left;
-    padding-bottom:     0.1rem;
-    padding-top:        0.8rem;
-}
-
-#kf-nav-links {
-    color:              #eee;
-    float:              right;
-    font-size:          1.1rem;
-    margin-left:        1.4rem;
-    margin-right:       2.8vw;
-    margin-top:         0.9rem;
-}
-
-#kf-nav-links a {
-    background-color:       transparent;
-    border-bottom:          2pt transparent dashed;
-    color:                  #eee;
-    font-weight:            300;
-    padding-bottom:         0.2rem;
-    text-decoration:        none;
-    transition-duration:    0.3s;
-}
-
-#kf-nav-links a:hover {
-    color:                  white;
-    transition-duration:    0.2s;
-}
-
-#kf-nav-link-1:hover {
-    border-color:       #5B67A5;
-}
-
-#kf-nav-link-2:hover {
-    border-color:       #745CA5;
-}
-
-#kf-nav-link-3:hover {
-    border-color:       #5BA55C;
-}
-
-@media ( max-width: 550px ) {
-    #kf-nav-links, #kf-nav-logo {
-        clear:      both;
-        float:      none;
+    @media ( max-width: 550px ) {
+            #kf-header {
+                position:       relative;
+            }
     }
+
+/*
+ * ─── LOGO ───────────────────────────────────────────────────────────────────────
+ */
+
+    #kf-nav-logo {
+        float:              left;
+        padding-bottom:     0.1rem;
+        padding-top:        0.8rem;
+    }
+
+/*
+ * ─── LINKS ──────────────────────────────────────────────────────────────────────
+ */
 
     #kf-nav-links {
-        padding-top:    0.7rem;
+        color:              #eee;
+        float:              right;
+        font-size:          1.1rem;
+        margin-left:        1.4rem;
+        margin-right:       2.8vw;
+        margin-top:         0.9rem;
     }
-}
 
-#kf-header-margin {
-    clear:      both;
-    height:     40px;
-}
+    #kf-nav-links a {
+        background-color:       transparent;
+        border-bottom:          2pt transparent dashed;
+        color:                  #eee;
+        font-weight:            300;
+        padding-bottom:         0.2rem;
+        text-decoration:        none;
+        transition-duration:    0.3s;
+    }
 
-@media ( max-width: 550px ) {
+    #kf-nav-links a:hover {
+        color:                  white;
+        transition-duration:    0.2s;
+    }
+
+    #kf-nav-link-1:hover {
+        border-color:       #5B67A5;
+    }
+
+    #kf-nav-link-2:hover {
+        border-color:       #745CA5;
+    }
+
+    #kf-nav-link-3:hover {
+        border-color:       #5BA55C;
+    }
+
+    @media ( max-width: 550px ) {
+            #kf-nav-links, #kf-nav-logo {
+                clear:      both;
+                float:      none;
+            }
+
+            #kf-nav-links {
+                padding-top:    0.7rem;
+            }
+    }
+
     #kf-header-margin {
-        display:    none;
+        clear:      both;
+        height:     40px;
     }
-}
 
-#kf-header-logo {
-    height:             1.4rem;
-    padding-left:       1.4rem;
-}
+    @media ( max-width: 550px ) {
+            #kf-header-margin {
+                display:    none;
+            }
+    }
 
-@media ( max-width: 550px ) {
     #kf-header-logo {
-        height:     1.8rem;
+        height:             1.4rem;
+        padding-left:       1.4rem;
     }
-}
+
+    @media ( max-width: 550px ) {
+            #kf-header-logo {
+                height:     1.8rem;
+            }
+    }
+
+/* ──────────────────────────────────────────────────────────────────────────────── */

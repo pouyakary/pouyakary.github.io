@@ -1,4 +1,6 @@
 
+/* Copyright 2013-present by Pouya Kary <pouya@kary.us> */
+
 /*
  * ─── ROOT ───────────────────────────────────────────────────────────────────────
  */
@@ -92,3 +94,5 @@
         background-image:       url('/media/general/a-hovered.png');
         transition-duration:    1s;
     }
+
+/* ──────────────────────────────────────────────────────────────────────────────── */

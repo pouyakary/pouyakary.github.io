@@ -1,4 +1,6 @@
 
+/* Copyright 2013-present by Pouya Kary <pouya@kary.us> */
+
 /*
  * ─── BASE ───────────────────────────────────────────────────────────────────────
  */
@@ -227,101 +229,8 @@
     }
 
 /*
- * ─── SIDEBAR ────────────────────────────────────────────────────────────────────
+ * ─── LEGEND SPECIFICS ───────────────────────────────────────────────────────────
  */
-
-    #kf-topic-page-sidebar {
-        -moz-user-select:       none;
-        -ms-user-select:        none;
-        -webkit-user-select:    none;
-        right:                  9vw;
-        user-select:            none;
-        width:                  9rem;
-    }
-
-    @media ( max-width: 1000px ) {
-            #kf-topic-page-sidebar {
-                right:      7vw;
-            }
-    }
-
-    @media ( max-width: 26cm ) {
-            #kf-topic-page-sidebar {
-                display:    none;
-            }
-    }
-
-    #kf-topic-toc {
-        max-height:             calc( 100vh - 150pt );
-        overflow-x:             hidden;
-        overflow-y:             scroll;
-        transition-duration:    0.5s;
-        padding-bottom:         15px;
-    }
-
-    .toc-on-top #kf-topic-toc {
-        max-height:             calc( 100vh - 250pt );
-        transition-duration:    0.2s;
-    }
-
-/*
- * ─── TABLE OF CONTENTS SHADOW ───────────────────────────────────────────────────
- */
-
-    .kf-topic-sidebar-overflow-top .kf-topic-toc-bottom-shadow {
-        height:         0;
-        position:       relative;
-        top:            -1px;
-        left:           15pt;
-        right:          0;
-        background:     linear-gradient(transparent, transparent);
-        height:         50px;
-    }
-
-    .kf-topic-sidebar-overflow-bottom .kf-topic-toc-bottom-shadow, .kf-topic-sidebar-overflow-middle .kf-topic-toc-bottom-shadow {
-        top:            -51px;
-        background:     linear-gradient(transparent, white);
-        height:         50px;
-    }
-
-    .kf-topic-page-sidebar-box {
-        background-color:       white;
-        border:                 1pt solid #f1f1f1;
-        border-radius:          5pt;
-        box-shadow:             0 0 6pt rgba( 0, 0, 0, 0.15 );
-        padding:                15pt;
-        padding-bottom:         0;
-        transition-duration:    0.5s;
-        width:                  100%;
-    }
-
-    .kf-topic-page-sidebar-title {
-        font-size:      2rem;
-    }
-
-    .kf-topic-page-sidebar-box {
-        color:          #555555;
-        font-size:      0.7rem;
-    }
-
-    #kf-sidebar-title {
-        background-image:       url('/media/topicpage/worldwide.svg');
-        background-position:    left;
-        background-repeat:      no-repeat;
-        background-size:        contain;
-        border-bottom:          1px #aaa solid;
-        font-size:              1.2rem;
-        margin-bottom:          10px;
-        margin-top:             0.3rem;
-        padding-bottom:         1px;
-        padding-left:           2rem;
-    }
-
-    .kf-topic-page-sidebar-box h2 {
-        color:          #009BFF;
-        font-size:      1rem;
-        padding-top:    0.5rem;
-    }
 
     .legend-section {
         align-items:        flex-start;
@@ -403,6 +312,99 @@
             }
     }
 
+/*
+ * ─── SIDEBAR ────────────────────────────────────────────────────────────────────
+ */
+
+    #kf-topic-page-sidebar {
+        -moz-user-select:       none;
+        -ms-user-select:        none;
+        -webkit-user-select:    none;
+        right:                  9vw;
+        user-select:            none;
+        width:                  9rem;
+    }
+
+    @media ( max-width: 1000px ) {
+            #kf-topic-page-sidebar {
+                right:      7vw;
+            }
+    }
+
+    @media ( max-width: 26cm ) {
+            #kf-topic-page-sidebar {
+                display:    none;
+            }
+    }
+
+    #kf-topic-toc {
+        max-height:             calc( 100vh - 150pt );
+        overflow-x:             hidden;
+        overflow-y:             scroll;
+        transition-duration:    0.5s;
+        padding-bottom:         15px;
+    }
+
+    .toc-on-top #kf-topic-toc {
+        max-height:             calc( 100vh - 250pt );
+        transition-duration:    0.2s;
+    }
+
+    .kf-topic-sidebar-overflow-top .kf-topic-toc-bottom-shadow {
+        height:         0;
+        position:       relative;
+        top:            -1px;
+        left:           15pt;
+        right:          0;
+        background:     linear-gradient(transparent, transparent);
+        height:         50px;
+    }
+
+    .kf-topic-sidebar-overflow-bottom .kf-topic-toc-bottom-shadow, .kf-topic-sidebar-overflow-middle .kf-topic-toc-bottom-shadow {
+        top:            -51px;
+        background:     linear-gradient(transparent, white);
+        height:         50px;
+    }
+
+    .kf-topic-page-sidebar-box {
+        background-color:       white;
+        border:                 1pt solid #f1f1f1;
+        border-radius:          5pt;
+        box-shadow:             0 0 6pt rgba( 0, 0, 0, 0.15 );
+        padding:                15pt;
+        padding-bottom:         0;
+        transition-duration:    0.5s;
+        width:                  100%;
+    }
+
+    .kf-topic-page-sidebar-title {
+        font-size:      2rem;
+    }
+
+    .kf-topic-page-sidebar-box {
+        color:          #555555;
+        font-size:      0.7rem;
+    }
+
+    #kf-sidebar-title {
+        background-image:       url('/media/topicpage/worldwide.svg');
+        background-position:    left;
+        background-repeat:      no-repeat;
+        background-size:        contain;
+        border-bottom:          1px #aaa solid;
+        font-size:              1.2rem;
+        margin-bottom:          10px;
+        margin-top:             0.3rem;
+        padding-bottom:         1px;
+        padding-left:           2rem;
+    }
+
+    .kf-topic-page-sidebar-box h2 {
+        color:          #009BFF;
+        font-size:      1rem;
+        padding-top:    0.5rem;
+    }
+
     .kf-sidebar-H1 {
         color:              #1C7AB8;
         font-size:          1rem;
@@ -472,6 +474,10 @@
         width:              calc( 50% - 20px );
     }
 
+/*
+ * ─── HEADER TITLE ───────────────────────────────────────────────────────────────
+ */
+
     .kf-topic-banner a, .kf-topic-banner a:hover {
         background:     none;
     }
@@ -518,3 +524,5 @@
                 opacity:    0;
             }
     }
+
+/* ──────────────────────────────────────────────────────────────────────────────── */

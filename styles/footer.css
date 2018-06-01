@@ -1,123 +1,147 @@
 
-.kf-footer {
-    background-color:       #1a1a1a;
-}
+/* Copyright 2013-present by Pouya Kary <pouya@kary.us> */
 
-#kf-footer-wrap {
-    display:            -moz-flex;
-    display:            -webkit-flex;
-    display:            flex;
-    height:             100%;
-    margin-bottom:      3rem;
-    margin-left:        3rem;
-    margin-right:       1rem;
-    padding-top:        3rem;
-    width:              calc( 100vw - 4rem);
-}
+/*
+ * ─── FOOTER BOX ─────────────────────────────────────────────────────────────────
+ */
 
-@media ( max-width: 720px ) {
+    .kf-footer {
+        background-color:       #1a1a1a;
+    }
+
     #kf-footer-wrap {
-        display:    none;
+        display:            -moz-flex;
+        display:            -webkit-flex;
+        display:            flex;
+        height:             100%;
+        margin-bottom:      3rem;
+        margin-left:        3rem;
+        margin-right:       1rem;
+        padding-top:        3rem;
+        width:              calc( 100vw - 4rem);
     }
-}
 
-.kf-footer-col-logo {
-    background-image:       url('/media/general/kary-horse-footer.png');
-    background-position:    top left;
-    background-repeat:      no-repeat;
-    background-size:        contain;
-    flex:                   1;
-    height:                 12rem;
-    margin-right:           3rem;
-    margin-top:             0.2rem;
-    opacity:                0.6;
-}
+    @media ( max-width: 720px ) {
+            #kf-footer-wrap {
+                display:    none;
+            }
+    }
 
-@media ( max-width: 900px ) {
+/*
+ * ─── LOGO ───────────────────────────────────────────────────────────────────────
+ */
+
     .kf-footer-col-logo {
-        display:    none;
+        background-image:       url('/media/general/kary-horse-footer.png');
+        background-position:    top left;
+        background-repeat:      no-repeat;
+        background-size:        contain;
+        flex:                   1;
+        height:                 12rem;
+        margin-right:           3rem;
+        margin-top:             0.2rem;
+        opacity:                0.6;
     }
-}
 
-.kf-footer-col-links {
-    flex:               3;
-    padding-right:      3rem;
-}
+    @media ( max-width: 900px ) {
+            .kf-footer-col-logo {
+                display:    none;
+            }
+    }
 
-.kf-footer-col-links h2 {
-    border-bottom:      2px solid rgba(255, 255, 255, 0.2) !important;
-    color:              rgba(255, 255, 255, 0.85);
-    margin-bottom:      0.5em;
-    padding-bottom:     0.2em;
-}
+/*
+ * ─── LINKS ──────────────────────────────────────────────────────────────────────
+ */
 
-.kf-footer-col-links a {
-    color:              rgba(255, 255, 255, 0.75);
-    display:            block;
-    font-size:          1.1rem;
-    padding-bottom:     0.5em;
-}
+    .kf-footer-col-links {
+        flex:               3;
+        padding-right:      3rem;
+    }
 
-.kf-footer-col-links a:hover {
-    color:      white;
-}
+    .kf-footer-col-links h2 {
+        border-bottom:      2px solid rgba(255, 255, 255, 0.2) !important;
+        color:              rgba(255, 255, 255, 0.85);
+        margin-bottom:      0.5em;
+        padding-bottom:     0.2em;
+    }
 
-.kf-footer-spacer {
-    color:              rgba(255, 255, 255, 0.7);
-    font-family:        "Source Code Pro";
-    font-size:          0.7rem;
-    font-weight:        300;
-    letter-spacing:     3px;
-    padding-bottom:     0.5rem;
-    padding-top:        0.7rem;
-    text-transform:     uppercase;
-}
+    .kf-footer-col-links a {
+        color:              rgba(255, 255, 255, 0.75);
+        display:            block;
+        font-size:          1.1rem;
+        padding-bottom:     0.5em;
+    }
 
-#kf-footer-copy {
-    background-color:       #1F1F1F;
-    color:                  rgba(255, 255, 255, 0.75);
-    padding:                2.5rem;
-}
+    .kf-footer-col-links a:hover {
+        color:      white;
+    }
 
-#kf-footer-copy a {
-    color:                  rgba(255, 255, 255, 0.75);
-    padding:                4pt 6pt 3pt 6pt;
-    transition-duration:    0.3s;
-}
+/*
+ * ─── SPACER ─────────────────────────────────────────────────────────────────────
+ */
 
-#kf-footer-copy a:hover {
-    background-color:       #323232;
-    border-radius:          3pt;
-    color:                  #eee;
-}
+    .kf-footer-spacer {
+        color:              rgba(255, 255, 255, 0.7);
+        font-family:        "Source Code Pro";
+        font-size:          0.7rem;
+        font-weight:        300;
+        letter-spacing:     3px;
+        padding-bottom:     0.5rem;
+        padding-top:        0.7rem;
+        text-transform:     uppercase;
+    }
 
-#kf-footer-copy-left {
-    float:      left;
-}
+/*
+ * ─── COPYRIGHTS ─────────────────────────────────────────────────────────────────
+ */
 
-#kf-footer-copy-right {
-    float:      right;
-}
+    #kf-footer-copy {
+        background-color:       #1F1F1F;
+        color:                  rgba(255, 255, 255, 0.75);
+        padding:                2.5rem;
+    }
 
-#kf-footer-copy-small {
-    display:    none;
-}
+    #kf-footer-copy a {
+        color:                  rgba(255, 255, 255, 0.75);
+        padding:                4pt 6pt 3pt 6pt;
+        transition-duration:    0.3s;
+    }
 
-@media ( max-width: 550px ) {
-    #kf-footer-copy-left, #kf-footer-copy-right {
-        clear:      both;
-        float:      none;
+    #kf-footer-copy a:hover {
+        background-color:       #323232;
+        border-radius:          3pt;
+        color:                  #eee;
+    }
+
+    #kf-footer-copy-left {
+        float:      left;
     }
 
     #kf-footer-copy-right {
-        margin-top:     0.5rem;
+        float:      right;
     }
 
     #kf-footer-copy-small {
-        display:    inline;
-    }
-
-    #kf-footer-copy-big {
         display:    none;
     }
-}
+
+    @media ( max-width: 550px ) {
+            #kf-footer-copy-left, #kf-footer-copy-right {
+                clear:      both;
+                float:      none;
+            }
+
+            #kf-footer-copy-right {
+                margin-top:     0.5rem;
+            }
+
+            #kf-footer-copy-small {
+                display:    inline;
+            }
+
+            #kf-footer-copy-big {
+                display:    none;
+            }
+    }
+
+/* ──────────────────────────────────────────────────────────────────────────────── */
