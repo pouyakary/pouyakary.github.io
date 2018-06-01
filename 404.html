@@ -2,17 +2,18 @@
 <head>
 <script>
     var URLS = {
-        "/u/docs/style": "https://www.notion.so/Kary-Coding-Style-1bd9d01872de4c6c93bff5f5b9d46fe5",
-        "/u/docs/designtalk": "https://www.notion.so/DesignTalk-dad307e81f1e46869ad6c355b1705921",
+        "/u/docs/style":
+            "https://www.notion.so/Kary-Coding-Style-1bd9d01872de4c6c93bff5f5b9d46fe5",
+        "/u/docs/designtalk":
+            "https://www.notion.so/DesignTalk-dad307e81f1e46869ad6c355b1705921",
     }
 
     window.onload = function ( ) {
         var destination = URLS[ window.location.pathname ]
-        if ( destination !== null && destination !== undefined ) {
+        if ( destination !== null && destination !== undefined )
             window.location.href = destination
-        } else {
+        else
             window.location.pathname = "/messages/404/"
-        }
     }
 </script>
 </head>
