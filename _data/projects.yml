@@ -503,6 +503,13 @@
       image: https://user-images.githubusercontent.com/2157285/40503994-1d72131e-5fa5-11e8-8474-071c486674c3.png
       description: Note for Phone is was a re-implementation of Kary Note in Command line. In making of this phone app I developed the Bassoon and Timpani tools and started to make the app more than what it used to be. For now I'm making a new app for the web and for the Phone to become the dominant note app for me.
 
+    - name: KProj
+      topics:
+        - cost-estimation
+        - project-management
+      image: https://user-images.githubusercontent.com/2157285/40872966-ecc5fe6e-666c-11e8-86a8-1914c3e62ba9.png
+      description: Kproj is an internal tool developed to estimate the cost of a project. It gets a table of tasks with given developer type, duration and phase. It then computes the phase times and and tries to compute the management cost based on the estimated time, and then computes the total development cost and time.
+
     - name: Pirate Browser
       topics:
         - electron
