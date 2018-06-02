@@ -283,6 +283,38 @@
 
 
 
+- topic: Text Editors
+  description: When I started learning to program, one of my obsessions was to create an independent text editor. I tried many times but never got the result I wanted. Maybe someday I actually make an editor that I love but till that day these are the attempts I had towards that goal
+  projects:
+    - name: Nexear
+      topics:
+        - texteditor
+        - gtk
+        - mono
+        - text
+      image: https://user-images.githubusercontent.com/2157285/40880532-0d53b170-66c8-11e8-8e24-44644a539ceb.png
+      description: Nexear was a cross-platform text editor. It supported multiple panels for editing (things like tabs), had a GUI interface as well as an internal commanding interface and could be controlled by only typing. The interface came with many tools like an internal calculator, formatters, editing options, Arendelle toolings and could import many formats like ePub, PDF, DOC, etc to plain text.
+
+    - name: TexTHOR & TexTHOR II
+      topics:
+        - texteditor
+        - mono
+        - text
+        - terminal
+      image: https://user-images.githubusercontent.com/2157285/40880673-648d39d2-66ca-11e8-95ae-94d14aefbda7.png
+      description: TexTHOR was my first and TexTHOR II was my second attempts to create a terminal based text editor. TexTHOR used to have inline commands, so the lines who started with <code>--</code> were command lines and one could interact with the editor inline that proved to be bad and the project got abandoned.
+
+    - name: Chatper
+      topics:
+        - texteditor
+        - mono
+        - text
+        - terminal
+      image: https://user-images.githubusercontent.com/2157285/40880805-d7510f32-66cc-11e8-97da-1ba2ee88ca80.png
+      description: Chapter was the my third attempt to create a command line text editor. It used a whole new way to manage the screen and had a lots of updated algorithms and used a lots of Kary Framework power goodies but at the end it was too buggy to fix and also got abandoned.
+
+
+
 - topic: Markup & Layout
   projects:
     - name: Pageman
@@ -519,15 +551,6 @@
         - project-management
       image: https://user-images.githubusercontent.com/2157285/40872966-ecc5fe6e-666c-11e8-86a8-1914c3e62ba9.png
       description: KProj is an internal tool developed to estimate the cost of a project. It gets a table of tasks with given developer type, duration and phase. It then computes the phase times and and tries to compute the management cost based on the estimated time, and then computes the total development cost and time.
-
-    - name: Nexear
-      topics:
-        - texteditor
-        - gtk
-        - mono
-        - text
-      image: http://image.basekit.com/live116395_screenshotfrom2012-06-16131006.png
-      description: Nexear was a cross-platform text editor. It supported multiple panels for editing (things like tabs), had a GUI interface as well as an internal commanding interface and could be controlled by only typing. The interface came with many tools like an internal calculator, formatters, editing options, Arendelle toolings and could import many formats like ePub, PDF, DOC, etc to plain text.
 
     - name: Ad Escaper
       topics:
