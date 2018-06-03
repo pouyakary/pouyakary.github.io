@@ -20,6 +20,7 @@
         initElementsOnload( )
         initWindowEventsOnLoad( )
 
+        TableOfContents( )
         updateTableOfContentsInLocation( )
         reEvaluateSidebarOverflowShadows( )
     }
