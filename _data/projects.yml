@@ -204,13 +204,23 @@
       image: https://user-images.githubusercontent.com/2157285/40504888-d2d75bcc-5fa7-11e8-8008-ff77a2b7f959.png
       description: Comment V is an extension for Visual Studio Code providing Kary Comments. It uses contex-aware generation of comment making it easy to just create a comment by pushing a button.
 
+    - name: Comment 3
+      topics:
+        - research
+        - development
+        - comment
+        - commentiv
+      website: https://github.com/pmkary/comment-3
+      image: https://user-images.githubusercontent.com/2157285/40885625-3ce6a3bc-673f-11e8-8d6e-53970b8a1626.png
+      description: First edition of Kary Comment Generators that was designed for macOS with native technologies. It soon proved to be useful and the multi platform Comment IV was made.
+
     - name: Comment IV
       topics:
         - research
         - development
       website: http://comment.kary.us
       image: https://user-images.githubusercontent.com/2157285/40504617-01b5f9e0-5fa7-11e8-953c-81ffe65d11c5.png
-      description: Comment IV is a web app for generating Kary Comments, It supports every comment format and most of the supported languages
+      description: Comment IV is a web app for generating Kary Comments, It supports every comment format and most of the supported languages.
 
 
 
