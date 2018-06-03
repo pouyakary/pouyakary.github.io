@@ -14,11 +14,12 @@
 // ─── ON LOAD STUFF ──────────────────────────────────────────────────────────────
 //
 
+    document.addEventListener( "loadeddata", TableOfContents )
+
     window.onload = function ( ) {
         initElementsOnload( )
         initWindowEventsOnLoad( )
 
-        TableOfContents( )
         updateTableOfContentsInLocation( )
         reEvaluateSidebarOverflowShadows( )
     }
@@ -41,9 +42,18 @@
 //
 
     function initWindowEventsOnLoad ( ) {
-        document.addEventListener( 'scroll', updateTableOfContentsInLocation )
-        tocElement.onscroll = reEvaluateSidebarOverflowShadows
-        tocElement.onresize = reEvaluateSidebarOverflowShadows
+        document.addEventListener(
+            'scroll', updateTableOfContentsInLocation )
+        window.onresize =
+            reEvaluateSidebarOverflowShadows
+        tocElement.onscroll =
+            reEvaluateSidebarOverflowShadows
+        tocElement.onresize =
+            reEvaluateSidebarOverflowShadows
+        var sidebarElement =
+            document.getElementById( 'kf-topic-page-sidebar' )
+        sidebarElement.addEventListener(
+            "onresize", reEvaluateSidebarOverflowShadows )
     }
 
 //
@@ -196,6 +206,9 @@
     }
 
     function reEvaluateSidebarOverflowShadows ( ) {
+        showOrHideElement( upperShadowElement, true )
+        showOrHideElement( bottomShadowElement, true )
+
         if ( tocElement.scrollHeight === tocElement.clientHeight ) {
             // In case of no overflow
             showOrHideElement( bottomShadowElement, true )
@@ -208,7 +221,7 @@
             // Checking overflow on bottom
             showOrHideElement( bottomShadowElement,
                 ( ( tocElement.clientHeight + tocElement.scrollTop ) >
-                  ( tocElement.scrollHeight - 10 ) ) )
+                  ( tocElement.scrollHeight - 30 ) ) )
         }
     }
 

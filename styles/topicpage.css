@@ -478,12 +478,12 @@
 
     #kf-topic-toc-upper-shadow {
         top:            82px;
-        background:     linear-gradient( white, transparent );
+        background:     linear-gradient( #f1f1f1, transparent );
     }
 
     #kf-topic-toc-bottom-shadow {
         top:            calc( -31px );
-        background:     linear-gradient( transparent, white );
+        background:     linear-gradient( transparent, #f1f1f1 );
     }
 
 /*
