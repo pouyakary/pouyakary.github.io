@@ -2,10 +2,49 @@
 'use strict'
 
 //
-// ─── GLOBAL COUNTERS ────────────────────────────────────────────────────────────
+// ─── GLOBALS ────────────────────────────────────────────────────────────────────
 //
 
     var catchLocation = 0
+    var tocElement = null
+    var upperShadowElement = null
+    var bottomShadowElement = null
+
+//
+// ─── ON LOAD STUFF ──────────────────────────────────────────────────────────────
+//
+
+    window.onload = function ( ) {
+        initElementsOnload( )
+        initWindowEventsOnLoad( )
+
+        TableOfContents( )
+        updateTableOfContentsInLocation( )
+        reEvaluateSidebarOverflowShadows( )
+    }
+
+//
+// ─── INIT ELEMENTS ON LOAD ──────────────────────────────────────────────────────
+//
+
+    function initElementsOnload ( ) {
+        tocElement =
+            document.getElementById("kf-topic-toc")
+        upperShadowElement =
+            document.getElementById("kf-topic-toc-upper-shadow")
+        bottomShadowElement =
+            document.getElementById("kf-topic-toc-bottom-shadow")
+    }
+
+//
+// ─── INIT WINDOW EVENTS ─────────────────────────────────────────────────────────
+//
+
+    function initWindowEventsOnLoad ( ) {
+        document.addEventListener( 'scroll', updateTableOfContentsInLocation )
+        tocElement.onscroll = reEvaluateSidebarOverflowShadows
+        tocElement.onresize = reEvaluateSidebarOverflowShadows
+    }
 
 //
 // ─── HIDE SHOW PAGE TITLE ───────────────────────────────────────────────────────
@@ -149,10 +188,28 @@
     }
 
 //
-// ─── EVENTS ─────────────────────────────────────────────────────────────────────
+// ─── SCROLL SHADOW ENABLERS ─────────────────────────────────────────────────────
 //
 
-    document.addEventListener( 'DOMContentLoaded', TableOfContents )
-    document.addEventListener( 'scroll', updateTableOfContentsInLocation )
+    function showOrHideElement ( element, condition ) {
+        element.classList[ condition? "remove" : "add" ]( "show" )
+    }
+
+    function reEvaluateSidebarOverflowShadows ( ) {
+        if ( tocElement.scrollHeight === tocElement.clientHeight ) {
+            // In case of no overflow
+            showOrHideElement( bottomShadowElement, true )
+            showOrHideElement( upperShadowElement, true )
+
+        } else {
+            // Checking overflow on top
+            showOrHideElement( upperShadowElement, tocElement.scrollTop < 10 )
+
+            // Checking overflow on bottom
+            showOrHideElement( bottomShadowElement,
+                ( ( tocElement.clientHeight + tocElement.scrollTop ) >
+                  ( tocElement.scrollHeight - 10 ) ) )
+        }
+    }
 
 // ────────────────────────────────────────────────────────────────────────────────

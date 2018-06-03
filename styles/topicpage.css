@@ -342,28 +342,13 @@
         overflow-x:             hidden;
         overflow-y:             scroll;
         transition-duration:    0.5s;
-        padding-bottom:         15px;
+        padding-bottom:         20px;
+        padding-top:            10px;
     }
 
     .toc-on-top #kf-topic-toc {
         max-height:             calc( 100vh - 250pt );
         transition-duration:    0.2s;
-    }
-
-    .kf-topic-sidebar-overflow-top .kf-topic-toc-bottom-shadow {
-        height:         0;
-        position:       relative;
-        top:            -1px;
-        left:           15pt;
-        right:          0;
-        background:     linear-gradient(transparent, transparent);
-        height:         50px;
-    }
-
-    .kf-topic-sidebar-overflow-bottom .kf-topic-toc-bottom-shadow, .kf-topic-sidebar-overflow-middle .kf-topic-toc-bottom-shadow {
-        top:            -51px;
-        background:     linear-gradient(transparent, white);
-        height:         50px;
     }
 
     .kf-topic-page-sidebar-box {
@@ -393,10 +378,11 @@
         background-size:        contain;
         border-bottom:          1px #aaa solid;
         font-size:              1.2rem;
-        margin-bottom:          10px;
+        margin-bottom:          0px;
         margin-top:             0.3rem;
         padding-bottom:         1px;
         padding-left:           2rem;
+        max-height:             30px;
     }
 
     .kf-topic-page-sidebar-box h2 {
@@ -455,12 +441,12 @@
 
     .toc-on-top {
         position:       absolute;
-        top:            13rem;
+        top:            calc( 13rem - 30px );
     }
 
     .toc-on-middle {
         position:       fixed;
-        top:            80px;
+        top:            50px;
     }
 
     .toc-on-bottom .kf-topic-page-sidebar-box, .toc-on-middle .kf-topic-page-sidebar-box {
@@ -472,6 +458,32 @@
         margin-right:       20px;
         margin-top:         5px;
         width:              calc( 50% - 20px );
+    }
+
+/*
+ * ─── SIDEBAR SHADOWS ────────────────────────────────────────────────────────────
+ */
+
+    .kf-topic-shadow-base {
+        height:         30px !important;
+        left:           calc( 15pt + 1px );
+        position:       relative;
+        font-weight:    bold;
+        opacity:        0;
+    }
+
+    .kf-topic-shadow-base.show {
+        opacity:    1;
+    }
+
+    #kf-topic-toc-upper-shadow {
+        top:            82px;
+        background:     linear-gradient( white, transparent );
+    }
+
+    #kf-topic-toc-bottom-shadow {
+        top:            calc( -31px );
+        background:     linear-gradient( transparent, white );
     }
 
 /*
