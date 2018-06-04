@@ -322,7 +322,7 @@
         -webkit-user-select:    none;
         right:                  9vw;
         user-select:            none;
-        width:                  9rem;
+        width:                  180px;
     }
 
     @media ( max-width: 1000px ) {
@@ -338,25 +338,26 @@
     }
 
     #kf-topic-toc {
-        max-height:             calc( 100vh - 150pt );
+        max-height:             calc( 100vh - 170pt );
         overflow-x:             hidden;
         overflow-y:             scroll;
         transition-duration:    0.5s;
         padding-bottom:         20px;
         padding-top:            10px;
+        margin-left:            15pt;
+        margin-right:           15pt;
     }
 
     .toc-on-top #kf-topic-toc {
-        max-height:             calc( 100vh - 250pt );
+        max-height:             calc( 100vh - 260pt );
         transition-duration:    0.2s;
     }
 
     .kf-topic-page-sidebar-box {
         background-color:       white;
-        border:                 1pt solid #f1f1f1;
+        border:                 1pt solid #f7f7f7;
         border-radius:          5pt;
         box-shadow:             0 0 6pt rgba( 0, 0, 0, 0.15 );
-        padding:                15pt;
         padding-bottom:         0;
         transition-duration:    0.5s;
         width:                  100%;
@@ -378,8 +379,7 @@
         background-size:        contain;
         border-bottom:          1px #aaa solid;
         font-size:              1.2rem;
-        margin-bottom:          0px;
-        margin-top:             0.3rem;
+        margin:                 20px 20px 0 20px;
         padding-bottom:         1px;
         padding-left:           2rem;
         max-height:             30px;
@@ -465,11 +465,12 @@
  */
 
     .kf-topic-shadow-base {
-        height:         30px !important;
-        left:           calc( 15pt + 1px );
-        position:       relative;
-        font-weight:    bold;
-        opacity:        0;
+        height:                 30px !important;
+        background-color:       transparent;
+        left:                   1px;
+        position:               relative;
+        font-weight:            bold;
+        opacity:                0;
     }
 
     .kf-topic-shadow-base.show {
@@ -477,13 +478,14 @@
     }
 
     #kf-topic-toc-upper-shadow {
-        top:            82px;
-        background:     linear-gradient( #f1f1f1, transparent );
+        top:            77px;
+        background:     linear-gradient( rgba( 0, 153, 255, 0.075 ), transparent );
     }
 
     #kf-topic-toc-bottom-shadow {
-        top:            calc( -31px );
-        background:     linear-gradient( transparent, #f1f1f1 );
+        top:                calc( -31px );
+        background:         linear-gradient( transparent, rgba( 0, 153, 255, 0.075 ) );
+        border-radius:      5pt;
     }
 
 /*
