@@ -479,12 +479,12 @@
 
     #kf-topic-toc-upper-shadow {
         top:            77px;
-        background:     linear-gradient( rgba( 0, 153, 255, 0.075 ), transparent );
+        background:     linear-gradient( rgba( 0, 153, 255, 0.1 ), transparent );
     }
 
     #kf-topic-toc-bottom-shadow {
         top:                calc( -31px );
-        background:         linear-gradient( transparent, rgba( 0, 153, 255, 0.075 ) );
+        background:         linear-gradient( transparent, rgba( 0, 153, 255, 0.1 ) );
         border-radius:      5pt;
     }
 
