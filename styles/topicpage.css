@@ -320,14 +320,14 @@
         -moz-user-select:       none;
         -ms-user-select:        none;
         -webkit-user-select:    none;
-        right:                  9vw;
+        right:                  7vw;
         user-select:            none;
         width:                  180px;
     }
 
-    @media ( max-width: 1000px ) {
+    @media ( max-width: 1100px ) {
             #kf-topic-page-sidebar {
-                right:      7vw;
+                right:      4vw;
             }
     }
 
