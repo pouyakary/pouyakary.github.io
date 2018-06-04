@@ -87,7 +87,7 @@
 
         // finding headers
         var headers =
-            container.querySelectorAll( 'h1, h2, h3, h4, h5, h6' )
+            container.querySelectorAll( 'h1, h2' )
 
         // adding headers
         for ( var index = 0; index < headers.length; index++ ) {
