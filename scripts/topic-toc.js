@@ -9,6 +9,7 @@
     var tocElement = null
     var upperShadowElement = null
     var bottomShadowElement = null
+    var sidebarTitleElement = null
 
 //
 // ─── ON LOAD STUFF ──────────────────────────────────────────────────────────────
@@ -36,6 +37,8 @@
             document.getElementById("kf-topic-toc-upper-shadow")
         bottomShadowElement =
             document.getElementById("kf-topic-toc-bottom-shadow")
+        sidebarTitleElement =
+            document.getElementById("kf-sidebar-title")
     }
 
 //
@@ -217,7 +220,10 @@
 
         } else {
             // Checking overflow on top
-            showOrHideElement( upperShadowElement, tocElement.scrollTop < 10 )
+            var conditionOfShowingTopShadow =
+                tocElement.scrollTop < 10
+            showOrHideElement( upperShadowElement, conditionOfShowingTopShadow )
+            showOrHideElement( sidebarTitleElement, conditionOfShowingTopShadow )
 
             // Checking overflow on bottom
             showOrHideElement( bottomShadowElement,

@@ -355,12 +355,16 @@
 
     .kf-topic-page-sidebar-box {
         background-color:       white;
-        border:                 1pt solid #f7f7f7;
+        border:                 1pt solid #eee;
         border-radius:          5pt;
         box-shadow:             0 0 6pt rgba( 0, 0, 0, 0.15 );
         padding-bottom:         0;
         transition-duration:    0.5s;
         width:                  100%;
+    }
+
+    .toc-on-top .kf-topic-page-sidebar-box {
+        border-color:       #f7f7f7;
     }
 
     .kf-topic-page-sidebar-title {
@@ -374,7 +378,7 @@
 
     #kf-sidebar-title {
         background-image:       url('/media/topicpage/worldwide.svg');
-        background-position:    left;
+        background-position:    0 0;
         background-repeat:      no-repeat;
         background-size:        contain;
         border-bottom:          1px #aaa solid;
@@ -383,6 +387,14 @@
         padding-bottom:         1px;
         padding-left:           2rem;
         max-height:             30px;
+        transition-duration:    0.3s;
+    }
+
+    #kf-sidebar-title.show {
+        background-position:    10px 0;
+        transition-duration:    0.3s;
+        margin:                 20px 0 0 -1px;
+        padding:                0 20px 1px 47px;
     }
 
     .kf-topic-page-sidebar-box h2 {
@@ -468,6 +480,7 @@
         height:                 30px !important;
         background-color:       transparent;
         left:                   1px;
+        width:                  calc( 100% + 1px );
         position:               relative;
         font-weight:            bold;
         opacity:                0;
@@ -485,7 +498,7 @@
     #kf-topic-toc-bottom-shadow {
         top:                calc( -31px );
         background:         linear-gradient( transparent, rgba( 0, 153, 255, 0.1 ) );
-        border-radius:      5pt;
+        border-radius:      4pt;
     }
 
 /*
