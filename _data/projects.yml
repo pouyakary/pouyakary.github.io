@@ -1,4 +1,12 @@
 
+#
+# Copyright 2018-present by Pouya Kary <pouya@kary.us>
+#
+
+#
+# ─── HUMANE COMPUTATION ─────────────────────────────────────────────────────────
+#
+
 - topic: humane computation
   projects:
     - name: DesignTalk
@@ -9,7 +17,9 @@
       description: DesignTalk is a playground for implementing ideas of an illustration software. The idea is to play with possibilities of interface design and track how much it can improve the state of software's comfort. DesignTalk implements a a new approach of interface design where only the common tools are visual and they are all visible in the side of a selected object to minimize the interface and then every other task is given using an english like language by speaking it.
 
 
-
+#
+# ─── ORCHESTRA ──────────────────────────────────────────────────────────────────
+#
 
 - topic: Orchestra
   description: Since 1950's the syntax of regular languages are kept the same, while today we have much more computational capabilities, due to the syntax of regular expressions one cannot write a big pattern inside of it. Orchestra is a new visual language that makes it easy and safe to write scalable patterns, It both compiles to RegExp and can be compiled from RegExp which makes it easy to be used in any host language.
@@ -30,7 +40,9 @@
       description: Concerto is an Orchestra Decompiler that compiles Regular Expressions written in the ECMAScript Specification to Orchestra Language. It comes bundled with the Orchestra Studio.
 
 
-
+#
+# ─── COMPUTER GRAPHICS ──────────────────────────────────────────────────────────
+#
 
 - topic: Computer Graphics
   projects:
@@ -49,8 +61,9 @@
       website: http://shaders.toys.kary.us/
       description: I write GLSL shaders from time to time and this is a small gallery containing them. You may find them fun or dumb! it's notihng serious.
 
-
-
+#
+# ─── KARYSCRIPT ─────────────────────────────────────────────────────────────────
+#
 
 - topic: KaryScript
   description: KaryScript is a programming language that compiles to JavaScript and tries to be a much more readable version of JavaScript. By bringing some of the grammars and ideas from different languages like pipes, ruby like structures, less punctuations, tables from markdown and etc. it makes the whole experience of programming much more readable.
@@ -77,8 +90,9 @@
       website: https://marketplace.visualstudio.com/items?itemName=karyfoundation.karyscript
       description: Adds language support of KaryScript to Visual Studio Code based on the API provided by the compiler server and KaryScript tmLanguage
 
-
-
+#
+# ─── BUILDING ENERGY ────────────────────────────────────────────────────────────
+#
 
 - topic: Building Energy
   projects:
@@ -97,8 +111,9 @@
       image: https://cloud.githubusercontent.com/assets/2157285/16933298/7c71ed2e-4d61-11e6-8c67-1b5722619c94.png
       description: A package that provides language support for all the IDF based energy file formats like IDF, OpenStudio, HeatStudio, Heat19, HSTB, etc.
 
-
-
+#
+# ─── COLOR SCHEMES ──────────────────────────────────────────────────────────────
+#
 
 - topic: Color Schemes
   projects:
@@ -128,8 +143,9 @@
       website: https://github.com/pmkary/themeX
       description: themeX is a color scheme generator. It solves some of the major problems in composing cross-editor color schemes by defining a single file that contains tokens, color schemes, and let's the user define color variables. Using this method one can define multiple color schemes via one theme, for example a theme that has Light/Dark versions is easier to be made in themeX. themeX then compiles the theme for different editors making it easy to mailing a singular code-base.
 
-
-
+#
+# ─── MATHEMATICS ────────────────────────────────────────────────────────────────
+#
 
 - topic: Mathematics
   projects:
@@ -176,7 +192,9 @@
       image: https://user-images.githubusercontent.com/2157285/40771367-6925a37a-64d2-11e8-8ba2-9ea2d622da86.png
       description: Numerica was an experiment to implement Arbitrary-Precision Numerical Types for .NET on top of the Kary Framework pretty much like the <a href="https://gmplib.org/">GNU MP</a> infrastructure. It could store up to 2.8 billion digits and some basic mathematical functionalities like basic arithmetics were developed for it but the experiment didn't got the performance in mind and it was abandoned.
 
-
+#
+# ─── CODE QUALITY ───────────────────────────────────────────────────────────────
+#
 
 - topic: Code Quality
   projects:
@@ -222,8 +240,9 @@
       image: https://user-images.githubusercontent.com/2157285/40504617-01b5f9e0-5fa7-11e8-953c-81ffe65d11c5.png
       description: Comment IV is a web app for generating Kary Comments, It supports every comment format and most of the supported languages.
 
-
-
+#
+# ─── ARENDELLE ──────────────────────────────────────────────────────────────────
+#
 
 - topic: Arendelle
   description: Arendelle was an educational language targeting kids. It used a basic language and some simple navigational and painting instructions to create a world where kids could use programming to create 8-bit like arts and learn some basic programming concepts.
@@ -290,8 +309,9 @@
       image: https://user-images.githubusercontent.com/2157285/40471139-004efa90-5f4b-11e8-8bdb-46ec115bd69d.png
       description: An extension to provide Arendelle language support for Visual Studio Code. This package provides syntax highlighting as well as context-aware intelliSense powered by the Gerda Core.
 
-
-
+#
+# ─── TEXT EDITORS ───────────────────────────────────────────────────────────────
+#
 
 - topic: Text Editors
   description: When I started learning to program, one of my obsessions was to create an independent text editor. I tried many times but never got the result I wanted. Maybe someday I actually make an editor that I love but till that day these are the attempts I had towards that goal
@@ -323,7 +343,9 @@
       image: https://user-images.githubusercontent.com/2157285/40880805-d7510f32-66cc-11e8-97da-1ba2ee88ca80.png
       description: Chapter was the my third attempt to create a command line text editor. It used a whole new way to manage the screen and had a lots of updated algorithms and used a lots of Kary Framework power goodies but at the end it was too buggy to fix and also got abandoned.
 
-
+#
+# ─── MARKUP AND LAYOUT ──────────────────────────────────────────────────────────
+#
 
 - topic: Markup & Layout
   projects:
@@ -380,8 +402,9 @@
       image: https://user-images.githubusercontent.com/2157285/40472111-ccbfc97c-5f4d-11e8-8bf3-1b93983daa96.png
       description: Timpani is a very small language like Markdown but with only a few of Markdown's tools, designed to be parsed in O(n) time for apps in React Native and similar other platforms where computation is expensive.
 
-
-
+#
+# ─── SECURITY ───────────────────────────────────────────────────────────────────
+#
 
 - topic: Security
   projects:
@@ -399,8 +422,9 @@
       image: https://user-images.githubusercontent.com/2157285/40771542-d4c8140a-64d2-11e8-9ecf-ecb743bfed2f.png
       description: Gateman Client was a client implemented in Cocoa, WPF, Qt for macOS, Windows and Linux that could generate the main Gateman Key needed to identify a single machine. Kary Foundation's Insiders Testing members could register their machines with the key generated by the Gateman Client.
 
-
-
+#
+# ─── NEARLEY ────────────────────────────────────────────────────────────────────
+#
 
 - topic: Nearley
   description: I use <a href="https://nearley.js.org/">Nearley</a> parser generator which is a fantastic generator, but it didn't have much of language support and so I made a few tools to make it usable in my workflow.
@@ -419,8 +443,9 @@
       website: https://github.com/pmkary/nearley-playground-mac
       description: A very simple offline version of Nearley Playground for Mac using MacGap with an optimized view.
 
-
-
+#
+# ─── FRAMEWORKS ─────────────────────────────────────────────────────────────────
+#
 
 - topic: Frameworks
   projects:
@@ -447,8 +472,9 @@
       image: https://user-images.githubusercontent.com/2157285/40477924-f063778e-5f5c-11e8-867b-ca295a802f40.jpg
       description: Tambourine is a framework for writing musical theory software. Main goal is to have a library capable of computing musical theory so that one can write a Harmonizer Engine on top of it.
 
-
-
+#
+# ─── TEXTUAL INTERFACES ─────────────────────────────────────────────────────────
+#
 
 - topic: Textual Interfaces
   projects:
@@ -510,8 +536,9 @@
       image: https://user-images.githubusercontent.com/2157285/40428770-4ce30292-5eb6-11e8-8b62-e18a56555ed4.jpg
       description: Clavinet is a command line argument parser with its own language rules. It reconstructs the array of args given by the os and uses its own parser to parse it. Given that it can give command line apps abilities like arrays.
 
-
-
+#
+# ─── MENTAL HEALTH ──────────────────────────────────────────────────────────────
+#
 
 - topic: Mental Health
   projects:
@@ -533,9 +560,9 @@
       image: https://user-images.githubusercontent.com/2157285/40536292-e03e3906-6020-11e8-84bf-129466a9f8e0.png
       description: For those of us with bad habits, Self Stopper is a WebExtension that blocks a given set of web addresses. So if you just keep returning to Twitter and find it a waste of your time you can simply block it to yourself!
 
-
-
-
+#
+# ─── OTHERS ─────────────────────────────────────────────────────────────────────
+#
 
 - topic: Others
   projects:
@@ -597,3 +624,5 @@
       image: https://cloud.githubusercontent.com/assets/2157285/21894736/849c3624-d8f5-11e6-800f-db999f6ac713.png
       website: https://github.com/pmkary/telephone
       description: A fork of <a href="https://github.com/railsware/upterm">Upterm</a> Terminal with a few goodies like a much better auto-suggestion algorithm supporting T9 search and a light and fun theme.
+
+# ────────────────────────────────────────────────────────────────────────────────
