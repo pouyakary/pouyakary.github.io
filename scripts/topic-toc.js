@@ -17,11 +17,11 @@
 
     document.addEventListener( "loadeddata", TableOfContents )
 
+    TableOfContents( )
+
     window.onload = function ( ) {
         initElementsOnload( )
         initWindowEventsOnLoad( )
-
-        TableOfContents( )
         updateTableOfContentsInLocation( )
         reEvaluateSidebarOverflowShadows( )
     }
