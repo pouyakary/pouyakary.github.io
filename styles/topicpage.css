@@ -91,6 +91,7 @@
     .kf-topic-page-article li {
         font-family:        'Cormorant';
         font-size:          1.2rem;
+        line-height:        1.5;
         margin-bottom:      0.7rem;
     }
 
