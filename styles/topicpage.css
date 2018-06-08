@@ -90,15 +90,16 @@
 
     .kf-topic-page-article li {
         font-family:        'Cormorant';
-        font-size:          1em;
+        font-size:          1.2rem;
         margin-bottom:      0.7rem;
     }
 
     .kf-topic-page-article b, .kf-topic-page-article strong {
-        font-family:        "Montserrat";
-        font-size:          0.8em;
-        font-weight:        bold;
-        text-transform:     capitalize;
+        font-family:    "Montserrat";
+        font-size:      0.8em;
+        font-weight:    bold;
+
+        /* text-transform:     capitalize; */
     }
 
     @media ( max-width: 26cm ) {
