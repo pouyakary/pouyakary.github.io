@@ -7,6 +7,7 @@
     // words - list of words to be always considered correct
     "words": [
         "Arendelle",
+        "Bakhtiari",
         "designtalk",
         "divs",
         "Dribbble",
@@ -15,11 +16,13 @@
         "hidemargin",
         "Kary",
         "Kary's",
+        "mdash",
         "middot",
         "Pinterest",
         "Pouya",
         "precomposed",
         "Résumé",
+        "Sina",
         "stylesheet",
         "topicpage"
     ],
