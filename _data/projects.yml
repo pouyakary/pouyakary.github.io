@@ -61,6 +61,16 @@
       website: http://shaders.toys.kary.us/
       description: I write GLSL shaders from time to time and this is a small gallery containing them. You may find them fun or dumb! it's notihng serious.
 
+    - name: Quartz Compositions
+      topcis:
+        - mac
+        - quartz-composer
+        - graphics
+        - screen-saver
+      image: https://user-images.githubusercontent.com/2157285/41196634-4c620ed8-6c5a-11e8-9219-02c29afb70d3.png
+      website: https://www.youtube.com/watch?v=KMKaICh1qH4
+      description: I love macOS's Quartz technology and I use it to create creative visualizations and graphics test, it's also damn handy at connecting different graphics tools like GLSL, OpenCL, CoreImage. For what it's worth I use my graphics as personal screen savers and so there's a repository of these screen savers.
+
 #
 # ─── KARYSCRIPT ─────────────────────────────────────────────────────────────────
 #
