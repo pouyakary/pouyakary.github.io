@@ -103,6 +103,13 @@
  * ─── WEBSITE ────────────────────────────────────────────────────────────────────
  */
 
+    .projects-project-website-container {
+        width:          fit-content;
+        height:         3rem;
+        max-height:     3rem;
+        overflow:       hidden;
+    }
+
     .projects-project-website {
         background-image:       none !important;
         color:                  #AA630C !important;
@@ -112,12 +119,14 @@
         font-weight:            500;
         margin-top:             1em !important;
         text-decoration:        none !important;
-        transition-duration:    0.2s !important;
+        border-bottom:          1pt solid #AA630C;
+        transition-duration:    0.3s !important;
+        padding-bottom:         1rem;
     }
 
     .projects-project-website:focus, .projects-project-website:hover {
-        color:                  #D0491A !important;
-        transition-duration:    0.2s !important;
+        transition-duration:    0.3s !important;
+        padding-bottom:         0rem;
     }
 
 /* ──────────────────────────────────────────────────────────────────────────────── */

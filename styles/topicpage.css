@@ -84,6 +84,12 @@
             }
     }
 
+    .kf-topic-page-article h3 {
+        font-size:          1.3rem;
+        font-weight:        500;
+        margin-bottom:      0.5rem;
+    }
+
     .kf-topic-page-article img {
         border-radius:      3pt;
         margin-top:         10pt;
@@ -99,7 +105,7 @@
 
     .kf-topic-page-article b, .kf-topic-page-article strong {
         font-family:    "Montserrat";
-        font-size:      0.8em;
+        font-size:      1.1rem;
         font-weight:    bold;
 
         /* text-transform:     capitalize; */
@@ -254,13 +260,14 @@
     }
 
     .legend-sidebar {
-        flex-basis:     auto;
-        flex-grow:      1;
-        font-size:      0.8em;
-        font-weight:    400;
-        margin-left:    10pt;
-        max-width:      200px;
-        min-width:      160px;
+        flex-basis:         auto;
+        flex-grow:          1;
+        font-size:          0.8em;
+        font-weight:        400;
+        margin-left:        10pt;
+        max-width:          180px;
+        min-width:          160px;
+        padding-left:       10px;
     }
 
     .legend-sidebar ul {
@@ -293,6 +300,10 @@
 
     .legend-bullet-content code {
         font-size:      0.6rem;
+    }
+
+    .legend-sup {
+        color:      #AA630C;
     }
 
     .legend-sup a, .legend-sup a:visited {
@@ -554,6 +565,54 @@
                 display:    none !important;
                 opacity:    0;
             }
+    }
+
+/*
+ * ─── THUMB PICTURE ──────────────────────────────────────────────────────────────
+ */
+
+    .thumb-pic-container {
+        background-color:       #f7f7f7;
+        padding:                10px;
+        border:                 1pt rgb(212, 212, 212) solid;
+
+        /* box-shadow:             0 0 5pt 2pt rgba(204, 204, 204, 0.7); */
+        float:                  left;
+        width:                  100pt;
+        height:                 fit-content;
+        border-radius:          2pt;
+    }
+
+    .thumb-pic-container.left {
+        float:              left;
+        margin-right:       20pt;
+        transform:          rotate( -3deg );
+    }
+
+    .thumb-pic-container.right {
+        float:              right;
+        margin-left:        -140pt;
+        margin-right:       10pt;
+        transform:          rotate( 3deg );
+    }
+
+    @media ( max-width: 20cm ) {
+            .thumb-pic-container.right {
+                margin-left:        20pt;
+                margin-right:       10pt;
+            }
+    }
+
+    .thumb-pic-img {
+        border-radius:      0 !important;
+        margin:             0 !important;
+    }
+
+    .thumb-pic-alt {
+        font-family:    'Reenie Beanie', cursive;
+        font-weight:    bold;
+        font-size:      1.2rem;
+        text-align:     center;
     }
 
 /* ──────────────────────────────────────────────────────────────────────────────── */

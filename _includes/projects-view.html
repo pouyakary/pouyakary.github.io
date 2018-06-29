@@ -47,7 +47,9 @@
                     </h3>
                     <div class="projects-project-description">{{ project.description }}</div>
                     {%- if project.website -%}
-                        <a class="projects-project-website" href="{{ project.website }}">Visit this project</a>
+                        <div class="projects-project-website-container">
+                            <a class="projects-project-website" href="{{ project.website }}">Visit this project</a>
+                        </div>
                     {%- endif -%}
                 </div>
             </div>
