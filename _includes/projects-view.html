@@ -39,7 +39,12 @@
             <div class="projects-project-box">
                 <img src="{{ project.image }}">
                 <div class="projects-project-description-box">
-                    <h3 class="projects-project-title">{{ project.name }}</h3>
+                    <h3>
+                        <span>{{ project.name }}</span>
+                        {%- if project.year -%}
+                            <span class="projects-project-year">{{ project.year }}</span>
+                        {%- endif -%}
+                    </h3>
                     <div class="projects-project-description">{{ project.description }}</div>
                     {%- if project.website -%}
                         <a class="projects-project-website" href="{{ project.website }}">Visit this project</a>
