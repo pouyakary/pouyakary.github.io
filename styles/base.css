@@ -89,12 +89,12 @@
         background-image:       url('/media/general/a.png');
         background-size:        contain;
         color:                  black;
-        transition-duration:    0.5s;
+        transition-duration:    0.3s;
     }
 
     .kf-text-link a:hover {
         background-image:       url('/media/general/a-hovered.png');
-        transition-duration:    1s;
+        transition-duration:    0.3s;
     }
 
 /* ──────────────────────────────────────────────────────────────────────────────── */
