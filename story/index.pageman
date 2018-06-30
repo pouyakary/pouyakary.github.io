@@ -2,7 +2,7 @@
 layout: article
 title: Things about me...
 headermini: true
-back: media/back-1.png
+back: media/room.jpg
 ---
 
 --- legend
@@ -10,9 +10,7 @@ back: media/back-1.png
 
 People know me for very different things. Some believe I'm a [programming language designer](http://createyourproglang.com/), some remember me from the [GNU project](https://www.fsf.org/blogs/community/gnu-spotlight-with-karl-berry-december-2011), some use the tools I developed for some  [open](https://nearley.js.org/docs/tooling) [source](https://twitter.com/KaryStudio/status/880918931732668416) [projects](https://marketplace.visualstudio.com/items?itemName=karyfoundation.idf), few know me by the [questions I ask](https://unmethours.com/users/881/pouya-kary/), and the [questions that I answer](https://www.quora.com/profile/Pouya-Kary), one person thinks I'm a [typographer](http://luc.devroye.org/fonts-67205.html)^He also thinks I'm a mexican which in the days that I eat Tacco when wearing Poncho, I really wanna be.^
 
---- end
-{% include thumb-pic.html img="media/kid-1.jpg" alt="I loved that sheep" position="right" %}
---- legend
+![](media/kid-photos.jpg)
 
 Me however, I have no idea who am I. When I was younger I wished to be an inventor therefore I had to know many different things. I knew some basic mechanics because I was a LEGO master builder and so I started learning chemistry, wood crafting, maquette art, robotics, electronics... none of them interested me that much.
 
