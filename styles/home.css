@@ -154,9 +154,9 @@
         color:              white;
         flex:               auto;
         font-size:          1rem;
-        line-height:        1.5;
-        margin-left:        0.6rem;
-        padding-left:       0.6rem;
+        line-height:        1.6;
+        margin-left:        0.8rem;
+        padding-left:       0.8rem;
     }
 
     @media ( max-width: 800pt ) {
@@ -169,8 +169,9 @@
                 border-top:     white 2pt solid;
                 display:        block;
                 flex:           unset;
-                margin:         0.5em 0 0 0;
-                padding:        0.5em 0 0 0;
+                margin:         0.5rem 0 0 0;
+                padding:        0.5rem 0 0 0;
+                max-width:      30rem;
             }
     }
 
@@ -183,7 +184,7 @@
         color:                  #eee;
     }
 
-    .proj-orchestra > desk > deskdesk {
+    .proj-orchestra deskdesk {
         border-color:       #7DA76F;
     }
 
@@ -191,7 +192,7 @@
         background-color:       #8C0000;
     }
 
-    .proj-graph > desk > deskdesk {
+    .proj-graph deskdesk {
         border-color:       #C18000;
     }
 
@@ -203,7 +204,7 @@
         background-color:       #73C7F9;
     }
 
-    .proj-heatstudio > desk > deskdesk {
+    .proj-heatstudio deskdesk {
         border-color:       #A9DDFD;
     }
 
@@ -215,16 +216,41 @@
         color:      #eee;
     }
 
-    .proj-shader > desk > deskdesk {
+    .proj-shader deskdesk {
         border-color:       #5EAA44;
     }
 
-    .proj-shader > .pic {
+    .proj-shader .pic {
         background-position:    top center;
     }
 
+    .proj-kfcs {
+        background-color:       #62058C;
+    }
+
+    .proj-kfcs deskdesk {
+        border-color:       rgba(255, 255, 0, 0.9);
+    }
+
+    .proj-kfcs .pic {
+        background-position:    top center;
+    }
+
+    .proj-procolors {
+        background-color:       #E4E4E4;
+    }
+
+    .proj-procolors deskdesk {
+        border-color:       #C09353;
+    }
+
+    .proj-procolors deskdesk, .proj-procolors desktitle {
+        color:          #4B4B4B !important;
+        font-weight:    bold;
+    }
+
 /*
- * ─── LOOKING FOR MORE ───────────────────────────────────────────────────────────
+ * ─── WANT MORE BUTTON ───────────────────────────────────────────────────────────
  */
 
     a.want-more {
@@ -238,6 +264,7 @@
         padding:                1rem 2rem 1rem 4rem;
         margin:                 auto;
         margin-top:             3rem;
+        margin-bottom:          1rem;
         max-width:              fit-content;
         transition-duration:    0.1s;
         border-radius:          100px;
