@@ -246,7 +246,7 @@
     a.want-more:hover {
         background-color:               blue;
         color:                          rgba(255, 255, 255, 0.9);
-        animation:                      rainbow 1s infinite;
+        animation:                      rainbow 2s infinite;
         animation-timing-function:      linear;
         transition-duration:            0.1s;
     }
