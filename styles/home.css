@@ -237,14 +237,14 @@
         color:                  #eee;
         padding:                1rem 2rem 1rem 4rem;
         margin:                 auto;
-        margin-top:             4rem;
+        margin-top:             3rem;
         max-width:              fit-content;
         transition-duration:    0.1s;
         border-radius:          100px;
     }
 
     a.want-more:hover {
-        background-color:               blue;
+        background-color:               mediumblue;
         color:                          rgba(255, 255, 255, 0.9);
         animation:                      rainbow 2s infinite;
         animation-timing-function:      linear;
