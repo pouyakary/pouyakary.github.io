@@ -244,9 +244,9 @@
     }
 
     a.want-more:hover {
-        background-color:               darkmagenta;
+        background-color:               blue;
         color:                          rgba(255, 255, 255, 0.9);
-        animation:                      rainbow 5s infinite;
+        animation:                      rainbow 1s infinite;
         animation-timing-function:      linear;
         transition-duration:            0.1s;
     }
