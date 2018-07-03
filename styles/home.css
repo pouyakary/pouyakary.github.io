@@ -263,9 +263,9 @@
         text-align:                     center;
         margin:                         auto;
         margin-top:                     3rem;
-        margin-bottom:                  1rem;
+        margin-bottom:                  0.5rem;
         max-width:                      12rem;
-        transition-duration:            0.1s;
+        transition-duration:            1s;
         border-radius:                  100px;
         background-color:               black;
         color:                          #eee;
