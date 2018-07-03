@@ -254,28 +254,28 @@
  */
 
     a.want-more {
-        display:                block;
-        background-color:       black;
-        background-image:       url("/homepage/a-want-more-back.png");
-        background-position:    left center;
-        background-size:        contain;
-        background-repeat:      no-repeat;
-        color:                  #eee;
-        padding:                1rem 2rem 1rem 4rem;
-        margin:                 auto;
-        margin-top:             3rem;
-        margin-bottom:          1rem;
-        max-width:              fit-content;
-        transition-duration:    0.1s;
-        border-radius:          100px;
+        display:                        block;
+        background-image:               url("/homepage/a-want-more-back.png");
+        background-position:            left center;
+        background-size:                contain;
+        background-repeat:              no-repeat;
+        padding:                        1rem 2rem 1rem 4rem;
+        margin:                         auto;
+        margin-top:                     3rem;
+        margin-bottom:                  1rem;
+        max-width:                      fit-content;
+        transition-duration:            0.1s;
+        border-radius:                  100px;
+        background-color:               black;
+        color:                          #eee;
+        animation:                      rainbow 2s infinite;
+        animation-timing-function:      linear;
     }
 
     a.want-more:hover {
-        background-color:               mediumblue;
-        color:                          rgba(255, 255, 255, 0.9);
-        animation:                      rainbow 2s infinite;
-        animation-timing-function:      linear;
-        transition-duration:            0.1s;
+        color:                  rgba(255, 255, 255, 0.9);
+        background-color:       mediumblue;
+        transition-duration:    0.1s;
     }
 
     @keyframes rainbow {
