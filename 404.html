@@ -10,7 +10,7 @@
 
     window.onload = function ( ) {
         var destination = URLS[ window.location.pathname ]
-        if ( destination !== null && destination !== undefined )
+        if ( destination )
             window.location.href = destination
         else
             window.location.pathname = "/messages/404/"
