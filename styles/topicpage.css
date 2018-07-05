@@ -463,7 +463,7 @@
 
     .kf-sidebar-H1:hover, .kf-sidebar-H2:hover {
         color:      #3F8027;
-        cursor:     default;
+        cursor:     pointer;
     }
 
     .kf-sidebar-H2:hover {
