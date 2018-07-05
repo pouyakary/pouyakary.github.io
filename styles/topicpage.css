@@ -11,17 +11,17 @@
         color:      #141414;
     }
 
-    ul {
+    .kf-topic-page-article ul {
         margin:     0;
     }
 
-    p {
+    .kf-topic-page-article p {
         font-family:        "Cormorant";
         font-size:          1.2rem;
         padding-bottom:     0.5rem;
     }
 
-    code {
+    .kf-topic-page-article code {
         background-color:           #FFFDF7;
         border-radius:              2pt;
         color:                      #BC670E;
@@ -33,22 +33,28 @@
         vertical-align:             center;
     }
 
-    section {
+    .kf-topic-page-article section {
         margin-bottom:      2rem;
     }
 
-    h1 {
-        color:          black;
-        font-size:      1.4em;
-        margin:         0.2em 0 0.7em 0;
-        padding:        0;
+    .kf-topic-page-article h1 {
+        display:            block;
+        color:              black;
+        font-size:          1.4rem;
+        margin:             3rem 0 0.7rem 0 !important;
+        padding:            0;
+        text-transform:     capitalize;
+    }
+
+    .legend-section:first-child h1:first-child {
+        margin-top:     0.2rem !important;
     }
 
 /*
  * ─── ARTICLE ────────────────────────────────────────────────────────────────────
  */
 
-    .kf-topic-page-article, p {
+    .kf-topic-page-article p {
         line-height:    1.6rem !important;
     }
 
@@ -435,22 +441,20 @@
     }
 
     .kf-sidebar-H2 {
-        border-left:            1.5px #47AC19 solid;
-        clear:                  left;
-        color:                  #424242;
-        display:                block;
-        font-size:              0.7rem;
-        letter-spacing:         2px;
-        margin-left:            1px;
-        max-width:              calc( 100% - 15px );
-        padding:                6px 0 6px 15px;
-        transition-duration:    0.4s;
+        border-left:        1.5px #47AC19 solid;
+        clear:              left;
+        color:              #424242;
+        display:            block;
+        font-size:          0.7rem;
+        letter-spacing:     2px;
+        margin-left:        1px;
+        max-width:          calc( 100% - 15px );
+        padding:            6px 0 6px 15px;
     }
 
     .toc-on-middle .kf-sidebar-H2 {
         border-left-color:      transparent;
         padding-left:           5px;
-        transition-duration:    0.4s;
     }
 
     .kf-sidebar-H2 a, .kf-sidebar-H2 a:visited {
