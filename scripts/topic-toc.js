@@ -85,12 +85,15 @@
             document.getElementById( 'kf-topic-article-container' )
         var output =
             document.getElementById( 'kf-topic-toc' )
-        var tableOfContents =
-            ''
 
         // finding headers
         var headers =
             container.querySelectorAll( 'h1, h2' )
+
+        if ( headers.length === 0 ) {
+            document.getElementById("kf-topic-page-sidebar").remove( )
+            return
+        }
 
         // adding headers
         for ( var index = 0; index < headers.length; index++ ) {
