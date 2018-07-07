@@ -101,6 +101,9 @@
         background-color:       #1F1F1F;
         color:                  rgba(255, 255, 255, 0.75);
         padding:                2.5rem;
+        display:                flex;
+        width:                  calc( 100vw - 5rem );
+        justify-content:        space-between;
     }
 
     #kf-footer-copy a {
@@ -116,29 +119,39 @@
     }
 
     #kf-footer-copy-left {
-        float:      left;
+        flex:           auto;
+        max-width:      fit-content;
+        align-self:     flex-start;
     }
 
     #kf-footer-copy-right {
-        float:      right;
+        flex:               auto;
+        margin-left:        auto;
+        align-self:         flex-end;
+        text-align:         right;
+        text-transform:     uppercase;
+        letter-spacing:     0.2rem;
+        font-size:          0.8rem;
+        padding-bottom:     0.15rem;
     }
 
     #kf-footer-copy-small {
         display:    none;
     }
 
-    @media ( max-width: 550px ) {
-            #kf-footer-copy-left, #kf-footer-copy-right {
-                clear:      both;
-                float:      none;
+    @media ( max-width: 500pt ) {
+            #kf-footer-copy-small {
+                flex-direction:     column;
+            }
+
+            #kf-footer-copy-left {
+                flex:           1;
+                display:        block;
+                text-align:     left;
             }
 
             #kf-footer-copy-right {
-                margin-top:     0.5rem;
-            }
-
-            #kf-footer-copy-small {
-                display:    inline;
+                display:    none;
             }
 
             #kf-footer-copy-big {
