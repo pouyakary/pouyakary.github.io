@@ -106,4 +106,9 @@
         transition-duration:    0.3s;
     }
 
+    .kf-text-link a::selection {
+        background-image:       none;
+        background-color:       #FEDBA1;
+    }
+
 /* ──────────────────────────────────────────────────────────────────────────────── */
