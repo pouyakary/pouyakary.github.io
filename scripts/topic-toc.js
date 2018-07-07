@@ -15,16 +15,14 @@
 // ─── ON LOAD STUFF ──────────────────────────────────────────────────────────────
 //
 
-    document.addEventListener( "loadeddata", TableOfContents )
-
     TableOfContents( )
+    initElementsOnload( )
+    initWindowEventsOnLoad( )
+    updateTableOfContentsInLocation( )
+    reEvaluateSidebarOverflowShadows( )
 
-    window.onload = function ( ) {
-        initElementsOnload( )
-        initWindowEventsOnLoad( )
-        updateTableOfContentsInLocation( )
-        reEvaluateSidebarOverflowShadows( )
-    }
+    setTimeout( reEvaluateSidebarOverflowShadows )
+
 
 //
 // ─── INIT ELEMENTS ON LOAD ──────────────────────────────────────────────────────
