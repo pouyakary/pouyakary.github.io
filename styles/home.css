@@ -46,9 +46,10 @@
             }
 
             .homepage {
-                padding:        1.5rem !important;
-                max-width:      none;
-                margin:         0;
+                padding:            1.5rem !important;
+                padding-bottom:     2rem !important;
+                max-width:          none;
+                margin:             0;
             }
     }
 
@@ -270,6 +271,12 @@
     .proj-procolors .desktitle, .proj-procolors deskdesk {
         color:          #4B4B4B !important;
         font-weight:    bold;
+    }
+
+    @media only screen and (max-width: 375px) and (-webkit-min-device-pixel-ratio: 2) {
+            .proj-procolors .desktitle, .proj-procolors deskdesk {
+                font-weight:    normal;
+            }
     }
 
 /*
