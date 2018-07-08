@@ -123,10 +123,16 @@
     }
 
     .proj-box {
-        border-radius:      5pt !important;
-        height:             calc( ( 1000px / 30vw ) * 23vw );
-        max-height:         28rem;
-        overflow:           hidden;
+        height:         calc( ( 1000px / 30vw ) * 23vw );
+        max-height:     28rem;
+        overflow:       hidden;
+    }
+
+    @media ( max-width: 550px ) {
+            .proj-box {
+                height:         calc( ( 1000px / 30vw ) * 40vw ) !important;
+                max-height:     40rem !important;
+            }
     }
 
     .pic {
