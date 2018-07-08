@@ -28,7 +28,8 @@
         font-size:              3.8rem;
         font-weight:            500;
         padding:                5rem 6rem 4.5rem 6rem;
-        width:                  calc( 100vw - 12rem );
+        box-sizing:             border-box;
+        width:                  100vw;
         user-select:            none;
     }
 
@@ -36,6 +37,19 @@
         margin:         auto;
         max-width:      820pt;
         padding:        2rem 4rem 5rem 4rem !important;
+    }
+
+    @media only screen and (max-width: 375px) and (-webkit-min-device-pixel-ratio: 2) {
+            .main-title {
+                font-size:      3rem;
+                padding:        2rem;
+            }
+
+            .homepage {
+                padding:        1.5rem !important;
+                max-width:      none;
+                margin:         0;
+            }
     }
 
 /*
@@ -126,13 +140,6 @@
  * ─── BOXES ──────────────────────────────────────────────────────────────────────
  */
 
-    .orchestra-back {
-        background-color:       #4B4B4B;
-        color:                  #eee;
-        margin:                 0;
-        padding:                0;
-    }
-
     desk {
         display:        flex;
         margin:         0 2rem 0 2rem;
@@ -185,8 +192,10 @@
             }
     }
 
-    deskdesk:after {
-        clear:      both;
+    @media only screen and (max-width: 375px) and (-webkit-min-device-pixel-ratio: 2) {
+            deskdesk {
+                font-size:      1.2rem;
+            }
     }
 
 /*
