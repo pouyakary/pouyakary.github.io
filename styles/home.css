@@ -29,6 +29,7 @@
         font-weight:            500;
         padding:                5rem 6rem 4.5rem 6rem;
         width:                  calc( 100vw - 12rem );
+        user-select:            none;
     }
 
     .homepage {
@@ -136,6 +137,7 @@
         display:        flex;
         margin:         0 2rem 0 2rem;
         padding-top:    2rem;
+        user-select:    none;
     }
 
     desktitle {
@@ -146,6 +148,7 @@
         font-weight:        400;
         max-width:          min-content;
         vertical-align:     middle;
+        user-select:        none;
     }
 
     deskdesk {
@@ -157,6 +160,7 @@
         line-height:        1.6;
         margin-left:        0.8rem;
         padding-left:       0.8rem;
+        user-select:        none;
     }
 
     @media ( max-width: 800pt ) {
@@ -178,6 +182,10 @@
     deskdesk:after {
         clear:      both;
     }
+
+/*
+ * ─── PROJECTS ───────────────────────────────────────────────────────────────────
+ */
 
     .proj-orchestra {
         background-color:       #4B4B4B;
@@ -271,6 +279,7 @@
         color:                          #eee;
         animation:                      rainbow 2s infinite;
         animation-timing-function:      linear;
+        user-select:                    none;
     }
 
     a.want-more:hover {
