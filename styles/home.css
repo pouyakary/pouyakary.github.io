@@ -140,7 +140,7 @@
         user-select:    none;
     }
 
-    desktitle {
+    .desktitle {
         align-self:         stretch;
         color:              white;
         flex:               auto;
@@ -149,6 +149,12 @@
         max-width:          min-content;
         vertical-align:     middle;
         user-select:        none;
+        border-bottom:      1pt solid transparent;
+        padding-bottom:     0.2rem;
+    }
+
+    a.desktitle:hover {
+        text-decoration:    underline;
     }
 
     deskdesk {
@@ -220,7 +226,7 @@
         background-color:       black;
     }
 
-    .proj-shader deskdesk, .proj-shader desktitle {
+    .proj-shader .desktitle, .proj-shader deskdesk {
         color:      #eee;
     }
 
@@ -252,7 +258,7 @@
         border-color:       #C09353;
     }
 
-    .proj-procolors deskdesk, .proj-procolors desktitle {
+    .proj-procolors .desktitle, .proj-procolors deskdesk {
         color:          #4B4B4B !important;
         font-weight:    bold;
     }
