@@ -21,6 +21,12 @@
         padding-bottom:     0.5rem;
     }
 
+    @media ( max-width: 550px ) {
+            .kf-topic-page-article p {
+                line-height:    1.6;
+            }
+    }
+
     .kf-topic-page-article code {
         background-color:           #FFFDF7;
         border-radius:              2pt;
@@ -59,12 +65,13 @@
     }
 
     @media ( max-width: 640pt ) {
-            p {
+            .kf-topic-page-article {
                 font-size:      1.4rem !important;
             }
 
-            .kf-topic-page-article {
+            .kf-topic-page-article p {
                 font-size:      1.4rem !important;
+                line-height:    1.9rem !important;
             }
     }
 
