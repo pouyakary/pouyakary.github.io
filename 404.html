@@ -1,47 +1,65 @@
 <html>
 <head>
 <script>
-    var pathname = window.location.pathname
 
-    function redirectLegacyBlogPostsPaths ( ) {
-        var BLOG_POST_PATTERN =
-            /^\/(?:[0-9]){4}\/(?:[0-9]){2}\/(?:[0-9]){2}\//
+    //
+    // ─── BASE ───────────────────────────────────────────────────────────────────────
+    //
 
-        if ( BLOG_POST_PATTERN.test( pathname ) ) {
-            window.location.href =
-                "https://writings.kary.us" + pathname
-            return true
+        var pathname = window.location.pathname
+
+    //
+    // ─── LEGACY BLOG POSTS ──────────────────────────────────────────────────────────
+    //
+
+        function redirectLegacyBlogPostsPaths ( ) {
+            var BLOG_POST_PATTERN =
+                /^\/(?:[0-9]){4}\/(?:[0-9]){2}\/(?:[0-9]){2}\//
+
+            if ( BLOG_POST_PATTERN.test( pathname ) ) {
+                window.location.href =
+                    "https://writings.kary.us" + pathname
+                return true
+            }
         }
-    }
 
+    //
+    // ─── REDIRECTED PATHS ───────────────────────────────────────────────────────────
+    //
 
-    function redirectRedirectPaths ( ) {
-        var URLS = {
-            "/u/docs/style":
-                "https://www.notion.so/Kary-Coding-Style-1bd9d01872de4c6c93bff5f5b9d46fe5",
-            "/u/docs/designtalk":
-                "https://www.notion.so/DesignTalk-dad307e81f1e46869ad6c355b1705921",
+        function redirectRedirectPaths ( ) {
+            var URLS = {
+                "/u/docs/style":
+                    "https://www.notion.so/Kary-Coding-Style-1bd9d01872de4c6c93bff5f5b9d46fe5",
+                "/u/docs/designtalk":
+                    "https://www.notion.so/DesignTalk-dad307e81f1e46869ad6c355b1705921",
+            }
+
+            if ( URLS[ pathname ] ) {
+                window.location.href = destination
+                return true
+            }
         }
 
-        if ( URLS[ pathname ] ) {
-            window.location.href = destination
-            return true
+    //
+    // ─── EVALUATOR ──────────────────────────────────────────────────────────────────
+    //
+
+        window.onload = function ( ) {
+            // legacy blog post pattern urls
+            if ( redirectLegacyBlogPostsPaths( ) )
+                return
+
+            // pre defined urls
+            if ( redirectRedirectPaths( ) )
+                return
+
+            // actual 404 page
+            window.location.pathname = "/messages/404/"
         }
-    }
 
+    // ────────────────────────────────────────────────────────────────────────────────
 
-    window.onload = function ( ) {
-        // legacy blog post pattern urls
-        if ( redirectLegacyBlogPostsPaths( ) )
-            return
-
-        // pre defined urls
-        if ( redirectRedirectPaths( ) )
-            return
-
-        // actual 404 page
-        window.location.pathname = "/messages/404/"
-    }
 </script>
 </head>
 </html>
