@@ -141,6 +141,7 @@
 
     @media ( max-width: 500pt ) {
             #kf-footer-copy-small {
+                display:            inline;
                 flex-direction:     column;
             }
 
