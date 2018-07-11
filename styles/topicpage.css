@@ -155,11 +155,15 @@
             }
     }
 
+/*
+ * ─── HEADER TABS ────────────────────────────────────────────────────────────────
+ */
+
     .kf-topic-page-tabs {
         display:        flex;
-        height:         2.2rem;
+        height:         calc( 2.2rem - 1px);
         position:       relative;
-        top:            -2.2rem;
+        top:            calc( -2.2rem + 1px);
     }
 
     .kf-topic-tab-middle {
@@ -189,11 +193,12 @@
     }
 
     .kf-topic-tab-side.left {
-        background-position:    center right;
+        background-position:    bottom right;
+        margin-right:           -1px;
     }
 
     .kf-topic-tab-side.right {
-        background-position:    center left;
+        background-position:    bottom left;
         margin-left:            -1px;
         transform:              scaleX(-1);
     }
@@ -595,16 +600,18 @@
     }
 
     .thumb-pic-container.left {
-        float:              left;
-        margin-right:       20pt;
-        transform:          rotate( -3deg );
+        float:                  left;
+        margin-right:           20pt;
+        transform:              rotate( -3deg );
+        background-position:    bottom right;
     }
 
     .thumb-pic-container.right {
-        float:              right;
-        margin-left:        -140pt;
-        margin-right:       10pt;
-        transform:          rotate( 3deg );
+        float:                  right;
+        margin-left:            -140pt;
+        margin-right:           10pt;
+        transform:              rotate( 3deg );
+        background-position:    bottom left;
     }
 
     @media ( max-width: 20cm ) {
