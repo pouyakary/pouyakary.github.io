@@ -92,8 +92,10 @@
 
     @media screen and ( max-width: 500px ) {
             .kf-topic-page-article h2 {
-                font-size:      0.75rem;
-                font-weight:    700;
+                font-weight:        500;
+                font-size:          1rem !important;
+                line-height:        1.5;
+                letter-spacing:     0.5rem !important;
             }
     }
 

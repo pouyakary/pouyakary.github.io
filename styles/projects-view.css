@@ -12,15 +12,13 @@
     }
 
     .projects-project-description-box h3 {
-        display:            flex;
-        align-content:      center;
-        flex-direction:     row;
+
     }
 
-    .projects-project-description-box h3 > * {
-        max-width:      fit-content;
-        max-height:     fit-content;
-        float:          auto;
+    @media ( min-width: 320px ) and ( max-width: 500px ) {
+            .projects-project-description-box h3 {
+                font-size:      1.4rem;
+            }
     }
 
 /*
@@ -146,16 +144,16 @@
             }
 
             .projects-project-website {
-                font-size:      1.2rem !important;
+                font-size:      1.1rem !important;
                 border:         1px solid #AA630C;
-                padding:        5pt;
+                padding:        3pt 7pt 5pt 7pt;
                 height:         fit-content;
             }
 
             .projects-project-website:active, .projects-project-website:focus, .projects-project-website:hover {
                 background:     #AA630C;
                 color:          white;
-                padding:        5pt;
+                padding:        3pt 7pt 5pt 7pt;
             }
     }
 
