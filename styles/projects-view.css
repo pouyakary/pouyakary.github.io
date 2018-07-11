@@ -41,6 +41,7 @@
  */
 
     .projects-topic-description {
+        font-size:          1.2rem;
         margin-bottom:      2rem;
     }
 
@@ -99,6 +100,13 @@
         font-size:      1.2rem;
     }
 
+    @media screen and (max-width: 10cm) {
+            .projects-project-description {
+                font-size:      1.4rem;
+                line-height:    1.4;
+            }
+    }
+
 /*
  * ─── WEBSITE ────────────────────────────────────────────────────────────────────
  */
@@ -127,6 +135,28 @@
     .projects-project-website:focus, .projects-project-website:hover {
         transition-duration:    0.3s !important;
         padding-bottom:         0rem;
+    }
+
+    @media (min-width: 320px) and (max-width: 480px) {
+            .projects-project-website-container {
+                height:             fit-content;
+                max-height:         fit-content;
+                overflow:           unset;
+                margin-bottom:      1rem;
+            }
+
+            .projects-project-website {
+                font-size:      1.2rem !important;
+                border:         1px solid #AA630C;
+                padding:        5pt;
+                height:         fit-content;
+            }
+
+            .projects-project-website:active, .projects-project-website:focus, .projects-project-website:hover {
+                background:     #AA630C;
+                color:          white;
+                padding:        5pt;
+            }
     }
 
 /* ──────────────────────────────────────────────────────────────────────────────── */
