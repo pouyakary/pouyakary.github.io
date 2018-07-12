@@ -30,13 +30,13 @@
 
     function initElementsOnload ( ) {
         tocElement =
-            document.getElementById("kf-topic-toc")
+            document.getElementById("kary-topic-toc")
         upperShadowElement =
-            document.getElementById("kf-topic-toc-upper-shadow")
+            document.getElementById("kary-topic-toc-upper-shadow")
         bottomShadowElement =
-            document.getElementById("kf-topic-toc-bottom-shadow")
+            document.getElementById("kary-topic-toc-bottom-shadow")
         sidebarTitleElement =
-            document.getElementById("kf-sidebar-title")
+            document.getElementById("kary-sidebar-title")
     }
 
 //
@@ -53,7 +53,7 @@
         tocElement.onresize =
             reEvaluateSidebarOverflowShadows
         var sidebarElement =
-            document.getElementById( 'kf-topic-page-sidebar' )
+            document.getElementById( 'kary-topic-page-sidebar' )
         sidebarElement.addEventListener(
             "onresize", reEvaluateSidebarOverflowShadows )
     }
@@ -64,13 +64,13 @@
 
     function hideShowTitle ( distance ) {
         var titleDisplay =
-            document.getElementById('kf-topic-page-header-title')
+            document.getElementById('kary-topic-page-header-title')
         if ( distance > 180 )
             titleDisplay.className =
-                'kf-topic-page-header-title-visible';
+                'kary-topic-page-header-title-visible';
         else
             titleDisplay.className =
-                'kf-topic-page-header-title-hidden'
+                'kary-topic-page-header-title-hidden'
     }
 
 //
@@ -80,16 +80,16 @@
     function TableOfContents ( ) {
         // defs
         var container =
-            document.getElementById( 'kf-topic-article-container' )
+            document.getElementById( 'kary-topic-article-container' )
         var output =
-            document.getElementById( 'kf-topic-toc' )
+            document.getElementById( 'kary-topic-toc' )
 
         // finding headers
         var headers =
             container.querySelectorAll( 'h1, h2' )
 
         if ( headers.length === 0 ) {
-            document.getElementById("kf-topic-page-sidebar").remove( )
+            document.getElementById("kary-topic-page-sidebar").remove( )
             return
         }
 
@@ -107,7 +107,7 @@
             reference.innerText =
                 headingStartingSymbol + heading.innerText
             reference.className =
-                'kf-sidebar-' + heading.nodeName
+                'kary-sidebar-' + heading.nodeName
             reference.setAttribute( 'target-id', heading.id )
 
             reference.onclick = function ( ev ) {
@@ -149,7 +149,7 @@
         var distanceY =
             getScrollPosition( )
         var toc =
-            document.getElementById( 'kf-topic-page-sidebar' )
+            document.getElementById( 'kary-topic-page-sidebar' )
 
         // constants
         var fadingLength =

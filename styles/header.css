@@ -7,7 +7,7 @@
  * ─── LOGO ───────────────────────────────────────────────────────────────────────
  */
 
-    #kf-nav-logo {
+    #kary-nav-logo {
         float:          left;
         padding-top:    1.2rem;
     }
@@ -16,7 +16,7 @@
  * ─── LINKS ──────────────────────────────────────────────────────────────────────
  */
 
-    #kf-nav-links {
+    #kary-nav-links {
         color:              #eee;
         float:              right;
         font-size:          1.1rem;
@@ -26,17 +26,17 @@
     }
 
     @media ( max-width: 550px ) {
-            #kf-nav-links, #kf-nav-logo {
+            #kary-nav-links, #kary-nav-logo {
                 clear:      both;
                 float:      none;
             }
 
-            #kf-nav-links {
+            #kary-nav-links {
                 padding-top:    0.9rem;
             }
     }
 
-    #kf-nav-links a {
+    #kary-nav-links a {
         border-bottom:          0.2rem solid transparent;
         color:                  #eee;
         padding-bottom:         2.4rem;
@@ -44,20 +44,20 @@
         transition-duration:    0.5s;
     }
 
-    #kf-nav-links a:hover {
+    #kary-nav-links a:hover {
         padding-bottom:         0.4rem;
         transition-duration:    0.5s;
     }
 
-    #kf-nav-link-1:hover {
+    #kary-nav-link-1:hover {
         border-bottom-color:    #5B67A5;
     }
 
-    #kf-nav-link-2:hover {
+    #kary-nav-link-2:hover {
         border-bottom-color:    #745CA5;
     }
 
-    #kf-nav-link-3:hover {
+    #kary-nav-link-3:hover {
         border-bottom-color:    #5BA55C;
     }
 
@@ -65,7 +65,7 @@
  * ─── HEADER ─────────────────────────────────────────────────────────────────────
  */
 
-    #kf-header {
+    #kary-header {
         background-color:       rgba( 0, 0, 0, 0.9);
         box-shadow:             0 0 1.8rem rgba( 0, 0, 0, 0.9);
         overflow:               hidden;
@@ -76,30 +76,30 @@
     }
 
     @media ( max-width: 550px ) {
-            #kf-header {
+            #kary-header {
                 position:       relative;
             }
     }
 
-    #kf-header-margin {
+    #kary-header-margin {
         clear:      both;
         height:     40px;
     }
 
     @media ( max-width: 550px ) {
-            #kf-header-margin {
+            #kary-header-margin {
                 display:    none;
             }
     }
 
-    #kf-header-logo {
+    #kary-header-logo {
         height:             1.5rem;
         padding-left:       1.4rem;
         padding-top:        0;
     }
 
     @media ( max-width: 550px ) {
-            #kf-header-logo {
+            #kary-header-logo {
                 height:     1.8rem;
             }
     }

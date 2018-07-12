@@ -13,6 +13,6 @@ Here is curated list of the things I made over the years and I personally hold t
 This list includes stable projects, projects under heavy development, abandoned/discontinued projects and some proprietary ones and so not all of them are accessible in the internet. If you wish to get one of these projects, contact me directly.
 --- end
 
-<div class="kf-topic-page-spacer"></div>
+<div class="kary-topic-page-spacer"></div>
 
 {% include projects-view.html tag="all" %}

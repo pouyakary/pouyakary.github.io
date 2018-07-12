@@ -7,11 +7,11 @@
  * ─── FOOTER BOX ─────────────────────────────────────────────────────────────────
  */
 
-    .kf-footer {
+    .kary-footer {
         background-color:       #1a1a1a;
     }
 
-    #kf-footer-wrap {
+    #kary-footer-wrap {
         display:            -moz-flex;
         display:            -webkit-flex;
         display:            flex;
@@ -24,7 +24,7 @@
     }
 
     @media ( max-width: 720px ) {
-            #kf-footer-wrap {
+            #kary-footer-wrap {
                 display:    none;
             }
     }
@@ -33,7 +33,7 @@
  * ─── LOGO ───────────────────────────────────────────────────────────────────────
  */
 
-    .kf-footer-col-logo {
+    .kary-footer-col-logo {
         background-image:       url('/media/general/kary-horse-footer.png');
         background-position:    top left;
         background-repeat:      no-repeat;
@@ -46,7 +46,7 @@
     }
 
     @media ( max-width: 900px ) {
-            .kf-footer-col-logo {
+            .kary-footer-col-logo {
                 display:    none;
             }
     }
@@ -55,26 +55,26 @@
  * ─── LINKS ──────────────────────────────────────────────────────────────────────
  */
 
-    .kf-footer-col-links {
+    .kary-footer-col-links {
         flex:               3;
         padding-right:      3rem;
     }
 
-    .kf-footer-col-links h2 {
+    .kary-footer-col-links h2 {
         border-bottom:      2px solid rgba(255, 255, 255, 0.2) !important;
         color:              rgba(255, 255, 255, 0.85);
         margin-bottom:      0.5em;
         padding-bottom:     0.2em;
     }
 
-    .kf-footer-col-links a {
+    .kary-footer-col-links a {
         color:              rgba(255, 255, 255, 0.75);
         display:            block;
         font-size:          1.1rem;
         padding-bottom:     0.5em;
     }
 
-    .kf-footer-col-links a:hover {
+    .kary-footer-col-links a:hover {
         color:      white;
     }
 
@@ -82,7 +82,7 @@
  * ─── SPACER ─────────────────────────────────────────────────────────────────────
  */
 
-    .kf-footer-spacer {
+    .kary-footer-spacer {
         color:              rgba(255, 255, 255, 0.7);
         font-family:        "Source Code Pro";
         font-size:          0.7rem;
@@ -97,7 +97,7 @@
  * ─── COPYRIGHTS ─────────────────────────────────────────────────────────────────
  */
 
-    #kf-footer-copy {
+    #kary-footer-copy {
         background-color:       #1F1F1F;
         color:                  rgba(255, 255, 255, 0.75);
         padding:                2.5rem;
@@ -106,25 +106,25 @@
         justify-content:        space-between;
     }
 
-    #kf-footer-copy a {
+    #kary-footer-copy a {
         color:                  rgba(255, 255, 255, 0.75);
         padding:                4pt 6pt 3pt 6pt;
         transition-duration:    0.3s;
     }
 
-    #kf-footer-copy a:hover {
+    #kary-footer-copy a:hover {
         background-color:       #323232;
         border-radius:          3pt;
         color:                  #eee;
     }
 
-    #kf-footer-copy-left {
+    #kary-footer-copy-left {
         flex:           auto;
         max-width:      fit-content;
         align-self:     flex-start;
     }
 
-    #kf-footer-copy-right {
+    #kary-footer-copy-right {
         flex:               auto;
         margin-left:        auto;
         align-self:         flex-end;
@@ -135,27 +135,27 @@
         padding-bottom:     0.15rem;
     }
 
-    #kf-footer-copy-small {
+    #kary-footer-copy-small {
         display:    none;
     }
 
     @media ( max-width: 500pt ) {
-            #kf-footer-copy-small {
+            #kary-footer-copy-small {
                 display:            inline;
                 flex-direction:     column;
             }
 
-            #kf-footer-copy-left {
+            #kary-footer-copy-left {
                 flex:           1;
                 display:        block;
                 text-align:     left;
             }
 
-            #kf-footer-copy-right {
+            #kary-footer-copy-right {
                 display:    none;
             }
 
-            #kf-footer-copy-big {
+            #kary-footer-copy-big {
                 display:    none;
             }
     }

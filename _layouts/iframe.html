@@ -3,24 +3,24 @@ layout: page
 ---
 
 <style>
-	#kf-iframe-frame {
+	#kary-iframe-frame {
 		width: 100vw;
 		border: none;
 	}
-	#kf-archive-notice {
-		
+	#kary-archive-notice {
+
 	}
 </style>
 
 
-<iframe src="{{ page.src }}" id="kf-iframe-frame"> </iframe>
+<iframe src="{{ page.src }}" id="kary-iframe-frame"> </iframe>
 
 <script type="text/javascript">
   function iframeLoaded() {
-      var iFrameID = document.getElementById('kf-iframe-frame');
+      var iFrameID = document.getElementById('kary-iframe-frame');
       if ( iFrameID ) {
             iFrameID.height = ( 100 + iFrameID.contentWindow.document.body.scrollHeight ).toString( ) + "px";
-      }   
+      }
   }
   window.onload = iframeLoaded;
-</script>   
+</script>

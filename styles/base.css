@@ -73,20 +73,20 @@
  * ─── CONTAINER ──────────────────────────────────────────────────────────────────
  */
 
-    .kf-container {
+    .kary-container {
         margin-left:        auto;
         margin-right:       auto;
         max-width:          800px;
     }
 
     @media ( max-width: 800px ) {
-            .kf-container {
+            .kary-container {
                 padding-left:       5vw;
                 padding-right:      5vw;
             }
     }
 
-    .kf-fill {
+    .kary-fill {
         text-align:     justify;
     }
 
@@ -94,19 +94,19 @@
  * ─── LINKS ──────────────────────────────────────────────────────────────────────
  */
 
-    .kf-text-link a, .kf-text-link a:visited {
+    .kary-text-link a, .kary-text-link a:visited {
         background-image:       url('/media/general/a.png');
         background-size:        contain;
         color:                  black;
         transition-duration:    0.3s;
     }
 
-    .kf-text-link a:hover {
+    .kary-text-link a:hover {
         background-image:       url('/media/general/a-hovered.png');
         transition-duration:    0.3s;
     }
 
-    .kf-text-link a::selection {
+    .kary-text-link a::selection {
         background-image:       none;
         background-color:       #FEDBA1;
     }
