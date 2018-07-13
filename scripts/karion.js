@@ -2,29 +2,22 @@
 'use strict'
 
 //
-// ─── COMPUTE KARION ─────────────────────────────────────────────────────────────
-//
-
-    function compute_karion ( ) {
-        var karionsInception =
-            new Date('01/08/1996')
-        var now =
-            Date.now( )
-        var msPerDay =
-            24 * 60 * 60 * 1000
-        var karionDays =
-            Math.floor( ( now - karionsInception ) / msPerDay )
-
-        return karionDays
-    }
-
-//
 // ─── PUT ON THE FOOTER ──────────────────────────────────────────────────────────
 //
 
     function inject_karion_time_to_screen ( ) {
-        document.getElementById("karion-time").innerText =
-            compute_karion( ).toString( )
+        var fetch_time =
+            new Date( Date.now( ) ).toLocaleString( )
+
+        fetch( "https://kary.lib.id/karion@dev/" )
+            .then( function ( response ) {
+                response.text( ).then( function ( karion_time ) {
+                    document.getElementById( "karion-time" ).innerText =
+                        "KARION " + karion_time + "TH"
+                    document.getElementById( "kary-footer-copy-right" ).title =
+                        "Fetched at " + fetch_time + " from the Kary's secure Time API server. (This service does not collect and/or compile any data on you)"
+                })
+            })
     }
 
 //
