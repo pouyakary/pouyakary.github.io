@@ -133,6 +133,7 @@
         letter-spacing:     0.2rem;
         font-size:          0.8rem;
         padding-bottom:     0.15rem;
+        cursor:             help;
     }
 
     #kary-footer-copy-small {

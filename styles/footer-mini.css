@@ -102,6 +102,7 @@
 
     #kary-footer-copy-right {
         float:      right;
+        cursor:     help;
     }
 
     #kary-footer-copy-small {
