@@ -13,7 +13,7 @@
             .then( function ( response ) {
                 response.text( ).then( function ( karion_time ) {
                     document.getElementById( "karion-time" ).innerText =
-                        "KARION " + karion_time + "TH"
+                        "\u2723 KARION " + karion_time + "TH"
                     document.getElementById( "kary-footer-copy-right" ).title =
                         "Fetched at " + fetch_time + " from the Kary's secure Time API server. (This service does not collect and/or compile any data on you)"
                 })
