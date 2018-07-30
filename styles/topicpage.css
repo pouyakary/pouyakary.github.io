@@ -323,7 +323,10 @@
     }
 
     .legend-sup {
-        color:      #AA630C;
+        vertical-align:     baseline;
+        position:           relative;
+        top:                -0.4em;
+        color:              #AA630C;
     }
 
     .legend-sup a, .legend-sup a:visited {
