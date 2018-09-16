@@ -245,7 +245,7 @@
       website: https://coding.standards.kary.us/tools/righteous
       image: https://user-images.githubusercontent.com/2157285/45600237-99f3cb80-ba0e-11e8-845b-819151d5202c.png
       year: 2016
-      description: Righteous is a code formatter based on Kary Coding Standard that targets the web and currently is developed for CSS, JavaScript and TypeScript.
+      description: Righteous is a code formatter for CSS that implements the Kary Coding Standards. It reads the code into an AST and then completely rewrites it into KCS-proof style making it the easiest way to fully implemnet the standard.
 
     - name: Comment V for Visual Studio Code
       topics:
