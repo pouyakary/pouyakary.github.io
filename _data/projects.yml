@@ -233,7 +233,7 @@
       topics:
         - research
         - development
-      website: https://coding.standards.kary.us
+      website: https://kcs.library.kary.us
       image: https://static.notion-static.com/5f2608d2-36f6-450a-b8d6-36abc6335b58/Screen_Shot_1396-12-11_at_2.21.50_AM.png
       year: 2014
       description: Kary Coding Standard is a coding style designed for readablity and beauty. It has a set of rules that eliminates many of the common readability problems and also incoporates the use of Kary Comments to visually orgnize the structure of the code.
@@ -242,7 +242,7 @@
       topics:
         - research
         - development
-      website: https://coding.standards.kary.us/tools/righteous
+      website: https://kcs.library.kary.us/tools/righteous
       image: https://user-images.githubusercontent.com/2157285/45600237-99f3cb80-ba0e-11e8-845b-819151d5202c.png
       year: 2016
       description: Righteous is a code formatter for CSS that implements the Kary Coding Standards. It reads the code into an AST and then completely rewrites it into KCS-proof style making it the easiest way to fully implemnet the standard.
