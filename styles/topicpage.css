@@ -23,7 +23,7 @@
 
     @media ( max-width: 550px ) {
             .kary-topic-page-article p {
-                line-height:    1.6;
+                line-height:    1.7;
             }
     }
 
@@ -61,7 +61,7 @@
  */
 
     .kary-topic-page-article p {
-        line-height:    1.6rem !important;
+        line-height:    1.6;
     }
 
     @media ( max-width: 640pt ) {
@@ -71,7 +71,7 @@
 
             .kary-topic-page-article p {
                 font-size:      1.4rem !important;
-                line-height:    1.9rem !important;
+                line-height:    1.9 !important;
             }
     }
 
