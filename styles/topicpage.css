@@ -16,7 +16,7 @@
     }
 
     .kary-topic-page-article p {
-        font-family:        "Cormorant";
+        font-family:        "EB Garamond";
         font-size:          1.2rem;
         padding-bottom:     0.5rem;
     }
@@ -61,7 +61,7 @@
  */
 
     .kary-topic-page-article p {
-        line-height:    1.6;
+        line-height:    1.6 !important;
     }
 
     @media ( max-width: 640pt ) {
@@ -112,7 +112,7 @@
     }
 
     .kary-topic-page-article li {
-        font-family:        'Cormorant';
+        font-family:        'EB Garamond';
         font-size:          1.2rem;
         line-height:        1.5;
         margin-bottom:      0.7rem;

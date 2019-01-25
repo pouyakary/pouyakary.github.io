@@ -94,8 +94,9 @@
     }
 
     .projects-project-description {
-        font-family:    "Cormorant";
+        font-family:    "EB Garamond";
         font-size:      1.2rem;
+        line-height:    1.5;
     }
 
     @media screen and (max-width: 10cm) {
